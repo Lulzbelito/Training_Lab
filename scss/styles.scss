@@ -1,51 +1,50 @@
-
-
-body, html {
+* {
     margin: 0;
     padding: 0;
-}
 
-html {
-    min-height: 100%;
-}
+    html {
+        min-height: 100%;
 
-body {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
-}
+        body {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto 1fr auto;
+            grid-template-areas:
+                "header"
+                "main"
+                "footer";
 
-header {
-    width: 100%;
-    grid-area: header;
-}
+            header {
+                width: 100%;
+                grid-area: header;
 
-main {
-    width: 100%;
-    grid-area: main;
-}
+                .header__title {
+                    text-align: center;
+                    margin: 20px 0 20px 0;
+                    font-size: 60px;
+                    color: rgb(49, 53, 130);
+                }
+            }
 
-footer {
-    position: absolute; 
-    bottom: 0; 
-    left: 0; 
-    width: 100%;
-    grid-area: footer;
-}
+            main {
+                width: 100%;
+                grid-area: main;
+            }
 
-.header__title {
-    text-align: center;
-    margin: 20px 0 20px 0;
-    font-size: 60px;
-    color: rgb(49, 53, 130);
-}
+            footer {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                grid-area: footer;
 
-.footer__paragraph {
-    background-color: rgb(49, 53, 130);
-    color: white;
-    margin: 0;
+                .footer__paragraph {
+                    background-color: rgb(49, 53, 130);
+                    color: white;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
 }
