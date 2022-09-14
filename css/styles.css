@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0; }
   * body {
+    color: #233545;
     min-height: 100%;
     display: grid;
     grid-template-columns: 1fr;
@@ -10,11 +13,55 @@
     * body header {
       width: 100%;
       grid-area: header; }
-      * body header .header__title {
-        text-align: center;
-        margin: 20px 0 20px 0;
-        font-size: 60px;
-        color: #313582; }
+      * body header .box-nav {
+        background-color: white;
+        padding: 0 0; }
+        * body header .box-nav .box-title {
+          margin-top: 20px; }
+        * body header .box-nav .header__title {
+          text-align: center;
+          margin: 20px 0 20px 0;
+          font-size: 35px;
+          color: #233545;
+          font-family: 'Gentium Book Plus', serif;
+          font-weight: 900; }
+        * body header .box-nav .box-container {
+          margin: -20px -12px; }
+        * body header .box-nav .box-buttons {
+          text-align: end; }
+          * body header .box-nav .box-buttons .offcanvas-title {
+            font-weight: 900; }
+          * body header .box-nav .box-buttons .canva-title {
+            font-family: 'Gentium Book Plus', serif; }
+        * body header .box-nav li {
+          text-align: start; }
+        * body header .box-nav li .btn1 {
+          color: black;
+          border: none;
+          font-family: 'Poppins', sans-serif;
+          font-size: 17px;
+          margin-right: 20px; }
+        * body header .box-nav li .btn1:hover {
+          background-color: white;
+          color: #22B6AF !important; }
+        * body header .box-nav li .btn1:focus {
+          box-shadow: none !important;
+          background-color: white;
+          color: #22B6AF; }
+        * body header .box-nav li .btn2 {
+          color: white;
+          background-color: #22B6AF;
+          border: none;
+          font-family: 'Poppins', sans-serif;
+          font-size: 17px;
+          border-radius: 50px;
+          padding: 10px 35px;
+          margin-right: 40px; }
+        * body header .box-nav li .btn2:hover {
+          background-color: #233545; }
+        * body header .box-nav li .btn2:focus {
+          box-shadow: none !important;
+          background-color: #233545; }
     * body main {
       width: 100%;
       grid-area: main; }
@@ -25,6 +72,11 @@
       width: 100%;
       grid-area: footer; }
       * body footer .footer__paragraph {
-        background-color: #313582;
+        background-color: #233545;
         color: white;
         margin: 0; }
+  @media only screen and (max-width: 991px) {
+    * li .btn1 {
+      margin: 10px; }
+    * li .btn2 {
+      margin-top: 10px; } }
