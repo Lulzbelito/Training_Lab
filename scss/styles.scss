@@ -1,5 +1,6 @@
 @import "./variables.scss";
 
+
 * {
     margin: 0;
     padding: 0;
@@ -44,6 +45,109 @@
                 background-color: $color-1;
                 color: white;
                 margin: 0;
+            }
+        }
+
+        .section__nosotros {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+
+            .nosotros__bkg {
+                background-image: url("../img/nosotros.png");
+                background-position: center;
+                width: 100%;
+                height: 190px;
+                background-size: cover;
+
+                .nosotros__head {
+                    margin-right: 40%;
+                    margin-top: 30px;
+                    margin-left: 20px;
+                }
+
+                .nosotros__h3 {
+                    font-family: 'Pop-SemiBold';
+                    color: $color-2;
+                    font-size: 16px;
+                }
+
+                .nosotros__p {
+                    font-family: 'Pop-ligth';
+                    line-height: 1.1;
+                    font-size: 11.5px;
+                    margin-left: 17px;
+                }
+            }
+
+            .nosotros__acercaDe {
+                position: relative;
+                margin: 40px 85px 20px 85px;
+                padding: 18px 25px 8px 25px;
+                background-color: white;
+                box-shadow: -1px 0px 50px 8px rgba(0,0,0,0.20);
+                border-radius: 15px;
+
+                .nosotros__conocimiento {
+                    font-family: 'Pop-mediun';
+                    font-size: 12px;
+
+                    .nosotros__conocimiento--lb {
+                        color: $color-2;
+                        font-weight: bold;
+                    }
+
+                    >p {
+                        margin: 0;
+                        text-align: center;
+                        line-height: 1.3;
+                    }
+                }
+
+                .nosotros__vector {
+                    width: 37px;
+                    position: absolute;
+                    top: -28px;
+                    left: 50%;
+                    transform: translate(-50%);
+                }
+            }
+            .nosotros__buscamos {
+                margin: 30px 25% 100px 25%;
+                display: flex;
+                flex-direction: row;
+                position: relative;
+                .nosotros__vline {
+                    background-color: #F4F4F4;
+                    width: 8px;
+                    height: 100%;
+                    border-radius: 30px;
+                    margin-bottom: 200px;
+                    position: absolute;
+                    &:after {
+                        position: absolute;
+                        content: "";
+                        background-color: #C2EA49;
+                        width: 8px;
+                        height: 45%;
+                        border-radius: 30px ;
+                    }
+                }
+                .buscamos__haremos {
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 25px;
+                    > h4 {
+                        font-family: 'Pop-SemiBold';
+                        font-size: 17px;
+                    }
+                    > p {
+                        font-family: 'Pop-ligth';
+                        font-size: 12px;
+                        line-height: 1.2;
+                    }
+                }
             }
         }
     }
