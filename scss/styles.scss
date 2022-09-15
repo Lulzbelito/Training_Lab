@@ -6,9 +6,7 @@
     padding: 0;
 
     body {
-
         min-height: 100%;
-
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto 1fr auto;
@@ -86,8 +84,9 @@
                 margin: 40px 85px 20px 85px;
                 padding: 18px 25px 8px 25px;
                 background-color: white;
-                box-shadow: -1px 0px 50px 8px rgba(0,0,0,0.20);
+                box-shadow: $box-shadowContainers;
                 border-radius: 15px;
+                z-index: 2;
 
                 .nosotros__conocimiento {
                     font-family: 'Pop-mediun';
@@ -113,39 +112,87 @@
                     transform: translate(-50%);
                 }
             }
+
             .nosotros__buscamos {
-                margin: 30px 25% 100px 25%;
-                display: flex;
-                flex-direction: row;
-                position: relative;
-                .nosotros__vline {
-                    background-color: #F4F4F4;
-                    width: 8px;
-                    height: 100%;
-                    border-radius: 30px;
-                    margin-bottom: 200px;
-                    position: absolute;
-                    &:after {
+                background-color: white;
+                z-index: 1;
+
+                .buscamos__container {
+                    margin: 35px 25% 30px 25%;
+                    display: flex;
+                    flex-direction: row;
+                    position: relative;
+
+                    .nosotros__vline {
+                        background-color: #F4F4F4;
+                        width: 7.5px;
+                        height: 95%;
+                        border-radius: 30px;
                         position: absolute;
-                        content: "";
-                        background-color: #C2EA49;
-                        width: 8px;
-                        height: 45%;
-                        border-radius: 30px ;
+
+                        &:after {
+                            position: absolute;
+                            content: "";
+                            background-color: #C2EA49;
+                            width: 8px;
+                            height: 45%;
+                            border-radius: 30px;
+                        }
+                    }
+
+                    .buscamos__haremos {
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 25px;
+
+                        >h4 {
+                            font-family: 'Pop-SemiBold';
+                            font-size: 17px;
+                        }
+
+                        >p {
+                            font-family: 'Pop-ligth';
+                            font-size: 12px;
+                            line-height: 1.2;
+                        }
                     }
                 }
-                .buscamos__haremos {
+            }
+
+            .nosotros__practica {
+                margin: 40px 25px 20px 25px;
+                padding: 18px 2px 0 2px;
+                box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.1);
+                display: flex;
+                flex-direction: row;
+                overflow: hidden;
+                border-radius: 15px;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: flex-end;
+                
+                >img {
+                    max-width: 120px;
+
+                }
+
+                .practica__r {
+                    width: 50%;
                     display: flex;
                     flex-direction: column;
-                    margin-left: 25px;
-                    > h4 {
-                        font-family: 'Pop-SemiBold';
-                        font-size: 17px;
+
+
+                    >h5 {
+                        font-family: Pop-mediun;
+                        font-size: 13px;
+                        color: $color-2;
+                        margin-bottom: 3px;
                     }
-                    > p {
-                        font-family: 'Pop-ligth';
+
+                    >p {
+                        font-family: Pop-ligth;
                         font-size: 12px;
-                        line-height: 1.2;
+                        line-height: 1.1;
                     }
                 }
             }

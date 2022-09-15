@@ -83,6 +83,7 @@
   background-color: white;
   box-shadow: -1px 0px 50px 8px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
+  z-index: 2;
 }
 * body .section__nosotros .nosotros__acercaDe .nosotros__conocimiento {
   font-family: "Pop-mediun";
@@ -105,20 +106,23 @@
   transform: translate(-50%);
 }
 * body .section__nosotros .nosotros__buscamos {
-  margin: 30px 25% 100px 25%;
+  background-color: white;
+  z-index: 1;
+}
+* body .section__nosotros .nosotros__buscamos .buscamos__container {
+  margin: 35px 25% 30px 25%;
   display: flex;
   flex-direction: row;
   position: relative;
 }
-* body .section__nosotros .nosotros__buscamos .nosotros__vline {
+* body .section__nosotros .nosotros__buscamos .buscamos__container .nosotros__vline {
   background-color: #F4F4F4;
-  width: 8px;
-  height: 100%;
+  width: 7.5px;
+  height: 95%;
   border-radius: 30px;
-  margin-bottom: 200px;
   position: absolute;
 }
-* body .section__nosotros .nosotros__buscamos .nosotros__vline:after {
+* body .section__nosotros .nosotros__buscamos .buscamos__container .nosotros__vline:after {
   position: absolute;
   content: "";
   background-color: #C2EA49;
@@ -126,19 +130,50 @@
   height: 45%;
   border-radius: 30px;
 }
-* body .section__nosotros .nosotros__buscamos .buscamos__haremos {
+* body .section__nosotros .nosotros__buscamos .buscamos__container .buscamos__haremos {
   display: flex;
   flex-direction: column;
   margin-left: 25px;
 }
-* body .section__nosotros .nosotros__buscamos .buscamos__haremos > h4 {
+* body .section__nosotros .nosotros__buscamos .buscamos__container .buscamos__haremos > h4 {
   font-family: "Pop-SemiBold";
   font-size: 17px;
 }
-* body .section__nosotros .nosotros__buscamos .buscamos__haremos > p {
+* body .section__nosotros .nosotros__buscamos .buscamos__container .buscamos__haremos > p {
   font-family: "Pop-ligth";
   font-size: 12px;
   line-height: 1.2;
+}
+* body .section__nosotros .nosotros__practica {
+  margin: 40px 25px 20px 25px;
+  padding: 18px 2px 0 2px;
+  box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+* body .section__nosotros .nosotros__practica > img {
+  max-width: 120px;
+}
+* body .section__nosotros .nosotros__practica .practica__r {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+* body .section__nosotros .nosotros__practica .practica__r > h5 {
+  font-family: Pop-mediun;
+  font-size: 13px;
+  color: #22B6AF;
+  margin-bottom: 3px;
+}
+* body .section__nosotros .nosotros__practica .practica__r > p {
+  font-family: Pop-ligth;
+  font-size: 12px;
+  line-height: 1.1;
 }
 
 /*# sourceMappingURL=styles.css.map */
