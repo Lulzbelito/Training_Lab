@@ -164,11 +164,14 @@
   display: flex;
   flex-direction: column;
 }
+* body .section__nosotros .nosotros__practica .practica__r > img {
+  width: 20px;
+}
 * body .section__nosotros .nosotros__practica .practica__r > h5 {
   font-family: Pop-mediun;
   font-size: 13px;
   color: #22B6AF;
-  margin-bottom: 3px;
+  margin: 3px 0;
 }
 * body .section__nosotros .nosotros__practica .practica__r > p {
   font-family: Pop-ligth;

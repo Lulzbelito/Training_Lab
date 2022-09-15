@@ -180,15 +180,15 @@
                     width: 50%;
                     display: flex;
                     flex-direction: column;
-
-
+                    >img {
+                        width: 20px;
+                    }
                     >h5 {
                         font-family: Pop-mediun;
                         font-size: 13px;
                         color: $color-2;
-                        margin-bottom: 3px;
+                        margin: 3px 0;
                     }
-
                     >p {
                         font-family: Pop-ligth;
                         font-size: 12px;
