@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
 * {
   margin: 0;
@@ -62,6 +63,11 @@
         * body header .box-nav li .btn2:focus {
           box-shadow: none !important;
           background-color: #233545; }
+        @media only screen and (max-width: 991px) {
+          * body header .box-nav li .btn1 {
+            margin: 10px; }
+          * body header .box-nav li .btn2 {
+            margin-top: 10px; } }
     * body main {
       grid-area: main; }
       * body main .presentation {
@@ -73,11 +79,70 @@
         background-size: cover; }
         * body main .presentation .box {
           position: absolute;
-          background-color: aqua;
-          height: 400px;
-          width: 450px;
+          height: 450;
+          width: 460px;
           margin-top: 200px;
           margin-left: 160px; }
+          * body main .presentation .box .img-átomos {
+            margin-left: 70px;
+            margin-bottom: 20px; }
+            * body main .presentation .box .img-átomos .sustituida-modificada {
+              box-sizing: border-box;
+              display: block;
+              width: 99px;
+              height: 113px;
+              background: url(../img/1.1.png); }
+          * body main .presentation .box .p1 {
+            font-family: 'Poppins';
+            font-size: 21px;
+            letter-spacing: 0.01em; }
+          * body main .presentation .box .p2 {
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 40px;
+            letter-spacing: 1.5%;
+            color: #22B6AF; }
+            * body main .presentation .box .p2 .p3 {
+              color: #233545; }
+      @media only screen and (max-width: 547px) {
+        * body main .presentation {
+          height: 312px;
+          margin-top: 90px;
+          width: 100%;
+          background: url("../img/1.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: -10px -30px; }
+          * body main .presentation .box {
+            position: absolute;
+            height: 450;
+            width: 200px;
+            margin-top: 50px;
+            margin-left: 30px; }
+            * body main .presentation .box .img-átomos {
+              margin-left: 20px;
+              margin-bottom: 20px; }
+              * body main .presentation .box .img-átomos .sustituida-modificada {
+                box-sizing: border-box;
+                display: block;
+                width: 50px;
+                height: 56px;
+                background: url(../img/1.1M.png); }
+            * body main .presentation .box .p1 {
+              font-family: 'Poppins';
+              letter-spacing: 0.01em;
+              font-size: 10px;
+              line-height: 14px; }
+            * body main .presentation .box .p2 {
+              font-family: 'Poppins';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 21px;
+              line-height: 20px;
+              color: #22B6AF; }
+              * body main .presentation .box .p2 .p3 {
+                color: #233545; } }
     * body footer {
       position: absolute;
       bottom: 0;
@@ -88,8 +153,3 @@
         background-color: #233545;
         color: white;
         margin: 0; }
-  @media only screen and (max-width: 991px) {
-    * li .btn1 {
-      margin: 10px; }
-    * li .btn2 {
-      margin-top: 10px; } }

@@ -95,22 +95,26 @@
                     box-shadow: none !important;
                     background-color: $color-1;
                 }
+
+                @media only screen and (max-width: 991px) {
+
+                    li .btn1 {
+                        margin: 10px;
+                    }
+
+                    li .btn2 {
+                        margin-top: 10px;
+                    }
+
+                }
             }
         }
 
         main {
             grid-area: main;
 
-            .presentation {
-                margin-top: 90px;
-                width: 100%;
-                height: 700px;
-                background: url("../img/1.png");
-                background-repeat: no-repeat;
-                background-size: cover;
+            @import "presentation";
 
-                @import "presentation";
-            }
         }
 
 
@@ -130,16 +134,8 @@
         }
     }
 
-    @media only screen and (max-width: 991px) {
 
-        li .btn1 {
-            margin: 10px;
-        }
 
-        li .btn2 {
-            margin-top: 10px;
-        }
 
-    }
 
 }

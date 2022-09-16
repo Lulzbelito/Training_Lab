@@ -1,7 +1,22 @@
+@charset "UTF-8";
 .box {
   position: absolute;
-  background-color: aqua;
   height: 400px;
   width: 450px;
   margin-top: 200px;
   margin-left: 160px; }
+  .box .img-átomos {
+    margin-left: 70px;
+    margin-bottom: 20px; }
+  .box .p1 {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 0.01em; }
+  .box .p2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px; }
