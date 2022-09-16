@@ -91,7 +91,6 @@
                 .nosotros__conocimiento {
                     font-family: 'Pop-mediun';
                     font-size: 12px;
-
                     .nosotros__conocimiento--lb {
                         color: $color-2;
                         font-weight: bold;
@@ -122,14 +121,12 @@
                     display: flex;
                     flex-direction: row;
                     position: relative;
-
                     .nosotros__vline {
                         background-color: #F4F4F4;
                         width: 7.5px;
                         height: 95%;
                         border-radius: 30px;
                         position: absolute;
-
                         &:after {
                             position: absolute;
                             content: "";
@@ -144,7 +141,6 @@
                         display: flex;
                         flex-direction: column;
                         margin-left: 25px;
-
                         >h4 {
                             font-family: 'Pop-SemiBold';
                             font-size: 17px;
@@ -173,7 +169,6 @@
                 
                 >img {
                     max-width: 120px;
-
                 }
 
                 .practica__r {
