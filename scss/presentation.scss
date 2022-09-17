@@ -10,17 +10,15 @@
 
     .box {
         position: absolute;
-        // background-color: aqua;
-        height: 450;
         width: 460px;
-        margin-top: 200px;
+        margin-top: 150px;
         margin-left: 160px;
 
-        .img-átomos {
+        .img-atoms {
             margin-left: 70px;
             margin-bottom: 20px;
 
-            .sustituida-modificada {
+            .replaced-modified {
                 box-sizing: border-box;
                 display: block;
                 width: 99px;
@@ -57,8 +55,9 @@
 
     .presentation {
 
-        height: 312px;
+        height: 350px;
         margin-top: 90px;
+        margin-bottom: -30px;
         width: 100%;
         background: url("../img/1.png");
         background-repeat: no-repeat;
@@ -73,11 +72,11 @@
             margin-top: 50px;
             margin-left: 30px;
 
-            .img-átomos {
+            .img-atoms {
                 margin-left: 20px;
-                margin-bottom: 20px;
+                margin-bottom: 10px;
 
-                .sustituida-modificada {
+                .replaced-modified {
                     box-sizing: border-box;
                     display: block;
                     width: 50px;
@@ -89,7 +88,7 @@
             .p1 {
                 font-family: 'Poppins';
                 letter-spacing: 0.01em;
-                font-size: 10px;
+                font-size: $size-m10;
                 line-height: 14px;
             }
 
@@ -97,7 +96,7 @@
                 font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 700;
-                font-size: 21px;
+                font-size: $size-m21;
                 line-height: 20px;
 
                 color: $color-2;
