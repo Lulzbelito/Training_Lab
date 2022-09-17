@@ -148,32 +148,64 @@
                 color: #233545; } }
       * body main .presentation2 {
         height: 400px; }
-        * body main .presentation2 .row .img-certificate .replaced-modified {
-          position: relative;
-          bottom: 134px;
-          left: 112px;
-          box-sizing: border-box;
-          display: block;
-          width: 716px;
-          height: 519px;
-          background: url(../img/2.1.png); }
-        * body main .presentation2 .row .paragraph {
-          height: 300px;
-          display: flex;
-          justify-content: center;
-          margin-right: 100px; }
-          * body main .presentation2 .row .paragraph .box {
+        * body main .presentation2 .row {
+          width: 100%; }
+          * body main .presentation2 .row .img-certificate .replaced-modified {
+            position: relative;
+            bottom: 134px;
+            left: 112px;
+            box-sizing: border-box;
+            display: block;
+            width: 716px;
+            height: 519px;
+            background: url(../img/2.1.png); }
+          * body main .presentation2 .row .paragraph {
+            height: 300px;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            width: 245px; }
-            * body main .presentation2 .row .paragraph .box .certificate {
-              margin-bottom: 15px; }
-            * body main .presentation2 .row .paragraph .box p {
-              font-family: 'Poppins';
-              font-weight: 600;
-              font-size: 24px;
-              line-height: 26px; }
+            margin-right: 100px;
+            justify-content: center; }
+            * body main .presentation2 .row .paragraph .box {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              width: 245px; }
+              * body main .presentation2 .row .paragraph .box .certificate {
+                margin-bottom: 15px; }
+              * body main .presentation2 .row .paragraph .box p {
+                font-family: 'Poppins';
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 26px; }
+      @media screen and (max-width: 767px) {
+        * body main .presentation2 .row .img-certificate {
+          max-height: 200px; }
+          * body main .presentation2 .row .img-certificate .replaced-modified {
+            left: 0;
+            bottom: 109.5px;
+            box-sizing: border-box;
+            display: block;
+            width: 587px;
+            height: 425px;
+            background: url(../img/2.1P.png); }
+        * body main .presentation2 .row .paragraph {
+          justify-content: center;
+          padding-left: 170px; } }
+      @media screen and (min-width: 768px) and (max-width: 1023px) {
+        * body main .presentation2 .row .img-certificate {
+          max-height: 250px; }
+          * body main .presentation2 .row .img-certificate .replaced-modified {
+            left: 30px; }
+        * body main .presentation2 .row .paragraph {
+          justify-content: center;
+          padding-left: 200px; } }
+      @media screen and (min-width: 1024px) and (max-width: 1110px) {
+        * body main .presentation2 .row .img-certificate {
+          max-height: 250px; }
+          * body main .presentation2 .row .img-certificate .replaced-modified {
+            left: 150px; }
+        * body main .presentation2 .row .paragraph {
+          justify-content: center;
+          padding-left: 180px; } }
     * body footer {
       position: absolute;
       bottom: 0;

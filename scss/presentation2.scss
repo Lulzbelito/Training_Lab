@@ -4,6 +4,7 @@
     height: 400px;
 
     .row {
+        width: 100%;
 
         .img-certificate {
 
@@ -23,8 +24,8 @@
         .paragraph {
             height: 300px;
             display: flex;
-            justify-content: center;
             margin-right: 100px;
+            justify-content: center;
 
             .box {
                 display: flex;
@@ -43,6 +44,76 @@
                     font-size: 24px;
                     line-height: 26px;
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .presentation2 {
+
+        .row {
+
+            .img-certificate {
+                max-height: 200px;
+
+                .replaced-modified {
+                    left: 0;
+                    bottom: 109.5px;
+
+                    box-sizing: border-box;
+                    display: block;
+                    width: 587px;
+                    height: 425px;
+                    background: url(../img/2.1P.png);
+                }
+            }
+
+            .paragraph {
+                justify-content: center;
+                padding-left: 170px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .presentation2 {
+
+        .row {
+
+            .img-certificate {
+                max-height: 250px;
+
+                .replaced-modified {
+                    left: 30px;
+                }
+            }
+
+            .paragraph {
+                justify-content: center;
+                padding-left: 200px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1110px) {
+    .presentation2 {
+
+        .row {
+
+            .img-certificate {
+                max-height: 250px;
+
+                .replaced-modified {
+                    left: 150px;
+                }
+            }
+
+            .paragraph {
+                justify-content: center;
+                padding-left: 180px;
             }
         }
     }
