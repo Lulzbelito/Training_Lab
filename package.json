@@ -1,0 +1,34 @@
+{
+  "name": "training_lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-parh scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "build-css2": "node-sass --include-parh scss scss/variables.scss css/variables/variables.css",
+    "watch-css2": "nodemon -e scss -x \"npm run build-css2\"",
+    "build-css3": "node-sass --include-parh scss scss/presentation.scss css/presentation/presentation.css",
+    "watch-css3": "nodemon -e scss -x \"npm run build-css3\"",
+    "build-css4": "node-sass --include-parh scss scss/presentation2.scss css/presentation2/presentation2.css",
+    "watch-css4": "nodemon -e scss -x \"npm run build-css4\"",
+    "build-css5": "node-sass --include-parh scss scss/presentation3.scss css/presentation3/presentation3.css",
+    "watch-css5": "nodemon -e scss -x \"npm run build-css5\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lulzbelito/Training_Lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lulzbelito/Training_Lab/issues"
+  },
+  "homepage": "https://github.com/Lulzbelito/Training_Lab#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

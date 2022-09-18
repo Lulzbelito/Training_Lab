@@ -9,4 +9,21 @@ $color-3: #F4F4F4;
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap');
 
 $size-m10: 10px;
-$size-m21: 21px
+$size-m21: 21px;
+$box-shadowContainers: -1px 0px 50px 8px rgba(0, 0, 0, 0.20);
+
+
+@font-face {
+    font-family: 'Pop-SemiBold';
+    src: url(../poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Pop-ligth';
+    src: url(../poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Pop-mediun';
+    src: url(../poppins/Poppins-Medium.ttf);
+}

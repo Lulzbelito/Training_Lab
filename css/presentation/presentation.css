@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
+@font-face {
+  font-family: 'Pop-SemiBold';
+  src: url(../poppins/Poppins-SemiBold.ttf); }
+
+@font-face {
+  font-family: 'Pop-ligth';
+  src: url(../poppins/Poppins-Light.ttf); }
+
+@font-face {
+  font-family: 'Pop-mediun';
+  src: url(../poppins/Poppins-Medium.ttf); }
+
 .presentation {
   margin-top: 90px;
   width: 100%;

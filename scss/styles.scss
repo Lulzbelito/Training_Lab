@@ -1,5 +1,6 @@
 @import "./variables.scss";
 
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +8,6 @@
     body {
         color: $color-1;
         min-height: 100%;
-
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto 1fr auto;
@@ -136,6 +136,389 @@
                 margin: 0;
             }
         }
-    }
 
+        .section__nosotros {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+
+            .nosotros__bkg {
+                background-image: url("../img/nosotros.png");
+                background-position: center;
+                width: 100%;
+                height: 190px;
+                background-size: cover;
+
+                .nosotros__head {
+                    margin-right: 40%;
+                    margin-top: 30px;
+                    margin-left: 20px;
+                }
+
+                .nosotros__h3 {
+                    font-family: 'Pop-SemiBold';
+                    color: $color-2;
+                    font-size: 16px;
+                }
+
+                .nosotros__p {
+                    font-family: 'Pop-ligth';
+                    line-height: 1.1;
+                    font-size: 11.5px;
+                }
+
+                .nosotros__vector--desktop {
+                    display: none;
+                }
+            }
+
+            .nosotros__acercaDe {
+                position: relative;
+                margin: 40px 85px 20px 85px;
+                padding: 18px 25px 8px 25px;
+                background-color: white;
+                box-shadow: $box-shadowContainers;
+                border-radius: 15px;
+                z-index: 2;
+
+                .nosotros__conocimiento {
+                    font-family: 'Pop-mediun';
+                    font-size: 12px;
+
+                    .nosotros__conocimiento--lb {
+                        color: $color-2;
+                        font-weight: bold;
+                    }
+
+                    >p {
+                        margin: 0;
+                        text-align: center;
+                        line-height: 1.3;
+                    }
+                }
+
+                .nosotros__vector--mobile {
+                    width: 37px;
+                    position: absolute;
+                    top: -28px;
+                    left: 50%;
+                    transform: translate(-50%);
+                }
+            }
+
+            .nosotros__buscamos {
+                background-color: white;
+                z-index: 1;
+
+                .nosotros__imgFiltrado {
+                    display: none;
+                }
+
+                .buscamos__container {
+                    margin: 35px 25% 30px 25%;
+                    display: flex;
+                    flex-direction: row;
+                    position: relative;
+
+                    .nosotros__vline {
+                        background-color: #F4F4F4;
+                        width: 7.5px;
+                        height: 95%;
+                        border-radius: 30px;
+                        position: absolute;
+
+                        &:after {
+                            position: absolute;
+                            content: "";
+                            background-color: #C2EA49;
+                            width: 8px;
+                            height: 45%;
+                            border-radius: 30px;
+                        }
+                    }
+
+                    .buscamos__haremos {
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 25px;
+
+                        >h4 {
+                            font-family: 'Pop-SemiBold';
+                            font-size: 17px;
+                        }
+
+                        >p {
+                            font-family: 'Pop-ligth';
+                            font-size: 12px;
+                            line-height: 1.2;
+                        }
+                    }
+                }
+            }
+
+            .nosotros__practica {
+                margin: 40px 25px 20px 25px;
+                padding: 18px 2px 0 2px;
+                box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.1);
+                display: flex;
+                flex-direction: row;
+                overflow: hidden;
+                border-radius: 15px;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: flex-end;
+
+                >img {
+                    max-width: 120px;
+                }
+
+                .practica__r {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+
+                    >img {
+                        width: 22px;
+                    }
+
+                    >h5 {
+                        font-family: Pop-mediun;
+                        font-size: 14px;
+                        color: $color-2;
+                        margin: 3px 0;
+                    }
+
+                    >p {
+                        font-family: Pop-ligth;
+                        font-size: 12px;
+                        line-height: 1.1;
+                    }
+                }
+            }
+
+            .nosotros__beneficios {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                >h5 {
+                    font-family: Pop-SemiBold;
+                    font-size: 17px;
+                    margin: 30px 0 25px 0;
+                }
+
+                .beneficios__card {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin: 10px 20% 10px 20%;
+                    text-align: center;
+
+                    >img {
+                        width: 22px;
+                    }
+
+                    >h6 {
+                        font-family: Pop-SemiBold;
+                        font-size: 17px;
+                        color: $color-2;
+                        margin: 5px 0;
+                    }
+
+                    >p {
+                        font-size: 15px;
+                        line-height: 1.1;
+                    }
+                }
+
+                .beneficios__card--desktop {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1023px) {
+    * {
+        body {
+            .section__nosotros {
+                .nosotros__bkg {
+                    height: 600px;
+                    position: relative;
+                    background-repeat: no-repeat;
+
+                    .nosotros__head {
+                        margin-right: 60%;
+                        margin-top: 190px;
+                        margin-left: 150px;
+                    }
+
+                    .nosotros__h3 {
+                        font-size: 27px;
+                    }
+
+                    .nosotros__p {
+                        font-size: 19px;
+                        line-height: 1.3;
+                    }
+
+                    .nosotros__vector--desktop {
+                        display: block;
+                        width: 80px;
+                    }
+                }
+
+                .nosotros__acercaDe {
+                    position: absolute;
+                    width: 470px;
+                    top: 830px;
+                    left: 70%;
+                    transform: translate(-70%);
+                    padding: 18px 20px 8px 20px;
+
+                    .nosotros__conocimiento {
+                        font-size: 24px;
+                    }
+
+                    .nosotros__vector--mobile {
+                        display: none;
+                    }
+                }
+
+                .nosotros__buscamos {
+                    margin-top: 140px;
+                    margin-bottom: 50px;
+                    display: flex;
+                    flex-direction: row-reverse;
+                    width: 100%;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .nosotros__imgFiltrado {
+                        display: block;
+                        width: 190px;
+                        margin-right: 25%;
+                    }
+
+                    .buscamos__container {
+                        margin: 0 0 0 150px;
+                        width: 50%;
+                        padding-right: 15%;
+
+                        .nosotros__vline {
+                            &:after {
+                                background-color: #22B6AF;
+                            }
+                        }
+
+                        .buscamos__haremos {
+                            margin-left: 40px;
+
+                            >h4 {
+                                font-size: 27px;
+                            }
+
+                            >p {
+                                font-size: 21px;
+                                margin-bottom: 40px;
+                            }
+                        }
+                    }
+                }
+
+                .nosotros__practica {
+                    margin: 40px 25px 20px 25px;
+                    box-shadow: 0px -150px 100px 200px rgba(0, 0, 0, 0.050);
+                    overflow: visible;
+                    width: 70%;
+                    position: relative;
+                    justify-content: flex-end;
+
+                    >img {
+                        max-width: 270px;
+                        position: absolute;
+                        left: 40px;
+                    }
+
+                    .practica__r {
+                        padding: 10px 60px 20px 0px;
+
+                        >img {
+                            width: 35px;
+                            margin-bottom: 5px;
+                        }
+
+                        >h5 {
+                            font-size: 27px;
+                        }
+
+                        >p {
+                            font-size: 21px;
+                        }
+                    }
+                }
+
+                .nosotros__beneficios {
+                    align-items: flex-start;
+                    width: 67%;
+
+                    .beneficios__cardContainer {
+                        display: flex;
+                        align-items: flex-start;
+                        flex-direction: row;
+                        justify-content: space-between;
+                    }
+
+                    >h5 {
+                        font-size: 27px;
+                        margin: 50px 0 20px 0;
+                    }
+
+                    .beneficios__card {
+                        align-items: flex-start;
+                        margin: 10px 0;
+                        text-align: left;
+                        width: 36%;
+
+                        >img {
+                            width: 28px;
+                            margin: 5px 0 10px 0;
+                        }
+
+                        >h6 {
+                            font-size: 27px;
+                        }
+
+                        >p {
+                            font-size: 21px;
+                        }
+                    }
+
+                    .beneficios__card--desktop {
+                        display: block;
+                        margin: 10px 0;
+                        width: 36%;
+
+                        >img {
+                            margin: 5px 0 10px 0;
+                            width: 35px;
+                        }
+
+                        >p {
+                            font-family: 'Pop-SemiBold';
+                            margin: 10px 0;
+                            font-size: 26px;
+                            line-height: 1.1;
+                        }
+
+                        .potencia__span {
+                            color: $color-2;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
