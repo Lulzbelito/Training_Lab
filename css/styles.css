@@ -4,6 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0; }
@@ -152,12 +154,12 @@
           width: 100%; }
           * body main .presentation2 .row .img-certificate .replaced-modified {
             position: relative;
-            bottom: 134px;
-            left: 112px;
+            bottom: 37px;
+            left: 200px;
             box-sizing: border-box;
             display: block;
-            width: 716px;
-            height: 519px;
+            width: 512px;
+            height: 319px;
             background: url(../img/2.1.png); }
           * body main .presentation2 .row .paragraph {
             height: 300px;
@@ -177,35 +179,115 @@
                 font-size: 24px;
                 line-height: 26px; }
       @media screen and (max-width: 767px) {
-        * body main .presentation2 .row .img-certificate {
-          max-height: 200px; }
-          * body main .presentation2 .row .img-certificate .replaced-modified {
-            left: 0;
-            bottom: 109.5px;
+        * body main .presentation2 {
+          height: 500px; }
+          * body main .presentation2 .row .img-certificate {
+            max-height: 200px; }
+            * body main .presentation2 .row .img-certificate .replaced-modified {
+              left: 60px;
+              bottom: 30px;
+              box-sizing: border-box;
+              display: block;
+              width: 400px;
+              height: 259px;
+              background: url(../img/2.1P.png); }
+          * body main .presentation2 .row .paragraph {
+            justify-content: center;
+            padding-left: 170px; } }
+      @media screen and (min-width: 768px) and (max-width: 1023px) {
+        * body main .presentation2 {
+          height: 550px; }
+          * body main .presentation2 .row .img-certificate {
+            max-height: 250px; }
+            * body main .presentation2 .row .img-certificate .replaced-modified {
+              left: 130px; }
+          * body main .presentation2 .row .paragraph {
+            justify-content: center;
+            padding-left: 200px; } }
+      @media screen and (min-width: 1024px) and (max-width: 1110px) {
+        * body main .presentation2 {
+          height: 550px; }
+          * body main .presentation2 .row .img-certificate {
+            max-height: 250px; }
+            * body main .presentation2 .row .img-certificate .replaced-modified {
+              left: 250px; }
+          * body main .presentation2 .row .paragraph {
+            justify-content: center;
+            padding-left: 150px; } }
+      * body main .presentation3 {
+        background-color: #F4F4F4;
+        height: 400px; }
+        * body main .presentation3 .row {
+          flex-direction: row; }
+          * body main .presentation3 .row .paragraph {
+            height: 300px;
+            display: flex;
+            margin-right: 100px;
+            justify-content: center; }
+            * body main .presentation3 .row .paragraph .box {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              margin-left: 100px;
+              width: 340px; }
+              * body main .presentation3 .row .paragraph .box .classes {
+                margin-bottom: 15px; }
+              * body main .presentation3 .row .paragraph .box p {
+                font-family: 'Poppins';
+                font-size: 18px; }
+                * body main .presentation3 .row .paragraph .box p span {
+                  font-weight: 900; }
+          * body main .presentation3 .row .img-classes .replaced-modified {
+            position: relative;
+            bottom: 40px;
+            right: 70px;
             box-sizing: border-box;
             display: block;
-            width: 587px;
-            height: 425px;
-            background: url(../img/2.1P.png); }
-        * body main .presentation2 .row .paragraph {
-          justify-content: center;
-          padding-left: 170px; } }
+            width: 494px;
+            height: 305.25px;
+            background: url(../img/3.1.png); }
+      @media screen and (max-width: 767px) {
+        * body main .presentation3 {
+          height: 570px; }
+          * body main .presentation3 .row {
+            flex-direction: column-reverse;
+            width: 100%; }
+            * body main .presentation3 .row .img-classes .replaced-modified {
+              left: 60px;
+              box-sizing: border-box;
+              display: block;
+              width: 400px;
+              height: 259px;
+              background: url(../img/3.1.png); }
+            * body main .presentation3 .row .paragraph .box {
+              width: 280px;
+              height: 250px;
+              justify-content: center;
+              margin-right: 40px; } }
       @media screen and (min-width: 768px) and (max-width: 1023px) {
-        * body main .presentation2 .row .img-certificate {
-          max-height: 250px; }
-          * body main .presentation2 .row .img-certificate .replaced-modified {
-            left: 30px; }
-        * body main .presentation2 .row .paragraph {
-          justify-content: center;
-          padding-left: 200px; } }
+        * body main .presentation3 {
+          height: 570px; }
+          * body main .presentation3 .row {
+            flex-direction: column-reverse;
+            width: 100%; }
+            * body main .presentation3 .row .img-classes .replaced-modified {
+              left: 140px; }
+            * body main .presentation3 .row .paragraph .box {
+              width: 280px;
+              height: 250px;
+              margin-right: 100px; } }
       @media screen and (min-width: 1024px) and (max-width: 1110px) {
-        * body main .presentation2 .row .img-certificate {
-          max-height: 250px; }
-          * body main .presentation2 .row .img-certificate .replaced-modified {
-            left: 150px; }
-        * body main .presentation2 .row .paragraph {
-          justify-content: center;
-          padding-left: 180px; } }
+        * body main .presentation3 {
+          height: 600px; }
+          * body main .presentation3 .row {
+            flex-direction: column-reverse;
+            width: 100%; }
+            * body main .presentation3 .row .img-classes .replaced-modified {
+              left: 260px; }
+            * body main .presentation3 .row .paragraph .box {
+              width: 280px;
+              height: 250px;
+              margin-right: 100px; } }
     * body footer {
       position: absolute;
       bottom: 0;

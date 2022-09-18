@@ -10,13 +10,13 @@
 
             .replaced-modified {
                 position: relative;
-                bottom: 134px;
-                left: 112px;
+                bottom: 37px;
+                left: 200px;
 
                 box-sizing: border-box;
                 display: block;
-                width: 716px;
-                height: 519px;
+                width: 512px;
+                height: 319px;
                 background: url(../img/2.1.png);
             }
         }
@@ -51,6 +51,7 @@
 
 @media screen and (max-width: 767px) {
     .presentation2 {
+        height: 500px;
 
         .row {
 
@@ -58,13 +59,13 @@
                 max-height: 200px;
 
                 .replaced-modified {
-                    left: 0;
-                    bottom: 109.5px;
+                    left: 60px;
+                    bottom: 30px;
 
                     box-sizing: border-box;
                     display: block;
-                    width: 587px;
-                    height: 425px;
+                    width: 400px;
+                    height: 259px;
                     background: url(../img/2.1P.png);
                 }
             }
@@ -79,6 +80,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .presentation2 {
+        height: 550px;
 
         .row {
 
@@ -86,7 +88,7 @@
                 max-height: 250px;
 
                 .replaced-modified {
-                    left: 30px;
+                    left: 130px;
                 }
             }
 
@@ -100,6 +102,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1110px) {
     .presentation2 {
+        height: 550px;
 
         .row {
 
@@ -107,13 +110,13 @@
                 max-height: 250px;
 
                 .replaced-modified {
-                    left: 150px;
+                    left: 250px;
                 }
             }
 
             .paragraph {
                 justify-content: center;
-                padding-left: 180px;
+                padding-left: 150px;
             }
         }
     }
