@@ -2,14 +2,11 @@ $color-1: #233545;
 $color-2: #22B6AF;
 $color-3: #F4F4F4;
 
-// Poppins medium
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100&display=swap');
-
-// Gentium Book Plus
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap');
-
-$size-m10: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;600;700&family=Roboto:wght@300&display=swap');
+$size-m40: 40px;
+$size-m24: 24px;
 $size-m21: 21px;
+$size-m10: 10px;
 $box-shadowContainers: -1px 0px 50px 8px rgba(0, 0, 0, 0.20);
 
 

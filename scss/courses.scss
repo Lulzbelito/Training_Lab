@@ -1,0 +1,46 @@
+@import "./variables.scss";
+
+.courses-1 {
+
+    .bg img {
+        width: 100%;
+    }
+
+    .our {
+
+        .paragraph {
+            margin-top: 50px;
+            margin-left: 250px;
+            width: 550px;
+
+            h2 {
+                font-family: 'Poppins';
+                font-weight: 700;
+                font-size: $size-m40;
+                color: $color-2;
+
+                // letter-spacing: 0.015em;
+            }
+
+            h3 {
+                font-family: 'Poppins';
+                font-weight: 600;
+                font-size: $size-m24;
+            }
+
+            p {
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 24px;
+                /* or 133% */
+
+                text-align: justify;
+                margin: 0;
+            }
+
+        }
+
+    }
+}

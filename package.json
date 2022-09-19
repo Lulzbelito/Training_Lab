@@ -14,7 +14,9 @@
     "build-css4": "node-sass --include-parh scss scss/presentation2.scss css/presentation2/presentation2.css",
     "watch-css4": "nodemon -e scss -x \"npm run build-css4\"",
     "build-css5": "node-sass --include-parh scss scss/presentation3.scss css/presentation3/presentation3.css",
-    "watch-css5": "nodemon -e scss -x \"npm run build-css5\""
+    "watch-css5": "nodemon -e scss -x \"npm run build-css5\"",
+    "build-css6": "node-sass --include-parh scss scss/courses.scss css/courses/courses.css",
+    "watch-css6": "nodemon -e scss -x \"npm run build-css6\""
   },
   "repository": {
     "type": "git",

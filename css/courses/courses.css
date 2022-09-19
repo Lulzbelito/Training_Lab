@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;600;700&family=Roboto:wght@300&display=swap");
+@font-face {
+  font-family: 'Pop-SemiBold';
+  src: url(../poppins/Poppins-SemiBold.ttf); }
+
+@font-face {
+  font-family: 'Pop-ligth';
+  src: url(../poppins/Poppins-Light.ttf); }
+
+@font-face {
+  font-family: 'Pop-mediun';
+  src: url(../poppins/Poppins-Medium.ttf); }
+
+.courses-1 .bg img {
+  width: 100%; }
+
+.courses-1 .our .paragraph {
+  margin-top: 50px;
+  margin-left: 250px;
+  width: 550px; }
+  .courses-1 .our .paragraph h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 40px;
+    color: #22B6AF; }
+  .courses-1 .our .paragraph h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px; }
+  .courses-1 .our .paragraph p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+    text-align: justify;
+    margin: 0; }
