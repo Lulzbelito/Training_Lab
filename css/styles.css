@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;600;700&family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;600;700&family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;600;700&family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;600;700&family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;600;700&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;500;600;700&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;500;600;700&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;500;600;700&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;500;600;700&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;500;600;700&family=Roboto:wght@300&display=swap");
 @font-face {
   font-family: 'Pop-SemiBold';
   src: url(../poppins/Poppins-SemiBold.ttf); }
@@ -145,7 +145,7 @@
           background-position: -10px -30px; }
           * body main .presentation .box {
             position: absolute;
-            height: 450;
+            height: 450px;
             width: 200px;
             margin-top: 50px;
             margin-left: 30px; }
@@ -466,8 +466,7 @@
       * body .section__nosotros .nosotros__beneficios {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        height: 750px; }
+        align-items: center; }
         * body .section__nosotros .nosotros__beneficios > h5 {
           font-family: Pop-SemiBold;
           font-size: 17px;
@@ -506,30 +505,137 @@
   * body .courses {
     font-family: 'Pop-mediun';
     src: url(../poppins/Poppins-Medium.ttf); } }
-      * body .courses .courses-1 .bg img {
-        width: 100%; }
-      * body .courses .courses-1 .our .paragraph {
-        margin-top: 50px;
-        margin-left: 250px;
-        width: 550px; }
-        * body .courses .courses-1 .our .paragraph h2 {
-          font-family: 'Poppins';
-          font-weight: 700;
-          font-size: 40px;
-          color: #22B6AF; }
-        * body .courses .courses-1 .our .paragraph h3 {
-          font-family: 'Poppins';
-          font-weight: 600;
-          font-size: 24px; }
-        * body .courses .courses-1 .our .paragraph p {
-          font-family: 'Roboto', sans-serif;
-          font-style: normal;
-          font-weight: 300;
-          font-size: 18px;
-          line-height: 24px;
-          /* or 133% */
-          text-align: justify;
-          margin: 0; }
+      * body .courses .courses-1 {
+        height: 1250px; }
+        * body .courses .courses-1 .bg {
+          background-image: url("../img/courses1.png");
+          height: 410px; }
+        * body .courses .courses-1 .our .paragraph {
+          margin-top: 50px;
+          margin-left: 250px;
+          width: 550px; }
+          * body .courses .courses-1 .our .paragraph h2 {
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-size: 40px;
+            color: #22B6AF; }
+          * body .courses .courses-1 .our .paragraph h3 {
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 24px; }
+          * body .courses .courses-1 .our .paragraph p {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 24px;
+            text-align: justify;
+            margin: 0; }
+        * body .courses .courses-1 .our .box {
+          display: flex;
+          justify-content: center; }
+          * body .courses .courses-1 .our .box .categories {
+            display: flex;
+            flex-direction: column;
+            max-width: 888px;
+            margin-top: 50px; }
+            * body .courses .courses-1 .our .box .categories .category-1,
+            * body .courses .courses-1 .our .box .categories .category-2,
+            * body .courses .courses-1 .our .box .categories .category-3,
+            * body .courses .courses-1 .our .box .categories .category-4 {
+              min-width: 888px;
+              height: 79px;
+              box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+              margin-top: 15px; }
+              * body .courses .courses-1 .our .box .categories .category-1 .row .col,
+              * body .courses .courses-1 .our .box .categories .category-2 .row .col,
+              * body .courses .courses-1 .our .box .categories .category-3 .row .col,
+              * body .courses .courses-1 .our .box .categories .category-4 .row .col {
+                display: flex;
+                align-items: center;
+                height: 79px; }
+              * body .courses .courses-1 .our .box .categories .category-1 .row .title p,
+              * body .courses .courses-1 .our .box .categories .category-2 .row .title p,
+              * body .courses .courses-1 .our .box .categories .category-3 .row .title p,
+              * body .courses .courses-1 .our .box .categories .category-4 .row .title p {
+                margin: 0;
+                font-family: 'Poppins';
+                font-weight: 500;
+                font-size: 18px;
+                margin-left: 73px; }
+              * body .courses .courses-1 .our .box .categories .category-1 .row .col-view,
+              * body .courses .courses-1 .our .box .categories .category-2 .row .col-view,
+              * body .courses .courses-1 .our .box .categories .category-3 .row .col-view,
+              * body .courses .courses-1 .our .box .categories .category-4 .row .col-view {
+                justify-content: end;
+                font-family: 'Poppins';
+                font-weight: 500;
+                font-size: 17px; }
+                * body .courses .courses-1 .our .box .categories .category-1 .row .col-view .btn-view,
+                * body .courses .courses-1 .our .box .categories .category-2 .row .col-view .btn-view,
+                * body .courses .courses-1 .our .box .categories .category-3 .row .col-view .btn-view,
+                * body .courses .courses-1 .our .box .categories .category-4 .row .col-view .btn-view {
+                  margin-right: 82px;
+                  color: #22B6AF;
+                  border: none; }
+                * body .courses .courses-1 .our .box .categories .category-1 .row .col-view .btn-view:hover,
+                * body .courses .courses-1 .our .box .categories .category-2 .row .col-view .btn-view:hover,
+                * body .courses .courses-1 .our .box .categories .category-3 .row .col-view .btn-view:hover,
+                * body .courses .courses-1 .our .box .categories .category-4 .row .col-view .btn-view:hover {
+                  background-color: white;
+                  color: #233545; }
+                * body .courses .courses-1 .our .box .categories .category-1 .row .col-view .btn-view:focus,
+                * body .courses .courses-1 .our .box .categories .category-2 .row .col-view .btn-view:focus,
+                * body .courses .courses-1 .our .box .categories .category-3 .row .col-view .btn-view:focus,
+                * body .courses .courses-1 .our .box .categories .category-4 .row .col-view .btn-view:focus {
+                  box-shadow: none;
+                  background-color: white !important;
+                  color: #233545; }
+      @media screen and (max-width: 767px) {
+        * body .courses .courses-1 {
+          margin-top: 25px; }
+        * body .courses .bg {
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 250px !important; }
+        * body .courses .our .paragraph {
+          width: 250px !important;
+          margin-left: 30px !important; }
+          * body .courses .our .paragraph h2 {
+            font-weight: 600 !important;
+            font-size: 14px !important; }
+          * body .courses .our .paragraph h3 {
+            font-weight: 500 !important;
+            font-size: 10px !important; }
+          * body .courses .our .paragraph p {
+            font-weight: 400 !important;
+            font-size: 10px !important;
+            line-height: 12px !important; }
+        * body .courses .categories .category-1,
+        * body .courses .categories .category-2,
+        * body .courses .categories .category-3,
+        * body .courses .categories .category-4 {
+          min-width: 450px !important; }
+          * body .courses .categories .category-1 .row .title p,
+          * body .courses .categories .category-2 .row .title p,
+          * body .courses .categories .category-3 .row .title p,
+          * body .courses .categories .category-4 .row .title p {
+            font-size: 10px !important;
+            margin-left: 25px !important; }
+          * body .courses .categories .category-1 .row .col-view .btn-view,
+          * body .courses .categories .category-2 .row .col-view .btn-view,
+          * body .courses .categories .category-3 .row .col-view .btn-view,
+          * body .courses .categories .category-4 .row .col-view .btn-view {
+            font-size: 10px;
+            margin-right: 25px !important; } }
+      @media screen and (min-width: 768px) and (max-width: 1023px) {
+        * body .courses .paragraph {
+          margin-left: 110px !important; }
+        * body .courses .categories .category-1,
+        * body .courses .categories .category-2,
+        * body .courses .categories .category-3,
+        * body .courses .categories .category-4 {
+          min-width: 600px !important; } }
 
 @media only screen and (min-width: 1023px) {
   * body .section__nosotros .nosotros__bkg {
@@ -606,7 +712,8 @@
         font-size: 21px; }
   * body .section__nosotros .nosotros__beneficios {
     align-items: flex-start;
-    width: 67%; }
+    width: 67%;
+    height: 950px; }
     * body .section__nosotros .nosotros__beneficios .beneficios__cardContainer {
       display: flex;
       align-items: flex-start;
@@ -641,3 +748,7 @@
         line-height: 1.1; }
       * body .section__nosotros .nosotros__beneficios .beneficios__card--desktop .potencia__span {
         color: #22B6AF; } }
+
+@media only screen and (min-width: 1320px) {
+  .nosotros__beneficios {
+    max-height: 750px; } }
