@@ -1,26 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
 @font-face {
   font-family: "Pop-SemiBold";
   src: url(../poppins/Poppins-SemiBold.ttf);
 }
-
 @font-face {
   font-family: "Pop-ligth";
   src: url(../poppins/Poppins-Light.ttf);
 }
-
 @font-face {
   font-family: "Pop-mediun";
   src: url(../poppins/Poppins-Medium.ttf);
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -31,10 +22,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
-  grid-template-areas:
-    "header"
-    "main"
-    "footer";
+  grid-template-areas: "header" "main" "footer";
 }
 * body header {
   width: 100%;
@@ -79,16 +67,16 @@
 }
 * body header .box-nav li .btn1:hover {
   background-color: white;
-  color: #22b6af !important;
+  color: #22B6AF !important;
 }
 * body header .box-nav li .btn1:focus {
   box-shadow: none !important;
   background-color: white;
-  color: #22b6af;
+  color: #22B6AF;
 }
 * body header .box-nav li .btn2 {
   color: white;
-  background-color: #22b6af;
+  background-color: #22B6AF;
   border: none;
   font-family: "Poppins", sans-serif;
   font-size: 17px;
@@ -113,6 +101,30 @@
 }
 * body main {
   grid-area: main;
+  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
+}
+@font-face {
+  * body main {
+    font-family: "Pop-SemiBold";
+    src: url(../poppins/Poppins-SemiBold.ttf);
+  }
+}
+@font-face {
+  * body main {
+    font-family: "Pop-ligth";
+    src: url(../poppins/Poppins-Light.ttf);
+  }
+}
+@font-face {
+  * body main {
+    font-family: "Pop-mediun";
+    src: url(../poppins/Poppins-Medium.ttf);
+  }
 }
 * body main .presentation {
   margin-top: 90px;
@@ -150,7 +162,7 @@
   font-size: 40px;
   line-height: 40px;
   letter-spacing: 1.5%;
-  color: #22b6af;
+  color: #22B6AF;
 }
 * body main .presentation .box .p2 .p3 {
   color: #233545;
@@ -196,10 +208,28 @@
     font-weight: 700;
     font-size: 21px;
     line-height: 20px;
-    color: #22b6af;
+    color: #22B6AF;
   }
   * body main .presentation .box .p2 .p3 {
     color: #233545;
+  }
+}
+@font-face {
+  * body main {
+    font-family: "Pop-SemiBold";
+    src: url(../poppins/Poppins-SemiBold.ttf);
+  }
+}
+@font-face {
+  * body main {
+    font-family: "Pop-ligth";
+    src: url(../poppins/Poppins-Light.ttf);
+  }
+}
+@font-face {
+  * body main {
+    font-family: "Pop-mediun";
+    src: url(../poppins/Poppins-Medium.ttf);
   }
 }
 * body main .presentation2 {
@@ -290,8 +320,26 @@
     padding-left: 150px;
   }
 }
+@font-face {
+  * body main {
+    font-family: "Pop-SemiBold";
+    src: url(../poppins/Poppins-SemiBold.ttf);
+  }
+}
+@font-face {
+  * body main {
+    font-family: "Pop-ligth";
+    src: url(../poppins/Poppins-Light.ttf);
+  }
+}
+@font-face {
+  * body main {
+    font-family: "Pop-mediun";
+    src: url(../poppins/Poppins-Medium.ttf);
+  }
+}
 * body main .presentation3 {
-  background-color: #f4f4f4;
+  background-color: #F4F4F4;
   height: 400px;
 }
 * body main .presentation3 .row {
@@ -413,27 +461,27 @@
   background-size: cover;
 }
 * body .section__nosotros .nosotros__bkg .nosotros__head {
-  margin-right: 40%;
+  margin-right: 50%;
   margin-top: 30px;
   margin-left: 20px;
 }
 * body .section__nosotros .nosotros__bkg .nosotros__h3 {
   font-family: "Pop-SemiBold";
-  color: #22b6af;
+  color: #22B6AF;
   font-size: 16px;
 }
 * body .section__nosotros .nosotros__bkg .nosotros__p {
   font-family: "Pop-ligth";
-  line-height: 1.1;
-  font-size: 11.5px;
+  line-height: 1.3;
+  font-size: 13px;
 }
 * body .section__nosotros .nosotros__bkg .nosotros__vector--desktop {
   display: none;
 }
 * body .section__nosotros .nosotros__acercaDe {
   position: relative;
-  margin: 40px 85px 20px 85px;
-  padding: 18px 25px 8px 25px;
+  margin: 40px 95px 20px 95px;
+  padding: 13px 25px 13px 25px;
   background-color: white;
   box-shadow: -1px 0px 50px 8px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
@@ -441,15 +489,10 @@
 }
 * body .section__nosotros .nosotros__acercaDe .nosotros__conocimiento {
   font-family: "Pop-mediun";
-  font-size: 12px;
+  font-size: 13px;
 }
-*
-  body
-  .section__nosotros
-  .nosotros__acercaDe
-  .nosotros__conocimiento
-  .nosotros__conocimiento--lb {
-  color: #22b6af;
+* body .section__nosotros .nosotros__acercaDe .nosotros__conocimiento .nosotros__conocimiento--lb {
+  color: #22B6AF;
   font-weight: bold;
 }
 * body .section__nosotros .nosotros__acercaDe .nosotros__conocimiento > p {
@@ -477,58 +520,31 @@
   flex-direction: row;
   position: relative;
 }
-*
-  body
-  .section__nosotros
-  .nosotros__buscamos
-  .buscamos__container
-  .nosotros__vline {
-  background-color: #f4f4f4;
+* body .section__nosotros .nosotros__buscamos .buscamos__container .nosotros__vline {
+  background-color: #F4F4F4;
   width: 7.5px;
   height: 95%;
   border-radius: 30px;
   position: absolute;
 }
-*
-  body
-  .section__nosotros
-  .nosotros__buscamos
-  .buscamos__container
-  .nosotros__vline:after {
+* body .section__nosotros .nosotros__buscamos .buscamos__container .nosotros__vline:after {
   position: absolute;
   content: "";
-  background-color: #c2ea49;
+  background-color: #C2EA49;
   width: 8px;
   height: 45%;
   border-radius: 30px;
 }
-*
-  body
-  .section__nosotros
-  .nosotros__buscamos
-  .buscamos__container
-  .buscamos__haremos {
+* body .section__nosotros .nosotros__buscamos .buscamos__container .buscamos__haremos {
   display: flex;
   flex-direction: column;
   margin-left: 25px;
 }
-*
-  body
-  .section__nosotros
-  .nosotros__buscamos
-  .buscamos__container
-  .buscamos__haremos
-  > h4 {
+* body .section__nosotros .nosotros__buscamos .buscamos__container .buscamos__haremos > h4 {
   font-family: "Pop-SemiBold";
   font-size: 17px;
 }
-*
-  body
-  .section__nosotros
-  .nosotros__buscamos
-  .buscamos__container
-  .buscamos__haremos
-  > p {
+* body .section__nosotros .nosotros__buscamos .buscamos__container .buscamos__haremos > p {
   font-family: "Pop-ligth";
   font-size: 12px;
   line-height: 1.2;
@@ -559,7 +575,7 @@
 * body .section__nosotros .nosotros__practica .practica__r > h5 {
   font-family: Pop-mediun;
   font-size: 14px;
-  color: #22b6af;
+  color: #22B6AF;
   margin: 3px 0;
 }
 * body .section__nosotros .nosotros__practica .practica__r > p {
@@ -590,7 +606,7 @@
 * body .section__nosotros .nosotros__beneficios .beneficios__card > h6 {
   font-family: Pop-SemiBold;
   font-size: 17px;
-  color: #22b6af;
+  color: #22B6AF;
   margin: 5px 0;
 }
 * body .section__nosotros .nosotros__beneficios .beneficios__card > p {
@@ -656,38 +672,16 @@
     width: 50%;
     padding-right: 15%;
   }
-  *
-    body
-    .section__nosotros
-    .nosotros__buscamos
-    .buscamos__container
-    .nosotros__vline:after {
-    background-color: #22b6af;
+  * body .section__nosotros .nosotros__buscamos .buscamos__container .nosotros__vline:after {
+    background-color: #22B6AF;
   }
-  *
-    body
-    .section__nosotros
-    .nosotros__buscamos
-    .buscamos__container
-    .buscamos__haremos {
+  * body .section__nosotros .nosotros__buscamos .buscamos__container .buscamos__haremos {
     margin-left: 40px;
   }
-  *
-    body
-    .section__nosotros
-    .nosotros__buscamos
-    .buscamos__container
-    .buscamos__haremos
-    > h4 {
+  * body .section__nosotros .nosotros__buscamos .buscamos__container .buscamos__haremos > h4 {
     font-size: 27px;
   }
-  *
-    body
-    .section__nosotros
-    .nosotros__buscamos
-    .buscamos__container
-    .buscamos__haremos
-    > p {
+  * body .section__nosotros .nosotros__buscamos .buscamos__container .buscamos__haremos > p {
     font-size: 21px;
     margin-bottom: 40px;
   }
@@ -752,32 +746,19 @@
     margin: 10px 0;
     width: 36%;
   }
-  *
-    body
-    .section__nosotros
-    .nosotros__beneficios
-    .beneficios__card--desktop
-    > img {
+  * body .section__nosotros .nosotros__beneficios .beneficios__card--desktop > img {
     margin: 5px 0 10px 0;
     width: 35px;
   }
-  *
-    body
-    .section__nosotros
-    .nosotros__beneficios
-    .beneficios__card--desktop
-    > p {
+  * body .section__nosotros .nosotros__beneficios .beneficios__card--desktop > p {
     font-family: "Pop-SemiBold";
     margin: 10px 0;
     font-size: 26px;
     line-height: 1.1;
   }
-  *
-    body
-    .section__nosotros
-    .nosotros__beneficios
-    .beneficios__card--desktop
-    .potencia__span {
-    color: #22b6af;
+  * body .section__nosotros .nosotros__beneficios .beneficios__card--desktop .potencia__span {
+    color: #22B6AF;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
