@@ -10,3 +10,11 @@
 @font-face {
   font-family: 'Pop-mediun';
   src: url(../poppins/Poppins-Medium.ttf); }
+
+@font-face {
+  font-family: 'Roboto-regular';
+  src: url(../roboto/Roboto-Regular.ttf); }
+
+@font-face {
+  font-family: 'Roboto-bold';
+  src: url(../roboto/Roboto-Bold.ttf); }
