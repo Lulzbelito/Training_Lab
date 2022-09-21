@@ -23,7 +23,7 @@
   padding: 0;
 }
 * body .nosotros__container {
-  margin: 50px 0;
+  margin: 150px 0;
 }
 * body .nosotros__container .nosotros__card1 {
   display: flex;
@@ -32,7 +32,7 @@
   position: relative;
   font-family: "Pop-mediun";
   border-radius: 15px;
-  box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 0px 50px 250px rgba(0, 0, 0, 0.04);
   z-index: -1;
 }
 * body .nosotros__container .nosotros__card1 .card1__r {
@@ -69,9 +69,9 @@
   font-size: 13px;
   text-align: center;
   margin-top: 70px;
+  margin-bottom: 20px;
 }
 * body .nosotros__container .nosotros__labs .labs__brands {
-  z-index: 1;
   background-color: rgb(255, 255, 255);
   padding: 20px 5px;
   display: flex;
@@ -83,6 +83,7 @@
   transform: scale(70%);
 }
 * body .nosotros__container .nosotros__card2 {
+  background-color: white;
   display: flex;
   box-shadow: none;
   flex-direction: row-reverse;
@@ -114,6 +115,36 @@
   font-family: "Roboto-regular";
   font-size: 13px;
   margin: 0;
+}
+
+@media only screen and (min-width: 1023px) {
+  * body .nosotros__container .nosotros__card1 {
+    margin: 0 15%;
+  }
+  * body .nosotros__container .nosotros__card1 .card1__r {
+    width: 50%;
+    font-size: 25px;
+    padding: 50px 0 50px 70px;
+  }
+  * body .nosotros__container .nosotros__card1 .card1__r .card1__number {
+    font-size: 25px;
+    align-items: center;
+  }
+  * body .nosotros__container .nosotros__card1 .card1__r .card1__number > img {
+    width: 25px;
+    margin-right: 15px;
+  }
+  * body .nosotros__container .nosotros__card1 .card1__guy {
+    width: 450px;
+    right: 20px;
+    bottom: 0;
+  }
+  * body .nosotros__container .nosotros__labs > h6 {
+    font-family: "Pop-SemiBold";
+    font-size: 26px;
+    text-align: center;
+    margin-top: 70px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
