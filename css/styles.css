@@ -23,17 +23,18 @@
   padding: 0;
 }
 * body .nosotros__container {
-  margin: 150px 0;
+  padding: 150px 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0088410364) 0%, rgb(241, 241, 241) 100%);
 }
 * body .nosotros__container .nosotros__card1 {
+  background-color: white;
   display: flex;
   flex-direction: row;
   margin: 0 7%;
   position: relative;
   font-family: "Pop-mediun";
   border-radius: 15px;
-  box-shadow: 0px 0px 50px 250px rgba(0, 0, 0, 0.04);
-  z-index: -1;
+  box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.06);
 }
 * body .nosotros__container .nosotros__card1 .card1__r {
   width: 65%;
@@ -73,13 +74,14 @@
 }
 * body .nosotros__container .nosotros__labs .labs__brands {
   background-color: rgb(255, 255, 255);
-  padding: 20px 5px;
+  padding: 20px 45px;
   display: flex;
   align-items: center;
   margin-bottom: 30px;
   justify-content: center;
+  justify-content: space-evenly;
 }
-* body .nosotros__container .nosotros__labs .labs__brands > img {
+* body .nosotros__container .nosotros__labs .labs__brands > picture {
   transform: scale(70%);
 }
 * body .nosotros__container .nosotros__card2 {
@@ -87,18 +89,18 @@
   display: flex;
   box-shadow: none;
   flex-direction: row-reverse;
-  margin: 0 7%;
   border-radius: 15px;
   align-items: center;
-  padding: 5px 15px;
+  padding: 8px 1px;
+  margin: 0 7%;
 }
 * body .nosotros__container .nosotros__card2 .car2__logoContainer {
   width: 50%;
   display: flex;
   justify-content: center;
 }
-* body .nosotros__container .nosotros__card2 .car2__logoContainer > img {
-  width: 80px;
+* body .nosotros__container .nosotros__card2 .car2__logoContainer > picture > img {
+  width: 85px;
 }
 * body .nosotros__container .nosotros__card2 .card2__r {
   width: 50%;
@@ -107,12 +109,12 @@
   flex-direction: column;
 }
 * body .nosotros__container .nosotros__card2 .card2__r .card2__pB {
-  font-family: "Roboto-bold";
+  font-family: "Pop-SemiBold";
   font-size: 13px;
   margin: 0;
 }
 * body .nosotros__container .nosotros__card2 .card2__r .card2__pR {
-  font-family: "Roboto-regular";
+  font-family: "Pop-mediun";
   font-size: 13px;
   margin: 0;
 }
@@ -137,13 +139,37 @@
   * body .nosotros__container .nosotros__card1 .card1__guy {
     width: 450px;
     right: 20px;
-    bottom: 0;
   }
   * body .nosotros__container .nosotros__labs > h6 {
-    font-family: "Pop-SemiBold";
     font-size: 26px;
-    text-align: center;
-    margin-top: 70px;
+  }
+  * body .nosotros__container .nosotros__card2 {
+    padding: 8px 40px;
+    margin: 100px 20%;
+  }
+  * body .nosotros__container .nosotros__card2 .car2__logoContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  * body .nosotros__container .nosotros__card2 .car2__logoContainer > picture > img {
+    width: 170px;
+  }
+  * body .nosotros__container .nosotros__card2 .card2__r {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  * body .nosotros__container .nosotros__card2 .card2__r .card2__pB {
+    font-family: "Roboto-bold";
+    font-size: 20px;
+    margin: 0;
+  }
+  * body .nosotros__container .nosotros__card2 .card2__r .card2__pR {
+    font-family: "Roboto-regular";
+    font-size: 20px;
+    margin: 0;
   }
 }
 
