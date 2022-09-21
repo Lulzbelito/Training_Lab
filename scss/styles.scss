@@ -322,10 +322,134 @@
             }
         }
 
+        .nosotros__container {
+            padding: 10px 0 60px 0;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.008841036414565795) 0%, rgba(241, 241, 241, 1) 100%);
+            position: relative;
+            
+            .nosotros__card1 {
+                background-color: white;
+                display: flex;
+                flex-direction: row;
+                margin: 0 7%;
+                position: relative;
+                font-family: 'Pop-mediun';
+                border-radius: 15px;
+                box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.06);
+
+
+                .card1__r {
+                    width: 65%;
+                    font-size: 13px;
+                    padding: 15px 0 15px 40px;
+
+                    >p {
+                        margin-bottom: 10px;
+                    }
+
+                    .card1__number {
+                        display: flex;
+                        align-items: flex-start;
+                        color: $color-2;
+                        font-size: 15px;
+
+                        >p {
+                            margin: 0;
+                        }
+
+                        >img {
+                            width: 18px;
+                            margin-right: 15px;
+                        }
+                    }
+                }
+            }
+
+            .card1__guy {
+                transform: scaleX(-1);
+                width: 180px;
+                align-self: center;
+                position: absolute;
+                right: 15px;
+                bottom: 0;
+            }
+
+            .nosotros__labs {
+                >h6 {
+                    font-family: 'Pop-SemiBold';
+                    font-size: 13px;
+                    text-align: center;
+                    margin-top: 70px;
+                    margin-bottom: 20px;
+                }
+
+                .labs__brands {
+                    background-color: rgb(255, 255, 255);
+                    padding: 20px 45px;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 30px;
+                    justify-content: center;
+                    justify-content: space-evenly;
+
+                    >picture {
+                        transform: scale(70%);
+                    }
+                }
+            }
+
+            .nosotros__card2 {
+                position: absolute;
+                background-color: white;
+                display: flex;
+                box-shadow: none;
+                flex-direction: row-reverse;
+                border-radius: 15px;
+                align-items: center;
+                padding: 8px 10px;
+                width: 70%;
+                left: 50%;
+                transform: translate(-50%, 0);
+                bottom: -50px;
+                .car2__logoContainer {
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+
+                    >picture {
+                        >img {
+                            width: 85px;
+                        }
+                    }
+                }
+
+                .card2__r {
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    .card2__pB {
+                        font-family: 'Pop-SemiBold';
+                        font-size: 13px;
+                        margin: 0;
+                    }
+
+                    .card2__pR {
+                        font-family: 'Pop-mediun';
+                        font-size: 13px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
         .courses {
             @import "courses";
             @import "courses2";
         }
+
+
 
         footer {
             text-align: center;
@@ -430,6 +554,7 @@
                     width: 100%;
                     justify-content: space-between;
                     align-items: flex-start;
+
                     .nosotros__imgFiltrado {
                         display: block;
                         width: 190px;
@@ -449,7 +574,7 @@
 
                         .buscamos__haremos {
                             margin-left: 40px;
-                            
+
                             >h4 {
                                 font-size: 27px;
                             }
@@ -556,39 +681,108 @@
                 }
             }
 
+            .nosotros__container {
+                padding-bottom: 150px;
+                .nosotros__card1 {
+                    margin: 0 15%;
+
+                    .card1__r {
+                        width: 50%;
+                        font-size: 25px;
+                        padding: 50px 0 50px 70px;
+                        ;
+
+                        .card1__number {
+                            font-size: 25px;
+                            align-items: center;
+
+                            >img {
+                                width: 25px;
+                                margin-right: 15px;
+                            }
+                        }
+                    }
+
+                    .card1__guy {
+                        width: 450px;
+                        right: 20px;
+                    }
+                }
+
+                .nosotros__labs {
+                    >h6 {
+                        font-size: 26px;
+                    }
+                }
+
+                .nosotros__card2 {
+                    width: 60%;
+                    bottom: -80px;
+                    .car2__logoContainer {
+                        width: 50%;
+                        display: flex;
+                        justify-content: center;
+
+                        >picture {
+                            >img {
+                                width: 150px;
+                            }
+                        }
+                    }
+
+                    .card2__r {
+                        width: 50%;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+
+                        .card2__pB {
+                            font-family: 'Roboto-bold';
+                            font-size: 20px;
+                            margin: 0;
+                        }
+
+                        .card2__pR {
+                            font-family: 'Roboto-regular';
+                            font-size: 20px;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
             footer {
                 .footer__container {
+                    padding: 200px 0 100px 0;
                     justify-content: space-evenly;
-
                     .footer__contactanos {
                         display: flex;
-
+    
                         >h5 {
                             font-size: 17px;
                             margin-right: 15px;
                         }
-
+    
                         >p {
                             font-size: 17px;
                         }
                     }
-
+    
                     .footer__seguinos {
                         display: flex;
                         align-items: center;
                         margin: 0;
-
+    
                         >h5 {
                             font-size: 17px;
                             margin: 0 15px 0 0;
                         }
-
+    
                         .footer__redes {
                             >a {
                                 >img {
                                     width: 45px;
                                     transition: width 0.2s;
-
+    
                                     &:hover {
                                         width: 55px;
                                     }
@@ -599,8 +793,10 @@
                 }
             }
         }
+        
     }
 }
+
 
 @media only screen and (min-width: 1320px) {
     .nosotros__beneficios {
