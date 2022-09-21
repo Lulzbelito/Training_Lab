@@ -554,7 +554,7 @@
     font-family: 'Roboto-bold';
     src: url(../roboto/Roboto-Bold.ttf); } }
       * body .courses .courses-1 {
-        height: 1250px; }
+        height: 1400px; }
         * body .courses .courses-1 .bg {
           background-image: url("../img/courses1.png");
           background-repeat: no-repeat;
