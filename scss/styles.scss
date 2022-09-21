@@ -408,7 +408,7 @@
                 .nosotros__acercaDe {
                     position: absolute;
                     width: 470px;
-                    top: 830px;
+                    top: 2100px;
                     left: 70%;
                     transform: translate(-70%);
                     padding: 18px 20px 8px 20px;
@@ -429,8 +429,7 @@
                     flex-direction: row-reverse;
                     width: 100%;
                     justify-content: space-between;
-                    align-items: center;
-
+                    align-items: flex-start;
                     .nosotros__imgFiltrado {
                         display: block;
                         width: 190px;
@@ -438,7 +437,7 @@
                     }
 
                     .buscamos__container {
-                        margin: 0 0 0 150px;
+                        margin: 0 0 100px 150px;
                         width: 50%;
                         padding-right: 15%;
 
@@ -450,7 +449,7 @@
 
                         .buscamos__haremos {
                             margin-left: 40px;
-
+                            
                             >h4 {
                                 font-size: 27px;
                             }
