@@ -40,9 +40,9 @@
 
                 p {
                     font-family: 'Poppins';
-                    font-weight: 600;
-                    font-size: 24px;
-                    line-height: 26px;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 24px;
                 }
             }
         }
@@ -73,6 +73,15 @@
             .paragraph {
                 justify-content: center;
                 padding-left: 170px;
+
+                .box {
+                    p {
+                        font-family: 'Pop-ligth';
+                        line-height: 1.3;
+                        font-size: 13px;
+                        font-size: $size-m10;
+                    }
+                }
             }
         }
     }

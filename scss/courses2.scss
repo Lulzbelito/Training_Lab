@@ -1,201 +1,198 @@
 @import "./variables.scss";
 
-.courses-1 {
-    height: 1250px;
+.courses-2 {
+    width: 100%;
+    height: 700px;
+    background: url("../img/4.0.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 
-    .bg {
-        background-image: url("../img/courses1.png");
-        height: 410px;
-    }
+    .row {
+        width: 100%;
+        display: flex;
 
-    .our {
-
-        .paragraph {
-            margin-top: 50px;
-            margin-left: 250px;
-            width: 550px;
-
-            h2 {
-                font-family: 'Poppins';
-                font-weight: 700;
-                font-size: $size-m40;
-                color: $color-2;
-            }
-
-            h3 {
-                font-family: 'Poppins';
-                font-weight: 600;
-                font-size: $size-m24;
-            }
-
-            p {
-                font-family: 'Roboto', sans-serif;
-                font-style: normal;
-                font-weight: 300;
-                font-size: 18px;
-                line-height: 24px;
-
-                text-align: justify;
-                margin: 0;
-            }
-
+        .col {
+            height: 700px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
-        .box {
-            display: flex;
-            justify-content: center;
+        .training {
+            align-items: end;
 
-            .categories {
-                display: flex;
-                flex-direction: column;
-                max-width: 888px;
+            .box {
+                background-color: white;
+                width: 349px;
+                height: 521px;
+                margin-right: 82px;
+                border-radius: 30px;
 
-                margin-top: 50px;
+                .front-page {
+                    width: 100%;
+                    height: 188px;
+                    background: url("../img/4.1.png");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
 
-                .category-1,
-                .category-2,
-                .category-3,
-                .category-4 {
-                    min-width: 888px;
-                    height: 79px;
-                    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+                .box2 {
+                    min-width: 349px;
+                    height: 333px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 300px;
 
-                    margin-top: 15px;
-
-                    .row {
-
-                        .col {
-                            display: flex;
-                            align-items: center;
-                            height: 79px;
-                        }
-
-                        .title {
-                            p {
-                                margin: 0;
-                                font-family: 'Poppins';
-                                font-weight: 500;
-                                font-size: 18px;
-                                margin-left: 73px;
-                            }
-                        }
-
-                        .col-view {
-                            justify-content: end;
-
-                            font-family: 'Poppins';
-                            font-weight: 500;
-                            font-size: 17px;
-
-                            .btn-view {
-                                margin-right: 82px;
-                                color: $color-2;
-                                border: none;
-                            }
-
-                            .btn-view:hover {
-                                background-color: white;
-                                color: $color-1;
-                            }
-
-                            .btn-view:focus {
-                                box-shadow: none;
-                                background-color: white !important;
-                                color: $color-1;
-                            }
-                        }
-
+                    .title {
+                        font-family: 'Poppins';
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 25px;
+                        width: 300px;
+                        margin-left: 45px;
                     }
+
+                    .p1 {
+                        font-family: 'Poppins';
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 24px;
+                        width: 250px;
+                    }
+
+                    .btn2 {
+                        color: white;
+                        background-color: $color-2;
+                        border: none;
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 18px;
+                        font-weight: 500;
+                        border-radius: 50px;
+                        padding: 10px 80px;
+
+                        text-align: center;
+                        letter-spacing: 0.01em;
+                    }
+
+                    .btn2:hover {
+                        background-color: $color-1;
+                    }
+
+                    .btn2:focus {
+                        box-shadow: none !important;
+                        background-color: $color-1;
+                    }
+
                 }
             }
 
         }
 
-    }
-}
+        .featured-course {
 
-@media screen and (max-width: 767px) {
-
-    .courses-1 {
-        margin-top: 25px;
-    }
-
-    .bg {
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 250px !important;
-    }
-
-    .our {
-        .paragraph {
-            width: 250px !important;
-            margin-left: 30px !important;
-
-            h2 {
-                font-weight: 600 !important;
-                font-size: $size-m14  !important;
-            }
-
-            h3 {
-                font-weight: 500 !important;
-                font-size: $size-m10  !important;
-            }
-
-            p {
-                font-weight: 400 !important;
-                font-size: $size-m10  !important;
-
-                line-height: 12px !important;
-            }
-        }
-    }
-
-    .categories {
-
-        .category-1,
-        .category-2,
-        .category-3,
-        .category-4 {
-            min-width: 450px !important;
-
-            .row {
+            .box {
+                width: 370px;
 
                 .title {
-                    p {
-                        font-size: $size-m10  !important;
-                        margin-left: 25px !important;
-                    }
+                    font-family: 'Poppins';
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 26px;
+                    letter-spacing: 0.015em;
+
+                    color: $color-2;
                 }
 
-                .col-view {
-
-                    .btn-view {
-                        font-size: 10px;
-                        margin-right: 25px !important;
-                    }
-
+                .paragraph {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 24px;
                 }
-
             }
-        }
 
+        }
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 426px) {
 
-    .paragraph {
-        margin-left: 110px !important;
+    .courses-2 {
+        .row {
+            width: 100% !important;
+
+            .training {
+
+                .title-box::after {
+                    margin-right: 160px !important;
+                }
+
+                .box {
+                    margin-right: 50px !important;
+                }
+            }
+        }
     }
 
-    .categories {
+}
 
-        .category-1,
-        .category-2,
-        .category-3,
-        .category-4 {
-            min-width: 600px !important;
+@media screen and (max-width: 769px) {
+    .courses-2 {
+        height: 800px;
+
+        .row {
+            .training {
+                padding-top: 20px;
+                height: 800px;
+
+                .title-box::after {
+                    font-weight: bold;
+                    color: $color-2;
+                    margin-right: 270px;
+
+                    font-family: 'Poppins';
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 16px;
+
+                    content: "Curso destacado";
+                }
+
+                .box {
+                    width: 349px;
+                    height: 700px;
+                    border-radius: 30px;
+                    margin-right: 175px;
+
+                    .box2 {
+                        height: 511px;
+
+                        .p1 {
+                            font-size: 13px;
+                        }
+
+                        .p2 {
+                            width: 250px;
+                        }
+
+                        .p2::after {
+                            font-family: 'Poppins';
+                            font-weight: 400;
+                            line-height: 24px;
+                            font-size: 13px;
+                            content: "Creamos un entrenamiento exclusivo en AAS, diseñado para que aprendas y potencies tus conocimientos en una de las técnicas instrumentales más utilizadas en la industria. El modelo es asíncrono Clases en vivo (Remoto) y Sesiones presenciales en Laboratorio";
+
+                        }
+                    }
+                }
+            }
+
+            .featured-course {
+                display: none
+            }
         }
-
     }
 }
