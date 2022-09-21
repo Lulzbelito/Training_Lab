@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;500;600;700&family=Roboto:wght@300&display=swap");
 @font-face {
   font-family: 'Pop-SemiBold';
   src: url(../poppins/Poppins-SemiBold.ttf); }
@@ -59,7 +58,7 @@
     background-position: -10px -30px; }
     .presentation .box {
       position: absolute;
-      height: 450;
+      height: 450px;
       width: 200px;
       margin-top: 50px;
       margin-left: 30px; }

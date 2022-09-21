@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;500;600;700&family=Roboto:wght@300&display=swap");
 @font-face {
   font-family: "Pop-SemiBold";
   src: url(../poppins/Poppins-SemiBold.ttf);
@@ -11,6 +10,14 @@
 @font-face {
   font-family: "Pop-mediun";
   src: url(../poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto-regular";
+  src: url(../roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto-bold";
+  src: url(../roboto/Roboto-Bold.ttf);
 }
 * {
   margin: 0;
@@ -101,12 +108,9 @@
 }
 * body main {
   grid-area: main;
-  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;500;600;700&family=Roboto:wght@300&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;500;600;700&family=Roboto:wght@300&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;500;600;700&family=Roboto:wght@300&display=swap");
 }
 @font-face {
   * body main {
@@ -124,6 +128,18 @@
   * body main {
     font-family: "Pop-mediun";
     src: url(../poppins/Poppins-Medium.ttf);
+  }
+}
+@font-face {
+  * body main {
+    font-family: "Roboto-regular";
+    src: url(../roboto/Roboto-Regular.ttf);
+  }
+}
+@font-face {
+  * body main {
+    font-family: "Roboto-bold";
+    src: url(../roboto/Roboto-Bold.ttf);
   }
 }
 * body main .presentation {
@@ -180,7 +196,7 @@
   }
   * body main .presentation .box {
     position: absolute;
-    height: 450;
+    height: 450px;
     width: 200px;
     margin-top: 50px;
     margin-left: 30px;
@@ -230,6 +246,18 @@
   * body main {
     font-family: "Pop-mediun";
     src: url(../poppins/Poppins-Medium.ttf);
+  }
+}
+@font-face {
+  * body main {
+    font-family: "Roboto-regular";
+    src: url(../roboto/Roboto-Regular.ttf);
+  }
+}
+@font-face {
+  * body main {
+    font-family: "Roboto-bold";
+    src: url(../roboto/Roboto-Bold.ttf);
   }
 }
 * body main .presentation2 {
@@ -338,6 +366,18 @@
     src: url(../poppins/Poppins-Medium.ttf);
   }
 }
+@font-face {
+  * body main {
+    font-family: "Roboto-regular";
+    src: url(../roboto/Roboto-Regular.ttf);
+  }
+}
+@font-face {
+  * body main {
+    font-family: "Roboto-bold";
+    src: url(../roboto/Roboto-Bold.ttf);
+  }
+}
 * body main .presentation3 {
   background-color: #F4F4F4;
   height: 400px;
@@ -434,18 +474,6 @@
     height: 250px;
     margin-right: 100px;
   }
-}
-* body footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  grid-area: footer;
-}
-* body footer .footer__paragraph {
-  background-color: #233545;
-  color: white;
-  margin: 0;
 }
 * body .section__nosotros {
   display: flex;
@@ -616,6 +644,421 @@
 * body .section__nosotros .nosotros__beneficios .beneficios__card--desktop {
   display: none;
 }
+* body .courses {
+  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;500;600;700&family=Roboto:wght@300&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;500;600;700&family=Roboto:wght@300&display=swap");
+}
+@font-face {
+  * body .courses {
+    font-family: "Pop-SemiBold";
+    src: url(../poppins/Poppins-SemiBold.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Pop-ligth";
+    src: url(../poppins/Poppins-Light.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Pop-mediun";
+    src: url(../poppins/Poppins-Medium.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Roboto-regular";
+    src: url(../roboto/Roboto-Regular.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Roboto-bold";
+    src: url(../roboto/Roboto-Bold.ttf);
+  }
+}
+* body .courses .courses-1 {
+  height: 1250px;
+}
+* body .courses .courses-1 .bg {
+  background-image: url("../img/courses1.png");
+  height: 410px;
+}
+* body .courses .courses-1 .our .paragraph {
+  margin-top: 50px;
+  margin-left: 250px;
+  width: 550px;
+}
+* body .courses .courses-1 .our .paragraph h2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 40px;
+  color: #22B6AF;
+}
+* body .courses .courses-1 .our .paragraph h3 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+}
+* body .courses .courses-1 .our .paragraph p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
+  margin: 0;
+}
+* body .courses .courses-1 .our .box {
+  display: flex;
+  justify-content: center;
+}
+* body .courses .courses-1 .our .box .categories {
+  display: flex;
+  flex-direction: column;
+  max-width: 888px;
+  margin-top: 50px;
+}
+* body .courses .courses-1 .our .box .categories .category-1,
+* body .courses .courses-1 .our .box .categories .category-2,
+* body .courses .courses-1 .our .box .categories .category-3,
+* body .courses .courses-1 .our .box .categories .category-4 {
+  min-width: 888px;
+  height: 79px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  margin-top: 15px;
+}
+* body .courses .courses-1 .our .box .categories .category-1 .row .col,
+* body .courses .courses-1 .our .box .categories .category-2 .row .col,
+* body .courses .courses-1 .our .box .categories .category-3 .row .col,
+* body .courses .courses-1 .our .box .categories .category-4 .row .col {
+  display: flex;
+  align-items: center;
+  height: 79px;
+}
+* body .courses .courses-1 .our .box .categories .category-1 .row .title p,
+* body .courses .courses-1 .our .box .categories .category-2 .row .title p,
+* body .courses .courses-1 .our .box .categories .category-3 .row .title p,
+* body .courses .courses-1 .our .box .categories .category-4 .row .title p {
+  margin: 0;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 73px;
+}
+* body .courses .courses-1 .our .box .categories .category-1 .row .col-view,
+* body .courses .courses-1 .our .box .categories .category-2 .row .col-view,
+* body .courses .courses-1 .our .box .categories .category-3 .row .col-view,
+* body .courses .courses-1 .our .box .categories .category-4 .row .col-view {
+  justify-content: end;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 17px;
+}
+* body .courses .courses-1 .our .box .categories .category-1 .row .col-view .btn-view,
+* body .courses .courses-1 .our .box .categories .category-2 .row .col-view .btn-view,
+* body .courses .courses-1 .our .box .categories .category-3 .row .col-view .btn-view,
+* body .courses .courses-1 .our .box .categories .category-4 .row .col-view .btn-view {
+  margin-right: 82px;
+  color: #22B6AF;
+  border: none;
+}
+* body .courses .courses-1 .our .box .categories .category-1 .row .col-view .btn-view:hover,
+* body .courses .courses-1 .our .box .categories .category-2 .row .col-view .btn-view:hover,
+* body .courses .courses-1 .our .box .categories .category-3 .row .col-view .btn-view:hover,
+* body .courses .courses-1 .our .box .categories .category-4 .row .col-view .btn-view:hover {
+  background-color: white;
+  color: #233545;
+}
+* body .courses .courses-1 .our .box .categories .category-1 .row .col-view .btn-view:focus,
+* body .courses .courses-1 .our .box .categories .category-2 .row .col-view .btn-view:focus,
+* body .courses .courses-1 .our .box .categories .category-3 .row .col-view .btn-view:focus,
+* body .courses .courses-1 .our .box .categories .category-4 .row .col-view .btn-view:focus {
+  box-shadow: none;
+  background-color: white !important;
+  color: #233545;
+}
+@media screen and (max-width: 767px) {
+  * body .courses .courses-1 {
+    margin-top: 25px;
+  }
+  * body .courses .bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px !important;
+  }
+  * body .courses .our .paragraph {
+    width: 250px !important;
+    margin-left: 30px !important;
+  }
+  * body .courses .our .paragraph h2 {
+    font-weight: 600 !important;
+    font-size: 14px !important;
+  }
+  * body .courses .our .paragraph h3 {
+    font-weight: 500 !important;
+    font-size: 10px !important;
+  }
+  * body .courses .our .paragraph p {
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 12px !important;
+  }
+  * body .courses .categories .category-1,
+* body .courses .categories .category-2,
+* body .courses .categories .category-3,
+* body .courses .categories .category-4 {
+    min-width: 450px !important;
+  }
+  * body .courses .categories .category-1 .row .title p,
+* body .courses .categories .category-2 .row .title p,
+* body .courses .categories .category-3 .row .title p,
+* body .courses .categories .category-4 .row .title p {
+    font-size: 10px !important;
+    margin-left: 25px !important;
+  }
+  * body .courses .categories .category-1 .row .col-view .btn-view,
+* body .courses .categories .category-2 .row .col-view .btn-view,
+* body .courses .categories .category-3 .row .col-view .btn-view,
+* body .courses .categories .category-4 .row .col-view .btn-view {
+    font-size: 10px;
+    margin-right: 25px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  * body .courses .paragraph {
+    margin-left: 110px !important;
+  }
+  * body .courses .categories .category-1,
+* body .courses .categories .category-2,
+* body .courses .categories .category-3,
+* body .courses .categories .category-4 {
+    min-width: 600px !important;
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Pop-SemiBold";
+    src: url(../poppins/Poppins-SemiBold.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Pop-ligth";
+    src: url(../poppins/Poppins-Light.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Pop-mediun";
+    src: url(../poppins/Poppins-Medium.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Roboto-regular";
+    src: url(../roboto/Roboto-Regular.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Roboto-bold";
+    src: url(../roboto/Roboto-Bold.ttf);
+  }
+}
+* body .courses .courses-1 {
+  height: 1250px;
+}
+* body .courses .courses-1 .bg {
+  background-image: url("../img/courses1.png");
+  height: 410px;
+}
+* body .courses .courses-1 .our .paragraph {
+  margin-top: 50px;
+  margin-left: 250px;
+  width: 550px;
+}
+* body .courses .courses-1 .our .paragraph h2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 40px;
+  color: #22B6AF;
+}
+* body .courses .courses-1 .our .paragraph h3 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+}
+* body .courses .courses-1 .our .paragraph p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
+  margin: 0;
+}
+* body .courses .courses-1 .our .box {
+  display: flex;
+  justify-content: center;
+}
+* body .courses .courses-1 .our .box .categories {
+  display: flex;
+  flex-direction: column;
+  max-width: 888px;
+  margin-top: 50px;
+}
+* body .courses .courses-1 .our .box .categories .category-1,
+* body .courses .courses-1 .our .box .categories .category-2,
+* body .courses .courses-1 .our .box .categories .category-3,
+* body .courses .courses-1 .our .box .categories .category-4 {
+  min-width: 888px;
+  height: 79px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  margin-top: 15px;
+}
+* body .courses .courses-1 .our .box .categories .category-1 .row .col,
+* body .courses .courses-1 .our .box .categories .category-2 .row .col,
+* body .courses .courses-1 .our .box .categories .category-3 .row .col,
+* body .courses .courses-1 .our .box .categories .category-4 .row .col {
+  display: flex;
+  align-items: center;
+  height: 79px;
+}
+* body .courses .courses-1 .our .box .categories .category-1 .row .title p,
+* body .courses .courses-1 .our .box .categories .category-2 .row .title p,
+* body .courses .courses-1 .our .box .categories .category-3 .row .title p,
+* body .courses .courses-1 .our .box .categories .category-4 .row .title p {
+  margin: 0;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 73px;
+}
+* body .courses .courses-1 .our .box .categories .category-1 .row .col-view,
+* body .courses .courses-1 .our .box .categories .category-2 .row .col-view,
+* body .courses .courses-1 .our .box .categories .category-3 .row .col-view,
+* body .courses .courses-1 .our .box .categories .category-4 .row .col-view {
+  justify-content: end;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 17px;
+}
+* body .courses .courses-1 .our .box .categories .category-1 .row .col-view .btn-view,
+* body .courses .courses-1 .our .box .categories .category-2 .row .col-view .btn-view,
+* body .courses .courses-1 .our .box .categories .category-3 .row .col-view .btn-view,
+* body .courses .courses-1 .our .box .categories .category-4 .row .col-view .btn-view {
+  margin-right: 82px;
+  color: #22B6AF;
+  border: none;
+}
+* body .courses .courses-1 .our .box .categories .category-1 .row .col-view .btn-view:hover,
+* body .courses .courses-1 .our .box .categories .category-2 .row .col-view .btn-view:hover,
+* body .courses .courses-1 .our .box .categories .category-3 .row .col-view .btn-view:hover,
+* body .courses .courses-1 .our .box .categories .category-4 .row .col-view .btn-view:hover {
+  background-color: white;
+  color: #233545;
+}
+* body .courses .courses-1 .our .box .categories .category-1 .row .col-view .btn-view:focus,
+* body .courses .courses-1 .our .box .categories .category-2 .row .col-view .btn-view:focus,
+* body .courses .courses-1 .our .box .categories .category-3 .row .col-view .btn-view:focus,
+* body .courses .courses-1 .our .box .categories .category-4 .row .col-view .btn-view:focus {
+  box-shadow: none;
+  background-color: white !important;
+  color: #233545;
+}
+@media screen and (max-width: 767px) {
+  * body .courses .courses-1 {
+    margin-top: 25px;
+  }
+  * body .courses .bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px !important;
+  }
+  * body .courses .our .paragraph {
+    width: 250px !important;
+    margin-left: 30px !important;
+  }
+  * body .courses .our .paragraph h2 {
+    font-weight: 600 !important;
+    font-size: 14px !important;
+  }
+  * body .courses .our .paragraph h3 {
+    font-weight: 500 !important;
+    font-size: 10px !important;
+  }
+  * body .courses .our .paragraph p {
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 12px !important;
+  }
+  * body .courses .categories .category-1,
+* body .courses .categories .category-2,
+* body .courses .categories .category-3,
+* body .courses .categories .category-4 {
+    min-width: 450px !important;
+  }
+  * body .courses .categories .category-1 .row .title p,
+* body .courses .categories .category-2 .row .title p,
+* body .courses .categories .category-3 .row .title p,
+* body .courses .categories .category-4 .row .title p {
+    font-size: 10px !important;
+    margin-left: 25px !important;
+  }
+  * body .courses .categories .category-1 .row .col-view .btn-view,
+* body .courses .categories .category-2 .row .col-view .btn-view,
+* body .courses .categories .category-3 .row .col-view .btn-view,
+* body .courses .categories .category-4 .row .col-view .btn-view {
+    font-size: 10px;
+    margin-right: 25px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  * body .courses .paragraph {
+    margin-left: 110px !important;
+  }
+  * body .courses .categories .category-1,
+* body .courses .categories .category-2,
+* body .courses .categories .category-3,
+* body .courses .categories .category-4 {
+    min-width: 600px !important;
+  }
+}
+* body footer {
+  text-align: center;
+  color: white;
+  font-family: "Roboto-regular";
+  letter-spacing: 1.2px;
+}
+* body footer .footer__container {
+  height: 200px;
+  background-color: #22B6AF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+* body footer .footer__container .footer__contactanos {
+  margin-top: 20px;
+}
+* body footer .footer__container .footer__contactanos > h5 {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+* body footer .footer__container .footer__contactanos > p {
+  font-size: 13px;
+  font-family: "Roboto-bold";
+}
+* body footer .footer__container .footer__seguinos > h5 {
+  font-size: 13px;
+}
+* body footer .footer__container .footer__seguinos .footer__redes > a {
+  text-decoration: none;
+}
+* body footer .footer__container .footer__seguinos .footer__redes > a > img {
+  width: 37px;
+}
 
 @media only screen and (min-width: 1023px) {
   * body .section__nosotros .nosotros__bkg {
@@ -642,7 +1085,7 @@
   * body .section__nosotros .nosotros__acercaDe {
     position: absolute;
     width: 470px;
-    top: 830px;
+    top: 2100px;
     left: 70%;
     transform: translate(-70%);
     padding: 18px 20px 8px 20px;
@@ -660,7 +1103,7 @@
     flex-direction: row-reverse;
     width: 100%;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
   }
   * body .section__nosotros .nosotros__buscamos .nosotros__imgFiltrado {
     display: block;
@@ -668,7 +1111,7 @@
     margin-right: 25%;
   }
   * body .section__nosotros .nosotros__buscamos .buscamos__container {
-    margin: 0 0 0 150px;
+    margin: 0 0 100px 150px;
     width: 50%;
     padding-right: 15%;
   }
@@ -714,6 +1157,7 @@
   * body .section__nosotros .nosotros__beneficios {
     align-items: flex-start;
     width: 67%;
+    height: 950px;
   }
   * body .section__nosotros .nosotros__beneficios .beneficios__cardContainer {
     display: flex;
@@ -758,6 +1202,40 @@
   }
   * body .section__nosotros .nosotros__beneficios .beneficios__card--desktop .potencia__span {
     color: #22B6AF;
+  }
+  * body footer .footer__container {
+    justify-content: space-evenly;
+  }
+  * body footer .footer__container .footer__contactanos {
+    display: flex;
+  }
+  * body footer .footer__container .footer__contactanos > h5 {
+    font-size: 17px;
+    margin-right: 15px;
+  }
+  * body footer .footer__container .footer__contactanos > p {
+    font-size: 17px;
+  }
+  * body footer .footer__container .footer__seguinos {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+  * body footer .footer__container .footer__seguinos > h5 {
+    font-size: 17px;
+    margin: 0 15px 0 0;
+  }
+  * body footer .footer__container .footer__seguinos .footer__redes > a > img {
+    width: 45px;
+    transition: width 0.2s;
+  }
+  * body footer .footer__container .footer__seguinos .footer__redes > a > img:hover {
+    width: 55px;
+  }
+}
+@media only screen and (min-width: 1320px) {
+  .nosotros__beneficios {
+    max-height: 750px;
   }
 }
 

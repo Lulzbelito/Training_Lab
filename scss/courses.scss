@@ -1,0 +1,201 @@
+@import "./variables.scss";
+
+.courses-1 {
+    height: 1250px;
+
+    .bg {
+        background-image: url("../img/courses1.png");
+        height: 410px;
+    }
+
+    .our {
+
+        .paragraph {
+            margin-top: 50px;
+            margin-left: 250px;
+            width: 550px;
+
+            h2 {
+                font-family: 'Poppins';
+                font-weight: 700;
+                font-size: $size-m40;
+                color: $color-2;
+            }
+
+            h3 {
+                font-family: 'Poppins';
+                font-weight: 600;
+                font-size: $size-m24;
+            }
+
+            p {
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 24px;
+
+                text-align: justify;
+                margin: 0;
+            }
+
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+
+            .categories {
+                display: flex;
+                flex-direction: column;
+                max-width: 888px;
+
+                margin-top: 50px;
+
+                .category-1,
+                .category-2,
+                .category-3,
+                .category-4 {
+                    min-width: 888px;
+                    height: 79px;
+                    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+
+                    margin-top: 15px;
+
+                    .row {
+
+                        .col {
+                            display: flex;
+                            align-items: center;
+                            height: 79px;
+                        }
+
+                        .title {
+                            p {
+                                margin: 0;
+                                font-family: 'Poppins';
+                                font-weight: 500;
+                                font-size: 18px;
+                                margin-left: 73px;
+                            }
+                        }
+
+                        .col-view {
+                            justify-content: end;
+
+                            font-family: 'Poppins';
+                            font-weight: 500;
+                            font-size: 17px;
+
+                            .btn-view {
+                                margin-right: 82px;
+                                color: $color-2;
+                                border: none;
+                            }
+
+                            .btn-view:hover {
+                                background-color: white;
+                                color: $color-1;
+                            }
+
+                            .btn-view:focus {
+                                box-shadow: none;
+                                background-color: white !important;
+                                color: $color-1;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .courses-1 {
+        margin-top: 25px;
+    }
+
+    .bg {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px !important;
+    }
+
+    .our {
+        .paragraph {
+            width: 250px !important;
+            margin-left: 30px !important;
+
+            h2 {
+                font-weight: 600 !important;
+                font-size: $size-m14  !important;
+            }
+
+            h3 {
+                font-weight: 500 !important;
+                font-size: $size-m10  !important;
+            }
+
+            p {
+                font-weight: 400 !important;
+                font-size: $size-m10  !important;
+
+                line-height: 12px !important;
+            }
+        }
+    }
+
+    .categories {
+
+        .category-1,
+        .category-2,
+        .category-3,
+        .category-4 {
+            min-width: 450px !important;
+
+            .row {
+
+                .title {
+                    p {
+                        font-size: $size-m10  !important;
+                        margin-left: 25px !important;
+                    }
+                }
+
+                .col-view {
+
+                    .btn-view {
+                        font-size: 10px;
+                        margin-right: 25px !important;
+                    }
+
+                }
+
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .paragraph {
+        margin-left: 110px !important;
+    }
+
+    .categories {
+
+        .category-1,
+        .category-2,
+        .category-3,
+        .category-4 {
+            min-width: 600px !important;
+        }
+
+    }
+}

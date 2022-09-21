@@ -121,22 +121,6 @@
 
         }
 
-
-
-        footer {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            grid-area: footer;
-
-            .footer__paragraph {
-                background-color: $color-1;
-                color: white;
-                margin: 0;
-            }
-        }
-
         .section__nosotros {
             display: flex;
             flex-direction: column;
@@ -337,6 +321,57 @@
                 }
             }
         }
+
+        .courses {
+            @import "courses";
+            @import "courses2";
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            font-family: 'Roboto-regular';
+            letter-spacing: 1.2px;
+
+            .footer__container {
+                height: 200px;
+                background-color: $color-2;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .footer__contactanos {
+                    margin-top: 20px;
+
+                    >h5 {
+                        font-size: 13px;
+                        margin-bottom: 20px;
+
+                    }
+
+                    >p {
+                        font-size: 13px;
+                        font-family: 'Roboto-bold';
+                    }
+                }
+
+                .footer__seguinos {
+                    >h5 {
+                        font-size: 13px;
+                    }
+
+                    .footer__redes {
+                        >a {
+                            text-decoration: none;
+
+                            >img {
+                                width: 37px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -373,7 +408,7 @@
                 .nosotros__acercaDe {
                     position: absolute;
                     width: 470px;
-                    top: 830px;
+                    top: 2100px;
                     left: 70%;
                     transform: translate(-70%);
                     padding: 18px 20px 8px 20px;
@@ -394,8 +429,7 @@
                     flex-direction: row-reverse;
                     width: 100%;
                     justify-content: space-between;
-                    align-items: center;
-
+                    align-items: flex-start;
                     .nosotros__imgFiltrado {
                         display: block;
                         width: 190px;
@@ -403,7 +437,7 @@
                     }
 
                     .buscamos__container {
-                        margin: 0 0 0 150px;
+                        margin: 0 0 100px 150px;
                         width: 50%;
                         padding-right: 15%;
 
@@ -415,7 +449,7 @@
 
                         .buscamos__haremos {
                             margin-left: 40px;
-
+                            
                             >h4 {
                                 font-size: 27px;
                             }
@@ -463,6 +497,8 @@
                 .nosotros__beneficios {
                     align-items: flex-start;
                     width: 67%;
+                    height: 950px;
+
 
                     .beneficios__cardContainer {
                         display: flex;
@@ -519,6 +555,55 @@
                     }
                 }
             }
+
+            footer {
+                .footer__container {
+                    justify-content: space-evenly;
+
+                    .footer__contactanos {
+                        display: flex;
+
+                        >h5 {
+                            font-size: 17px;
+                            margin-right: 15px;
+                        }
+
+                        >p {
+                            font-size: 17px;
+                        }
+                    }
+
+                    .footer__seguinos {
+                        display: flex;
+                        align-items: center;
+                        margin: 0;
+
+                        >h5 {
+                            font-size: 17px;
+                            margin: 0 15px 0 0;
+                        }
+
+                        .footer__redes {
+                            >a {
+                                >img {
+                                    width: 45px;
+                                    transition: width 0.2s;
+
+                                    &:hover {
+                                        width: 55px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
+    }
+}
+
+@media only screen and (min-width: 1320px) {
+    .nosotros__beneficios {
+        max-height: 750px;
     }
 }
