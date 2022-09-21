@@ -5,7 +5,9 @@
 
     .bg {
         background-image: url("../img/courses1.png");
-        height: 410px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 570px;
     }
 
     .our {
