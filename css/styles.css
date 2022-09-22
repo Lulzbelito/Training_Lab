@@ -333,7 +333,8 @@
               * body main .presentation3 .row .paragraph .box .classes {
                 margin-bottom: 15px; }
               * body main .presentation3 .row .paragraph .box p {
-                font-family: 'Poppins';
+                font-family: 'Pop-ligth';
+                line-height: 1.3;
                 font-size: 18px; }
                 * body main .presentation3 .row .paragraph .box p span {
                   font-weight: 900; }
@@ -788,7 +789,7 @@
             * body .courses .courses-1 .our .box .categories .category-2 .row .col-view .btn-view,
             * body .courses .courses-1 .our .box .categories .category-3 .row .col-view .btn-view,
             * body .courses .courses-1 .our .box .categories .category-4 .row .col-view .btn-view {
-              font-size: 10px;
+              font-size: 13px;
               margin-right: 25px !important; } }
       @media screen and (min-width: 768px) and (max-width: 1023px) {
         * body .courses .paragraph {
