@@ -24,23 +24,21 @@
             .box-nav {
                 background-color: white;
                 padding: 0 0;
+                display: flex;
+                justify-content: space-evenly;
 
                 .box-title {
                     margin-top: 20px;
                 }
 
                 .header__title {
-                    text-align: center;
-                    margin: 20px 0 20px 0;
+                    text-align: left;
+                    margin: 20px 0 20px 23%;
                     font-size: 35px;
                     color: $color-1;
                     font-family: 'Gentium Book Plus', serif;
                     font-weight: 900;
                 }
-
-                // .box-container {
-                //     margin: -20px -12px;
-                // }
 
                 .box-buttons {
                     text-align: end;
@@ -111,15 +109,128 @@
             }
         }
 
-        main {
-            grid-area: main;
+        .section__presentacion {
+            margin-top: 80px;
+            position: relative;
 
-            @import "presentation";
+            .presentacion__bkg {
+                display: flex;
+                align-items: center;
+                background-image: url("../img/1.png");
+                width: 100%;
+                height: 360px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position-x: 30%;
+                background-position-y: 25%;
+            }
 
-            @import "presentation2";
+            .presentacion__texto {
+                width: 60%;
+                padding-left: 20px;
 
-            @import "presentation3";
+                >picture {
+                    margin-left: 20px;
+                }
 
+                >h6 {
+                    font-family: 'Pop-ligth';
+                    font-size: 13px;
+                }
+
+                >h1 {
+                    font-family: 'Pop-Bold';
+                    font-size: 24px;
+                    color: $color-2;
+                    line-height: 1;
+
+                    >span {
+                        color: $color-1;
+                    }
+                }
+
+                >p {
+                    font-family: 'Pop-Regular';
+                    font-size: 14px;
+                }
+            }
+
+            .diploma__container {
+                padding-bottom: 150px;
+                position: relative;
+
+                .presentacion__diploma {
+
+                    >img {
+                        box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.09);
+                        width: 280px;
+                        position: absolute;
+                        left: 50%;
+                        transform: translate(-50%, 0);
+                        bottom: -2px;
+                    }
+                }
+            }
+
+            .diploma__container--desktop {
+                .diploma--desktop {
+                    display: none;
+                }
+
+                .presentacion__certificate {
+                    margin: 30px 30%;
+
+                    >p {
+                        margin-top: 5px;
+                        font-family: 'Pop-mediun';
+                        font-size: 16px;
+                        line-height: 1.1;
+
+                        >span {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+
+
+            .presentacion__clases {
+                margin-top: 50px;
+                background: linear-gradient(0deg, rgba(0,0,0,0.008841036414565795) 0%, rgba(0,0,0,0.03405112044817926) 100%);
+                .clases__container {
+                    position: relative;
+                    top: -20px;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+
+                    >picture {
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    .clases__img {
+                        width: 60%;
+
+                    }
+                }
+
+                .presentacion__clasesHibridas {
+                    margin: 30px 30%;
+
+                    >p {
+                        margin-top: 5px;
+                        font-family: 'Pop-Regular';
+                        font-size: 13px;
+                        line-height: 1.2;
+
+                        >span {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
         }
 
         .section__nosotros {
@@ -337,6 +448,7 @@
                 font-family: 'Pop-mediun';
                 border-radius: 15px;
                 box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.06);
+
                 .card1__r {
                     width: 60%;
                     font-size: 13px;
@@ -391,6 +503,7 @@
                     justify-content: center;
                     justify-content: space-evenly;
                     flex-wrap: wrap;
+
                     >picture {
                         transform: scale(70%);
                     }
@@ -502,6 +615,71 @@
 @media only screen and (min-width: 1023px) {
     * {
         body {
+
+            .section__presentacion {
+                .presentacion__bkg {
+                    height: 100vh;
+                }
+
+                .presentacion__texto {
+                    width: 40%;
+                    padding-left: 180px;
+
+                    >picture {
+                        margin-left: 90px;
+                    }
+
+                    >h6 {
+                        margin-top: 20px;
+                        font-size: 23px;
+                    }
+
+                    >h1 {
+                        font-size: 43px;
+                    }
+
+                    >p {
+                        font-size: 26px;
+                    }
+                }
+
+                .diploma__container {
+                    display: none;
+                }
+
+                .diploma__container--desktop {
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                    .diploma--desktop {
+                        top: -38px;
+                        position: relative;
+                        display: block;
+                        width: 500px;
+                    }
+
+                    .presentacion__certificate {
+                        margin: 30px;
+                        width: 25%;
+                        > picture {
+                            margin: 5px;
+                        }
+                        >p {
+                            margin-top: 5px;
+                            font-family: 'Pop-mediun';
+                            font-size: 27px;
+                            line-height: 1.1;
+
+                            >span {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+
+            }
+
             .section__nosotros {
                 .nosotros__bkg {
                     height: 600px;
