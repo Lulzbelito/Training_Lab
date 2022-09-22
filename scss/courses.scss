@@ -118,76 +118,133 @@
 
 @media screen and (max-width: 426px) {
     .courses-1 {
-        height: 1270px;
+        height: 1000px;
+        margin-top: 25px;
+
+        .bg {
+            background-image: url("../img/courses1.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 300px;
+        }
+
+        .our {
+            .paragraph {
+                width: 250px !important;
+                margin-left: 30px !important;
+
+                h2 {
+                    font-weight: 600 !important;
+                    font-size: $size-m14  !important;
+                }
+
+                h3 {
+                    font-weight: 500 !important;
+                    font-size: $size-m10  !important;
+                }
+
+                p {
+                    font-weight: 400 !important;
+                    font-size: $size-m10  !important;
+
+                    line-height: 12px !important;
+                }
+            }
+
+            .box {
+                .categories {
+
+                    .category-1,
+                    .category-2,
+                    .category-3,
+                    .category-4 {
+                        min-width: 450px !important;
+
+                        .row {
+
+                            .title {
+                                p {
+                                    font-size: $size-m10  !important;
+                                    margin-left: 25px !important;
+                                }
+                            }
+
+                            .col-view {
+
+                                .btn-view {
+                                    font-size: 10px;
+                                    margin-right: 25px !important;
+                                }
+
+                            }
+
+                        }
+                    }
+
+                }
+
+            }
+        }
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
 
     .courses-1 {
+        height: 1100px;
         margin-top: 25px;
-    }
 
-    .bg {
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 250px !important;
-    }
-
-    .our {
-        .paragraph {
-            width: 250px !important;
-            margin-left: 30px !important;
-
-            h2 {
-                font-weight: 600 !important;
-                font-size: $size-m14  !important;
-            }
-
-            h3 {
-                font-weight: 500 !important;
-                font-size: $size-m10  !important;
-            }
-
-            p {
-                font-weight: 400 !important;
-                font-size: $size-m10  !important;
-
-                line-height: 12px !important;
-            }
+        .bg {
+            background-image: url("../img/courses1.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 300px;
         }
-    }
 
-    .categories {
+        .our {
 
-        .category-1,
-        .category-2,
-        .category-3,
-        .category-4 {
-            min-width: 450px !important;
 
-            .row {
+            .box {
+                .categories {
 
-                .title {
-                    p {
-                        font-size: $size-m10  !important;
-                        margin-left: 25px !important;
-                    }
-                }
+                    .category-1,
+                    .category-2,
+                    .category-3,
+                    .category-4 {
+                        min-width: 450px !important;
 
-                .col-view {
+                        .row {
 
-                    .btn-view {
-                        font-size: 10px;
-                        margin-right: 25px !important;
+                            .title {
+                                p {
+                                    font-size: $size-m10  !important;
+                                    margin-left: 25px !important;
+                                }
+                            }
+
+                            .col-view {
+
+                                .btn-view {
+                                    font-size: 10px;
+                                    margin-right: 25px !important;
+                                }
+
+                            }
+
+                        }
                     }
 
                 }
 
             }
         }
-
     }
+
+
+
+
+
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
