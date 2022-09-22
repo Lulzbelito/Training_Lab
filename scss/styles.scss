@@ -323,10 +323,10 @@
         }
 
         .nosotros__container {
-            padding: 10px 0 60px 0;
+            padding: 70px 0 60px 0;
             background: linear-gradient(180deg, rgba(0, 0, 0, 0.008841036414565795) 0%, rgba(241, 241, 241, 1) 100%);
             position: relative;
-            
+
             .nosotros__card1 {
                 background-color: white;
                 display: flex;
@@ -411,6 +411,7 @@
                 left: 50%;
                 transform: translate(-50%, 0);
                 bottom: -50px;
+
                 .car2__logoContainer {
                     width: 50%;
                     display: flex;
@@ -682,7 +683,9 @@
             }
 
             .nosotros__container {
+                padding-top: 200px;
                 padding-bottom: 150px;
+
                 .nosotros__card1 {
                     margin: 0 15%;
 
@@ -718,6 +721,7 @@
                 .nosotros__card2 {
                     width: 60%;
                     bottom: -80px;
+
                     .car2__logoContainer {
                         width: 50%;
                         display: flex;
@@ -750,39 +754,41 @@
                     }
                 }
             }
+
             footer {
                 .footer__container {
                     padding: 200px 0 100px 0;
                     justify-content: space-evenly;
+
                     .footer__contactanos {
                         display: flex;
-    
+
                         >h5 {
                             font-size: 17px;
                             margin-right: 15px;
                         }
-    
+
                         >p {
                             font-size: 17px;
                         }
                     }
-    
+
                     .footer__seguinos {
                         display: flex;
                         align-items: center;
                         margin: 0;
-    
+
                         >h5 {
                             font-size: 17px;
                             margin: 0 15px 0 0;
                         }
-    
+
                         .footer__redes {
                             >a {
                                 >img {
                                     width: 45px;
                                     transition: width 0.2s;
-    
+
                                     &:hover {
                                         width: 55px;
                                     }
@@ -793,7 +799,7 @@
                 }
             }
         }
-        
+
     }
 }
 

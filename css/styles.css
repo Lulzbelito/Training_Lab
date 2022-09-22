@@ -528,7 +528,7 @@
         * body .section__nosotros .nosotros__beneficios .beneficios__card--desktop {
           display: none; }
     * body .nosotros__container {
-      padding: 10px 0 60px 0;
+      padding: 70px 0 60px 0;
       background: linear-gradient(180deg, rgba(0, 0, 0, 0.00884104) 0%, #f1f1f1 100%);
       position: relative; }
       * body .nosotros__container .nosotros__card1 {
@@ -1057,6 +1057,7 @@
       * body .section__nosotros .nosotros__beneficios .beneficios__card--desktop .potencia__span {
         color: #22B6AF; }
   * body .nosotros__container {
+    padding-top: 200px;
     padding-bottom: 150px; }
     * body .nosotros__container .nosotros__card1 {
       margin: 0 15%; }
