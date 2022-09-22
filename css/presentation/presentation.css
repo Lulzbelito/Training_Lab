@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;500;600;700&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;400;500;600;700&family=Roboto:wght@300&display=swap");
 @font-face {
   font-family: 'Pop-SemiBold';
   src: url(../poppins/Poppins-SemiBold.ttf); }
@@ -10,6 +10,14 @@
 @font-face {
   font-family: 'Pop-mediun';
   src: url(../poppins/Poppins-Medium.ttf); }
+
+@font-face {
+  font-family: 'Roboto-regular';
+  src: url(../roboto/Roboto-Regular.ttf); }
+
+@font-face {
+  font-family: 'Roboto-bold';
+  src: url(../roboto/Roboto-Bold.ttf); }
 
 .presentation {
   margin-top: 90px;
@@ -46,7 +54,7 @@
       .presentation .box .p2 .p3 {
         color: #233545; }
 
-@media only screen and (max-width: 547px) {
+@media only screen and (max-width: 599px) {
   .presentation {
     height: 350px;
     margin-top: 90px;
@@ -59,7 +67,7 @@
     .presentation .box {
       position: absolute;
       height: 450px;
-      width: 200px;
+      width: 230px;
       margin-top: 50px;
       margin-left: 30px; }
       .presentation .box .img-atoms {
@@ -74,14 +82,15 @@
       .presentation .box .p1 {
         font-family: 'Poppins';
         letter-spacing: 0.01em;
-        font-size: 10px;
+        font-size: 13px;
         line-height: 14px; }
       .presentation .box .p2 {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 21px;
+        font-size: 24px;
         line-height: 20px;
+        letter-spacing: 0.015em;
         color: #22B6AF; }
         .presentation .box .p2 .p3 {
           color: #233545; } }

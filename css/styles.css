@@ -153,7 +153,7 @@
             color: #22B6AF; }
             * body main .presentation .box .p2 .p3 {
               color: #233545; }
-      @media only screen and (max-width: 547px) {
+      @media only screen and (max-width: 599px) {
         * body main .presentation {
           height: 350px;
           margin-top: 90px;
