@@ -28,7 +28,7 @@
   src: url(../roboto/Roboto-Bold.ttf);
 }
 .section__presentacion {
-  margin-top: 200px;
+  margin-top: 80px;
   position: relative;
 }
 .section__presentacion .presentacion__bkg {
@@ -51,11 +51,16 @@
 }
 .section__presentacion .presentacion__texto > h1 {
   font-family: "Pop-Bold";
-  font-size: 23px;
+  font-size: 24px;
+  color: #22B6AF;
+  line-height: 1;
+}
+.section__presentacion .presentacion__texto > h1 > span {
+  color: #233545;
 }
 .section__presentacion .presentacion__texto > p {
   font-family: "Pop-Regular";
-  font-size: 13px;
+  font-size: 14px;
 }
 .section__presentacion .diploma__container {
   padding-bottom: 150px;
@@ -68,16 +73,22 @@
   top: 339px;
 }
 .section__presentacion .diploma__container .presentacion__diploma > img {
+  box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.09);
   position: relative;
   height: 100%;
   max-width: 100%;
 }
 .section__presentacion .presentacion__certificate {
-  margin: 30px 20%;
+  margin: 30px 30%;
 }
 .section__presentacion .presentacion__certificate > p {
+  margin-top: 5px;
   font-family: "Pop-mediun";
   font-size: 16px;
+  line-height: 1.1;
+}
+.section__presentacion .presentacion__certificate > p > span {
+  font-weight: bold;
 }
 .section__presentacion .presentacion__clases .clases__container {
   display: flex;
@@ -93,11 +104,16 @@
   width: 60%;
 }
 .section__presentacion .presentacion__clases .presentacion__clasesHibridas {
-  margin: 30px 20%;
+  margin: 30px 30%;
 }
 .section__presentacion .presentacion__clases .presentacion__clasesHibridas > p {
+  margin-top: 5px;
   font-family: "Pop-Regular";
   font-size: 13px;
+  line-height: 1.2;
+}
+.section__presentacion .presentacion__clases .presentacion__clasesHibridas > p > span {
+  font-weight: bold;
 }
 
 * {

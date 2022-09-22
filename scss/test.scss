@@ -1,5 +1,5 @@
 .section__presentacion {
-    margin-top: 200px;
+    margin-top: 80px;
     position: relative;
 
     .presentacion__bkg {
@@ -10,6 +10,7 @@
         background-repeat: no-repeat;
         background-position-x: 30%;
         background-position-y: 25%;
+    
     }
 
     .presentacion__texto {
@@ -24,12 +25,17 @@
 
         >h1 {
             font-family: 'Pop-Bold';
-            font-size: 23px;
+            font-size: 24px;
+            color: $color-2;
+            line-height: 1;
+            > span {
+                color: $color-1;
+            }
         }
 
         >p {
             font-family: 'Pop-Regular';
-            font-size: 13px;
+            font-size: 14px;
         }
     }
 
@@ -43,6 +49,7 @@
             transform: translate(-50%, 0);
             top: 339px;
             >img {
+                box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.09);
                 position: relative;
                 height: 100%;
                 max-width: 100%;
@@ -51,11 +58,15 @@
     }
 
     .presentacion__certificate {
-        margin: 30px 20%;
-
+        margin: 30px 30%;
         >p {
+            margin-top: 5px;
             font-family: 'Pop-mediun';
             font-size: 16px;
+            line-height: 1.1;
+            > span {
+                font-weight: bold;
+            }
         }
     }
 
@@ -75,10 +86,15 @@
             }
         }
         .presentacion__clasesHibridas {
-            margin: 30px 20%;
+            margin: 30px 30%;
             > p {
+                margin-top: 5px;
                 font-family: 'Pop-Regular';
                 font-size: 13px;
+                line-height: 1.2;
+                > span {
+                    font-weight: bold;
+                }
             }
         }
     }
