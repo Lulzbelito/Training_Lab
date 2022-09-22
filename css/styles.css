@@ -41,9 +41,12 @@
   background-position-y: 25%;
 }
 .section__presentacion .presentacion__texto {
-  width: 55%;
-  padding-top: 80px;
+  width: 60%;
+  padding-top: 60px;
   padding-left: 20px;
+}
+.section__presentacion .presentacion__texto > picture {
+  margin-left: 20px;
 }
 .section__presentacion .presentacion__texto > h6 {
   font-family: "Pop-ligth";

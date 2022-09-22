@@ -13,9 +13,12 @@
     }
 
     .presentacion__texto {
-        width: 55%;
-        padding-top: 80px;
+        width: 60%;
+        padding-top: 60px;
         padding-left: 20px;
+        > picture {
+            margin-left: 20px;
+        }
         >h6 {
             font-family: 'Pop-ligth';
             font-size: 13px;
