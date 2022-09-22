@@ -17,6 +17,16 @@ $box-shadowContainers: -1px 0px 50px 8px rgba(0, 0, 0, 0.20);
 }
 
 @font-face {
+    font-family: 'Pop-Bold';
+    src: url(../poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Pop-Regular';
+    src: url(../poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
     font-family: 'Pop-ligth';
     src: url(../poppins/Poppins-Light.ttf);
 }

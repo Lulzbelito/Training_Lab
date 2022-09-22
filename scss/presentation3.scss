@@ -1,159 +1,159 @@
-@import "./variables.scss";
+// @import "./variables.scss";
 
-.presentation3 {
-    background-color: $color-3;
-    height: 400px;
+// .presentation3 {
+//     background-color: $color-3;
+//     height: 400px;
 
-    .row {
-        flex-direction: row;
+//     .row {
+//         flex-direction: row;
 
-        .paragraph {
-            height: 300px;
-            display: flex;
-            margin-right: 100px;
-            justify-content: center;
+//         .paragraph {
+//             height: 300px;
+//             display: flex;
+//             margin-right: 100px;
+//             justify-content: center;
 
-            .box {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                margin-left: 100px;
+//             .box {
+//                 display: flex;
+//                 flex-direction: column;
+//                 justify-content: center;
+//                 margin-left: 100px;
 
-                width: 340px;
+//                 width: 340px;
 
-                .classes {
-                    margin-bottom: 15px;
-                }
+//                 .classes {
+//                     margin-bottom: 15px;
+//                 }
 
-                p {
-                    font-family: 'Pop-ligth';
-                    line-height: 1.3;
-                    font-size: 18px;
+//                 p {
+//                     font-family: 'Pop-ligth';
+//                     line-height: 1.3;
+//                     font-size: 18px;
 
-                    span {
-                        font-weight: 900;
-                    }
-                }
-            }
-        }
+//                     span {
+//                         font-weight: 900;
+//                     }
+//                 }
+//             }
+//         }
 
-        .img-classes {
+//         .img-classes {
 
-            .replaced-modified {
-                position: relative;
-                bottom: 40px;
-                right: 70px;
+//             .replaced-modified {
+//                 position: relative;
+//                 bottom: 40px;
+//                 right: 70px;
 
-                box-sizing: border-box;
-                display: block;
-                width: 494px;
-                height: 305.25px;
-                background: url(../img/3.1.png);
-            }
-        }
+//                 box-sizing: border-box;
+//                 display: block;
+//                 width: 494px;
+//                 height: 305.25px;
+//                 background: url(../img/3.1.png);
+//             }
+//         }
 
-    }
-}
+//     }
+// }
 
-@media screen and (max-width: 767px) {
-    .presentation3 {
-        height: 570px;
+// @media screen and (max-width: 767px) {
+//     .presentation3 {
+//         height: 570px;
 
-        .row {
-            flex-direction: column-reverse;
-            width: 100%;
+//         .row {
+//             flex-direction: column-reverse;
+//             width: 100%;
 
-            .img-classes {
-                .replaced-modified {
-                    left: 60px;
+//             .img-classes {
+//                 .replaced-modified {
+//                     left: 60px;
 
-                    box-sizing: border-box;
-                    display: block;
-                    width: 400px;
-                    height: 259px;
-                    background: url(../img/3.1.png);
-                }
-            }
+//                     box-sizing: border-box;
+//                     display: block;
+//                     width: 400px;
+//                     height: 259px;
+//                     background: url(../img/3.1.png);
+//                 }
+//             }
 
-            .paragraph {
+//             .paragraph {
 
-                .box {
-                    width: 280px;
-                    height: 250px;
+//                 .box {
+//                     width: 280px;
+//                     height: 250px;
 
-                    justify-content: center;
-                    margin-right: 40px;
+//                     justify-content: center;
+//                     margin-right: 40px;
 
-                    p {
-                        font-size: $size-m10;
-                    }
-                }
+//                     p {
+//                         font-size: $size-m10;
+//                     }
+//                 }
 
-            }
+//             }
 
-        }
-    }
-}
+//         }
+//     }
+// }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .presentation3 {
-        height: 570px;
+// @media screen and (min-width: 768px) and (max-width: 1023px) {
+//     .presentation3 {
+//         height: 570px;
 
-        .row {
-            flex-direction: column-reverse;
-            width: 100%;
+//         .row {
+//             flex-direction: column-reverse;
+//             width: 100%;
 
-            .img-classes {
+//             .img-classes {
 
-                .replaced-modified {
-                    left: 140px;
-                }
-            }
+//                 .replaced-modified {
+//                     left: 140px;
+//                 }
+//             }
 
-            .paragraph {
+//             .paragraph {
 
-                .box {
-                    width: 280px;
-                    height: 250px;
+//                 .box {
+//                     width: 280px;
+//                     height: 250px;
 
-                    margin-right: 100px;
-                }
+//                     margin-right: 100px;
+//                 }
 
-            }
+//             }
 
-        }
-    }
-}
+//         }
+//     }
+// }
 
-@media screen and (min-width: 1024px) and (max-width: 1110px) {
+// @media screen and (min-width: 1024px) and (max-width: 1110px) {
 
-    .presentation3 {
-        height: 600px;
+//     .presentation3 {
+//         height: 600px;
 
-        .row {
-            flex-direction: column-reverse;
-            width: 100%;
+//         .row {
+//             flex-direction: column-reverse;
+//             width: 100%;
 
-            .img-classes {
+//             .img-classes {
 
-                .replaced-modified {
-                    left: 260px;
-                }
+//                 .replaced-modified {
+//                     left: 260px;
+//                 }
 
-            }
+//             }
 
-            .paragraph {
+//             .paragraph {
 
-                .box {
-                    width: 280px;
-                    height: 250px;
+//                 .box {
+//                     width: 280px;
+//                     height: 250px;
 
-                    margin-right: 100px;
-                }
+//                     margin-right: 100px;
+//                 }
 
-            }
+//             }
 
-        }
-    }
+//         }
+//     }
 
-}
+// }

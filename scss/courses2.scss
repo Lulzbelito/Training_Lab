@@ -1,198 +1,198 @@
-@import "./variables.scss";
+// @import "./variables.scss";
 
-.courses-2 {
-    width: 100%;
-    height: 700px;
-    background: url("../img/4.0.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+// .courses-2 {
+//     width: 100%;
+//     height: 700px;
+//     background: url("../img/4.0.png");
+//     background-repeat: no-repeat;
+//     background-size: cover;
 
-    .row {
-        width: 100%;
-        display: flex;
+//     .row {
+//         width: 100%;
+//         display: flex;
 
-        .col {
-            height: 700px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
+//         .col {
+//             height: 700px;
+//             display: flex;
+//             flex-direction: column;
+//             justify-content: center;
+//         }
 
-        .training {
-            align-items: end;
+//         .training {
+//             align-items: end;
 
-            .box {
-                background-color: white;
-                width: 349px;
-                height: 521px;
-                margin-right: 82px;
-                border-radius: 30px;
+//             .box {
+//                 background-color: white;
+//                 width: 349px;
+//                 height: 521px;
+//                 margin-right: 82px;
+//                 border-radius: 30px;
 
-                .front-page {
-                    width: 100%;
-                    height: 188px;
-                    background: url("../img/4.1.png");
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                }
+//                 .front-page {
+//                     width: 100%;
+//                     height: 188px;
+//                     background: url("../img/4.1.png");
+//                     background-repeat: no-repeat;
+//                     background-size: cover;
+//                 }
 
-                .box2 {
-                    min-width: 349px;
-                    height: 333px;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    width: 300px;
+//                 .box2 {
+//                     min-width: 349px;
+//                     height: 333px;
+//                     display: flex;
+//                     flex-direction: column;
+//                     justify-content: center;
+//                     align-items: center;
+//                     width: 300px;
 
-                    .title {
-                        font-family: 'Poppins';
-                        font-weight: 500;
-                        font-size: 18px;
-                        line-height: 25px;
-                        width: 300px;
-                        margin-left: 45px;
-                    }
+//                     .title {
+//                         font-family: 'Poppins';
+//                         font-weight: 500;
+//                         font-size: 18px;
+//                         line-height: 25px;
+//                         width: 300px;
+//                         margin-left: 45px;
+//                     }
 
-                    .p1 {
-                        font-family: 'Poppins';
-                        font-weight: 400;
-                        font-size: 18px;
-                        line-height: 24px;
-                        width: 250px;
-                    }
+//                     .p1 {
+//                         font-family: 'Poppins';
+//                         font-weight: 400;
+//                         font-size: 18px;
+//                         line-height: 24px;
+//                         width: 250px;
+//                     }
 
-                    .btn2 {
-                        color: white;
-                        background-color: $color-2;
-                        border: none;
-                        font-family: 'Poppins', sans-serif;
-                        font-size: 18px;
-                        font-weight: 500;
-                        border-radius: 50px;
-                        padding: 10px 80px;
+//                     .btn2 {
+//                         color: white;
+//                         background-color: $color-2;
+//                         border: none;
+//                         font-family: 'Poppins', sans-serif;
+//                         font-size: 18px;
+//                         font-weight: 500;
+//                         border-radius: 50px;
+//                         padding: 10px 80px;
 
-                        text-align: center;
-                        letter-spacing: 0.01em;
-                    }
+//                         text-align: center;
+//                         letter-spacing: 0.01em;
+//                     }
 
-                    .btn2:hover {
-                        background-color: $color-1;
-                    }
+//                     .btn2:hover {
+//                         background-color: $color-1;
+//                     }
 
-                    .btn2:focus {
-                        box-shadow: none !important;
-                        background-color: $color-1;
-                    }
+//                     .btn2:focus {
+//                         box-shadow: none !important;
+//                         background-color: $color-1;
+//                     }
 
-                }
-            }
+//                 }
+//             }
 
-        }
+//         }
 
-        .featured-course {
+//         .featured-course {
 
-            .box {
-                width: 370px;
+//             .box {
+//                 width: 370px;
 
-                .title {
-                    font-family: 'Poppins';
-                    font-weight: 600;
-                    font-size: 24px;
-                    line-height: 26px;
-                    letter-spacing: 0.015em;
+//                 .title {
+//                     font-family: 'Poppins';
+//                     font-weight: 600;
+//                     font-size: 24px;
+//                     line-height: 26px;
+//                     letter-spacing: 0.015em;
 
-                    color: $color-2;
-                }
+//                     color: $color-2;
+//                 }
 
-                .paragraph {
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 18px;
-                    line-height: 24px;
-                }
-            }
+//                 .paragraph {
+//                     font-family: 'Poppins';
+//                     font-style: normal;
+//                     font-weight: 400;
+//                     font-size: 18px;
+//                     line-height: 24px;
+//                 }
+//             }
 
-        }
-    }
-}
+//         }
+//     }
+// }
 
-@media screen and (max-width: 426px) {
+// @media screen and (max-width: 426px) {
 
-    .courses-2 {
-        .row {
-            width: 100% !important;
+//     .courses-2 {
+//         .row {
+//             width: 100% !important;
 
-            .training {
+//             .training {
 
-                .title-box::after {
-                    margin-right: 160px !important;
-                }
+//                 .title-box::after {
+//                     margin-right: 160px !important;
+//                 }
 
-                .box {
-                    margin-right: 50px !important;
-                }
-            }
-        }
-    }
+//                 .box {
+//                     margin-right: 50px !important;
+//                 }
+//             }
+//         }
+//     }
 
-}
+// }
 
-@media screen and (max-width: 769px) {
-    .courses-2 {
-        height: 800px;
+// @media screen and (max-width: 769px) {
+//     .courses-2 {
+//         height: 800px;
 
-        .row {
-            .training {
-                padding-top: 20px;
-                height: 800px;
+//         .row {
+//             .training {
+//                 padding-top: 20px;
+//                 height: 800px;
 
-                .title-box::after {
-                    font-weight: bold;
-                    color: $color-2;
-                    margin-right: 270px;
+//                 .title-box::after {
+//                     font-weight: bold;
+//                     color: $color-2;
+//                     margin-right: 270px;
 
-                    font-family: 'Poppins';
-                    font-weight: 600;
-                    font-size: 20px;
-                    line-height: 16px;
+//                     font-family: 'Poppins';
+//                     font-weight: 600;
+//                     font-size: 20px;
+//                     line-height: 16px;
 
-                    content: "Curso destacado";
-                }
+//                     content: "Curso destacado";
+//                 }
 
-                .box {
-                    width: 349px;
-                    height: 700px;
-                    border-radius: 30px;
-                    margin-right: 175px;
+//                 .box {
+//                     width: 349px;
+//                     height: 700px;
+//                     border-radius: 30px;
+//                     margin-right: 175px;
 
-                    .box2 {
-                        height: 511px;
+//                     .box2 {
+//                         height: 511px;
 
-                        .p1 {
-                            font-size: 13px;
-                        }
+//                         .p1 {
+//                             font-size: 13px;
+//                         }
 
-                        .p2 {
-                            width: 250px;
-                        }
+//                         .p2 {
+//                             width: 250px;
+//                         }
 
-                        .p2::after {
-                            font-family: 'Poppins';
-                            font-weight: 400;
-                            line-height: 24px;
-                            font-size: 13px;
-                            content: "Creamos un entrenamiento exclusivo en AAS, diseñado para que aprendas y potencies tus conocimientos en una de las técnicas instrumentales más utilizadas en la industria. El modelo es asíncrono Clases en vivo (Remoto) y Sesiones presenciales en Laboratorio";
+//                         .p2::after {
+//                             font-family: 'Poppins';
+//                             font-weight: 400;
+//                             line-height: 24px;
+//                             font-size: 13px;
+//                             content: "Creamos un entrenamiento exclusivo en AAS, diseñado para que aprendas y potencies tus conocimientos en una de las técnicas instrumentales más utilizadas en la industria. El modelo es asíncrono Clases en vivo (Remoto) y Sesiones presenciales en Laboratorio";
 
-                        }
-                    }
-                }
-            }
+//                         }
+//                     }
+//                 }
+//             }
 
-            .featured-course {
-                display: none
-            }
-        }
-    }
-}
+//             .featured-course {
+//                 display: none
+//             }
+//         }
+//     }
+// }

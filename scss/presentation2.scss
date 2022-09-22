@@ -1,132 +1,131 @@
-@import "./variables.scss";
+// @import "./variables.scss";
 
-.presentation2 {
-    height: 400px;
+// .presentation2 {
+//     height: 400px;
 
-    .row {
-        width: 100%;
+//     .row {
+//         width: 100%;
 
-        .img-certificate {
+//         .img-certificate {
 
-            .replaced-modified {
-                position: relative;
-                bottom: 37px;
-                left: 200px;
+//             .replaced-modified {
+//                 position: relative;
+//                 bottom: 37px;
+//                 left: 200px;
 
-                box-sizing: border-box;
-                display: block;
-                width: 512px;
-                height: 319px;
-                background: url(../img/2.1.png);
-            }
-        }
+//                 box-sizing: border-box;
+//                 display: block;
+//                 // width: 512px;
+//                 // height: 319px;
+//                 background: url(../img/2.1.png);
+//             }
+//         }
 
-        .paragraph {
-            height: 300px;
-            display: flex;
-            margin-right: 100px;
-            justify-content: center;
+//         .paragraph {
+//             height: 300px;
+//             display: flex;
+//             margin-right: 100px;
+//             justify-content: center;
 
-            .box {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
+//             .box {
+//                 display: flex;
+//                 flex-direction: column;
+//                 justify-content: center;
 
-                width: 245px;
+//                 width: 245px;
 
-                .certificate {
-                    margin-bottom: 15px;
-                }
+//                 .certificate {
+//                     margin-bottom: 15px;
+//                 }
 
-                p {
-                    font-family: 'Poppins';
-                    font-weight: 500;
-                    font-size: 18px;
-                    line-height: 24px;
-                }
-            }
-        }
-    }
-}
+//                 p {
+//                     font-family: 'Poppins';
+//                     font-weight: 500;
+//                     font-size: 18px;
+//                     line-height: 24px;
+//                 }
+//             }
+//         }
+//     }
+// }
 
-@media screen and (max-width: 767px) {
-    .presentation2 {
-        height: 500px;
+// @media screen and (max-width: 767px) {
+//     .presentation2 {
+//         height: 500px;
 
-        .row {
+//         .row {
 
-            .img-certificate {
-                max-height: 200px;
+//             .img-certificate {
+//                 max-height: 200px;
 
-                .replaced-modified {
-                    left: 60px;
-                    bottom: 30px;
+//                 .replaced-modified {
+//                     left: 60px;
+//                     bottom: 30px;
 
-                    box-sizing: border-box;
-                    display: block;
-                    width: 400px;
-                    height: 259px;
-                    background: url(../img/2.1P.png);
-                }
-            }
+//                     box-sizing: border-box;
+//                     display: block;
+//                     width: 80%;
+//                     background: url(../img/2.1P.png);
+//                 }
+//             }
 
-            .paragraph {
-                justify-content: center;
-                padding-left: 170px;
+//             .paragraph {
+//                 justify-content: center;
+//                 padding-left: 170px;
 
-                .box {
-                    p {
-                        font-family: 'Pop-ligth';
-                        line-height: 1.3;
-                        font-size: 13px;
-                        font-size: $size-m10;
-                    }
-                }
-            }
-        }
-    }
-}
+//                 .box {
+//                     p {
+//                         font-family: 'Pop-ligth';
+//                         line-height: 1.3;
+//                         font-size: 13px;
+//                         font-size: $size-m10;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .presentation2 {
-        height: 550px;
+// @media screen and (min-width: 768px) and (max-width: 1023px) {
+//     .presentation2 {
+//         height: 550px;
 
-        .row {
+//         .row {
 
-            .img-certificate {
-                max-height: 250px;
+//             .img-certificate {
+//                 max-height: 250px;
 
-                .replaced-modified {
-                    left: 130px;
-                }
-            }
+//                 .replaced-modified {
+//                     width: 80%;
+//                 }
+//             }
 
-            .paragraph {
-                justify-content: center;
-                padding-left: 200px;
-            }
-        }
-    }
-}
+//             .paragraph {
+//                 justify-content: center;
+//                 padding-left: 200px;
+//             }
+//         }
+//     }
+// }
 
-@media screen and (min-width: 1024px) and (max-width: 1110px) {
-    .presentation2 {
-        height: 550px;
+// @media screen and (min-width: 1024px) and (max-width: 1110px) {
+//     .presentation2 {
+//         height: 550px;
 
-        .row {
+//         .row {
 
-            .img-certificate {
-                max-height: 250px;
+//             .img-certificate {
+//                 max-height: 250px;
 
-                .replaced-modified {
-                    left: 250px;
-                }
-            }
+//                 .replaced-modified {
+//                     left: 250px;
+//                 }
+//             }
 
-            .paragraph {
-                justify-content: center;
-                padding-left: 150px;
-            }
-        }
-    }
-}
+//             .paragraph {
+//                 justify-content: center;
+//                 padding-left: 150px;
+//             }
+//         }
+//     }
+// }
