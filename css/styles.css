@@ -147,9 +147,6 @@
   font-family: "Gentium Book Plus", serif;
   font-weight: 900;
 }
-* body header .box-nav .box-container {
-  margin: -20px -12px;
-}
 * body header .box-nav .box-buttons {
   text-align: end;
 }

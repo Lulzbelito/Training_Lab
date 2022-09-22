@@ -10,14 +10,12 @@
         background-repeat: no-repeat;
         background-position-x: 30%;
         background-position-y: 25%;
-    
     }
 
     .presentacion__texto {
         width: 55%;
         padding-top: 80px;
         padding-left: 20px;
-
         >h6 {
             font-family: 'Pop-ligth';
             font-size: 13px;
@@ -32,7 +30,6 @@
                 color: $color-1;
             }
         }
-
         >p {
             font-family: 'Pop-Regular';
             font-size: 14px;
@@ -41,7 +38,6 @@
 
     .diploma__container {
         padding-bottom: 150px;
-
         .presentacion__diploma {
             width: 280px;
             position: absolute;
