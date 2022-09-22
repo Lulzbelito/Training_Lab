@@ -217,8 +217,8 @@
   background-size: cover;
 }
 * body .section__nosotros .nosotros__bkg .nosotros__head {
-  margin-right: 50%;
-  margin-top: 30px;
+  margin-right: 40%;
+  margin-top: 10px;
   margin-left: 20px;
 }
 * body .section__nosotros .nosotros__bkg .nosotros__h3 {
@@ -388,9 +388,9 @@
   box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.06);
 }
 * body .nosotros__container .nosotros__card1 .card1__r {
-  width: 65%;
+  width: 60%;
   font-size: 13px;
-  padding: 15px 0 15px 40px;
+  padding: 15px 0 15px 20px;
 }
 * body .nosotros__container .nosotros__card1 .card1__r > p {
   margin-bottom: 10px;
@@ -413,7 +413,7 @@
   width: 180px;
   align-self: center;
   position: absolute;
-  right: 15px;
+  right: 0px;
   bottom: 0;
 }
 * body .nosotros__container .nosotros__labs > h6 {
@@ -425,12 +425,13 @@
 }
 * body .nosotros__container .nosotros__labs .labs__brands {
   background-color: rgb(255, 255, 255);
-  padding: 20px 45px;
+  padding: 20px 0;
   display: flex;
   align-items: center;
   margin-bottom: 30px;
   justify-content: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 * body .nosotros__container .nosotros__labs .labs__brands > picture {
   transform: scale(70%);
