@@ -5,6 +5,14 @@
   src: url(../poppins/Poppins-SemiBold.ttf); }
 
 @font-face {
+  font-family: 'Pop-Bold';
+  src: url(../poppins/Poppins-Bold.ttf); }
+
+@font-face {
+  font-family: 'Pop-Regular';
+  src: url(../poppins/Poppins-Regular.ttf); }
+
+@font-face {
   font-family: 'Pop-ligth';
   src: url(../poppins/Poppins-Light.ttf); }
 

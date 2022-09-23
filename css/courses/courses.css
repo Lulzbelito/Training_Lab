@@ -4,6 +4,14 @@
   src: url(../poppins/Poppins-SemiBold.ttf); }
 
 @font-face {
+  font-family: 'Pop-Bold';
+  src: url(../poppins/Poppins-Bold.ttf); }
+
+@font-face {
+  font-family: 'Pop-Regular';
+  src: url(../poppins/Poppins-Regular.ttf); }
+
+@font-face {
   font-family: 'Pop-ligth';
   src: url(../poppins/Poppins-Light.ttf); }
 
@@ -134,13 +142,20 @@
     .courses-1 .our .box .categories .category-2,
     .courses-1 .our .box .categories .category-3,
     .courses-1 .our .box .categories .category-4 {
-      min-width: 450px !important; }
-      .courses-1 .our .box .categories .category-1 .row .title p,
-      .courses-1 .our .box .categories .category-2 .row .title p,
-      .courses-1 .our .box .categories .category-3 .row .title p,
-      .courses-1 .our .box .categories .category-4 .row .title p {
-        font-size: 13px !important;
-        margin-left: 25px !important; }
+      min-width: 280px !important; }
+      .courses-1 .our .box .categories .category-1 .row .title,
+      .courses-1 .our .box .categories .category-2 .row .title,
+      .courses-1 .our .box .categories .category-3 .row .title,
+      .courses-1 .our .box .categories .category-4 .row .title {
+        max-width: 150px;
+        padding: 0px;
+        padding-left: 10px; }
+        .courses-1 .our .box .categories .category-1 .row .title p,
+        .courses-1 .our .box .categories .category-2 .row .title p,
+        .courses-1 .our .box .categories .category-3 .row .title p,
+        .courses-1 .our .box .categories .category-4 .row .title p {
+          font-size: 10px !important;
+          margin-left: 10px !important; }
       .courses-1 .our .box .categories .category-1 .row .col-view .btn-view,
       .courses-1 .our .box .categories .category-2 .row .col-view .btn-view,
       .courses-1 .our .box .categories .category-3 .row .col-view .btn-view,
@@ -156,24 +171,7 @@
       background-image: url("../img/courses1.png");
       background-repeat: no-repeat;
       background-size: cover;
-      min-height: 300px; }
-    .courses-1 .our .box .categories .category-1,
-    .courses-1 .our .box .categories .category-2,
-    .courses-1 .our .box .categories .category-3,
-    .courses-1 .our .box .categories .category-4 {
-      min-width: 450px !important; }
-      .courses-1 .our .box .categories .category-1 .row .title p,
-      .courses-1 .our .box .categories .category-2 .row .title p,
-      .courses-1 .our .box .categories .category-3 .row .title p,
-      .courses-1 .our .box .categories .category-4 .row .title p {
-        font-size: 13px !important;
-        margin-left: 25px !important; }
-      .courses-1 .our .box .categories .category-1 .row .col-view .btn-view,
-      .courses-1 .our .box .categories .category-2 .row .col-view .btn-view,
-      .courses-1 .our .box .categories .category-3 .row .col-view .btn-view,
-      .courses-1 .our .box .categories .category-4 .row .col-view .btn-view {
-        font-size: 13px;
-        margin-right: 25px !important; } }
+      min-height: 300px; } }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .paragraph {
