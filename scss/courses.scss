@@ -116,7 +116,7 @@
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 487px) {
     .courses-1 {
         height: 1000px;
         margin-top: 25px;
@@ -192,24 +192,75 @@
     }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (min-width: 488px) and (max-width: 767px) {
 
     .courses-1 {
-        height: 1100px;
-        margin-top: 25px;
 
-        .bg {
-            background-image: url("../img/courses1.png");
-            background-repeat: no-repeat;
-            background-size: cover;
-            min-height: 300px;
+        .our {
+
+            .paragraph {
+                width: 250px !important;
+                margin-left: 30px !important;
+
+                h2 {
+                    font-weight: 600 !important;
+                    font-size: $size-m14  !important;
+                }
+
+                h3 {
+                    font-weight: 500 !important;
+                    font-size: $size-m10  !important;
+                }
+
+                p {
+                    font-weight: 400 !important;
+                    font-size: $size-m10  !important;
+
+                    line-height: 12px !important;
+                }
+            }
+
+            .box {
+
+                .categories {
+
+                    .category-1,
+                    .category-2,
+                    .category-3,
+                    .category-4 {
+                        min-width: 450px !important;
+
+                        .row {
+
+                            .title {
+                                padding: 0px;
+                                padding-left: 10px;
+
+                                p {
+                                    font-size: 11px !important;
+                                    margin-left: 10px !important;
+                                }
+                            }
+
+                            .col-view {
+
+                                .btn-view {
+                                    font-size: 11px;
+                                    margin-right: 25px !important;
+                                }
+
+                            }
+
+                        }
+                    }
+
+                }
+
+            }
+
         }
+
     }
-
-
-
-
-
 
 }
 
