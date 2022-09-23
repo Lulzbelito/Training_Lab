@@ -135,7 +135,7 @@
 
                 >h6 {
                     font-family: 'Pop-ligth';
-                    font-size: 13px;
+                    font-size: 12px;
                 }
 
                 >h1 {
@@ -211,7 +211,7 @@
                     }
 
                     .clases__img {
-                        width: 60%;
+                        min-width: 280px;
 
                     }
                 }
@@ -224,7 +224,7 @@
                         font-family: 'Pop-Regular';
                         font-size: 13px;
                         line-height: 1.2;
-
+                        margin-bottom: 0;
                         >span {
                             font-weight: bold;
                         }
@@ -677,7 +677,38 @@
                         }
                     }
                 }
+                .presentacion__clases {
+                    .clases__container {
+                        top: -20px;
+                        justify-content: space-evenly;
+                        flex-direction:row-reverse;
+                        >picture {
+                            display: flex;
+                            justify-content: center;
+                        }
 
+                        .clases__img {
+                            width: 500px;
+    
+                        }
+                    }
+    
+                    .presentacion__clasesHibridas {
+                        margin: 0;
+                        width: 27%;
+                        
+                        >p {
+
+                            font-family: 'Pop-Regular';
+                            font-size: 20px;
+                            line-height: 1.2;
+                            margin: 0;
+                            >span {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
             }
 
             .section__nosotros {
