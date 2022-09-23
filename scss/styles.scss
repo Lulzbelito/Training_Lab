@@ -179,7 +179,11 @@
 
                 .presentacion__certificate {
                     margin: 30px 30%;
-
+                    > picture {
+                        > img {
+                            width: 25px;
+                        }
+                    }
                     >p {
                         margin-top: 5px;
                         font-family: 'Pop-mediun';
@@ -218,7 +222,11 @@
 
                 .presentacion__clasesHibridas {
                     margin: 30px 30%;
-
+                    > picture {
+                        > img {
+                            width: 25px;
+                        }
+                    }
                     >p {
                         margin-top: 5px;
                         font-family: 'Pop-Regular';
@@ -664,6 +672,9 @@
                         width: 25%;
                         > picture {
                             margin: 5px;
+                            > img {
+                                width: 40px;
+                            }
                         }
                         >p {
                             margin-top: 5px;
@@ -696,7 +707,12 @@
                     .presentacion__clasesHibridas {
                         margin: 0;
                         width: 27%;
-                        
+                        > picture {
+                            margin: 5px;
+                            > img {
+                                width: 40px;
+                            }
+                        }
                         >p {
 
                             font-family: 'Pop-Regular';
@@ -712,6 +728,7 @@
             }
 
             .section__nosotros {
+                position: relative;
                 .nosotros__bkg {
                     height: 600px;
                     position: relative;
@@ -741,7 +758,7 @@
                 .nosotros__acercaDe {
                     position: absolute;
                     width: 470px;
-                    top: 2100px;
+                    top: 500px;
                     left: 70%;
                     transform: translate(-70%);
                     padding: 18px 20px 8px 20px;
@@ -767,7 +784,7 @@
                     .nosotros__imgFiltrado {
                         display: block;
                         width: 190px;
-                        margin-right: 25%;
+                        margin-right: 24%;
                     }
 
                     .buscamos__container {

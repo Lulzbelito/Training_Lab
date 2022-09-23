@@ -259,6 +259,9 @@
 * body .section__presentacion .diploma__container--desktop .presentacion__certificate {
   margin: 30px 30%;
 }
+* body .section__presentacion .diploma__container--desktop .presentacion__certificate > picture > img {
+  width: 25px;
+}
 * body .section__presentacion .diploma__container--desktop .presentacion__certificate > p {
   margin-top: 5px;
   font-family: "Pop-mediun";
@@ -289,6 +292,9 @@
 }
 * body .section__presentacion .presentacion__clases .presentacion__clasesHibridas {
   margin: 30px 30%;
+}
+* body .section__presentacion .presentacion__clases .presentacion__clasesHibridas > picture > img {
+  width: 25px;
 }
 * body .section__presentacion .presentacion__clases .presentacion__clasesHibridas > p {
   margin-top: 5px;
@@ -1068,6 +1074,9 @@
   * body .section__presentacion .diploma__container--desktop .presentacion__certificate > picture {
     margin: 5px;
   }
+  * body .section__presentacion .diploma__container--desktop .presentacion__certificate > picture > img {
+    width: 40px;
+  }
   * body .section__presentacion .diploma__container--desktop .presentacion__certificate > p {
     margin-top: 5px;
     font-family: "Pop-mediun";
@@ -1093,6 +1102,12 @@
     margin: 0;
     width: 27%;
   }
+  * body .section__presentacion .presentacion__clases .presentacion__clasesHibridas > picture {
+    margin: 5px;
+  }
+  * body .section__presentacion .presentacion__clases .presentacion__clasesHibridas > picture > img {
+    width: 40px;
+  }
   * body .section__presentacion .presentacion__clases .presentacion__clasesHibridas > p {
     font-family: "Pop-Regular";
     font-size: 20px;
@@ -1101,6 +1116,9 @@
   }
   * body .section__presentacion .presentacion__clases .presentacion__clasesHibridas > p > span {
     font-weight: bold;
+  }
+  * body .section__nosotros {
+    position: relative;
   }
   * body .section__nosotros .nosotros__bkg {
     height: 600px;
@@ -1126,7 +1144,7 @@
   * body .section__nosotros .nosotros__acercaDe {
     position: absolute;
     width: 470px;
-    top: 2100px;
+    top: 500px;
     left: 70%;
     transform: translate(-70%);
     padding: 18px 20px 8px 20px;
@@ -1149,7 +1167,7 @@
   * body .section__nosotros .nosotros__buscamos .nosotros__imgFiltrado {
     display: block;
     width: 190px;
-    margin-right: 25%;
+    margin-right: 24%;
   }
   * body .section__nosotros .nosotros__buscamos .buscamos__container {
     margin: 0 0 100px 150px;
