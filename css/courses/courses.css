@@ -154,13 +154,13 @@
         .courses-1 .our .box .categories .category-2 .row .title p,
         .courses-1 .our .box .categories .category-3 .row .title p,
         .courses-1 .our .box .categories .category-4 .row .title p {
-          font-size: 10px !important;
+          font-size: 12px !important;
           margin-left: 10px !important; }
       .courses-1 .our .box .categories .category-1 .row .col-view .btn-view,
       .courses-1 .our .box .categories .category-2 .row .col-view .btn-view,
       .courses-1 .our .box .categories .category-3 .row .col-view .btn-view,
       .courses-1 .our .box .categories .category-4 .row .col-view .btn-view {
-        font-size: 10px;
+        font-size: 12px;
         margin-right: 25px !important; } }
 
 @media screen and (min-width: 488px) and (max-width: 767px) {

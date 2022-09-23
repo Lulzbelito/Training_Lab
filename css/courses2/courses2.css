@@ -43,12 +43,11 @@
       flex-direction: column;
       justify-content: center; }
     .courses-2 .row .training {
-      align-items: end; }
+      align-items: center; }
       .courses-2 .row .training .box {
         background-color: white;
         width: 349px;
         height: 521px;
-        margin-right: 82px;
         border-radius: 30px; }
         .courses-2 .row .training .box .front-page {
           width: 100%;
@@ -63,7 +62,7 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          width: 300px; }
+          width: 100%; }
           .courses-2 .row .training .box .box2 .title {
             font-family: 'Poppins';
             font-weight: 500;
@@ -107,15 +106,34 @@
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
-        line-height: 24px; }
+        line-height: 24px;
+        margin-left: 0px !important; }
 
 @media screen and (max-width: 426px) {
   .courses-2 .row {
     width: 100% !important; }
-    .courses-2 .row .training .title-box::after {
-      margin-right: 160px !important; }
     .courses-2 .row .training .box {
-      margin-right: 50px !important; } }
+      width: 269px !important; }
+      .courses-2 .row .training .box .box2 {
+        min-width: 269px !important;
+        margin-top: 25px; }
+        .courses-2 .row .training .box .box2 .title {
+          font-size: 15px;
+          line-height: 25px;
+          width: 250px;
+          margin-left: 10px; }
+        .courses-2 .row .training .box .box2 .p1 {
+          font-size: 13px;
+          line-height: 24px;
+          width: 250px;
+          margin-left: 15px; }
+        .courses-2 .row .training .box .box2 .p2 {
+          width: 230px !important; }
+        .courses-2 .row .training .box .box2 .btn2 {
+          font-size: 15px;
+          padding: 10px 50px;
+          text-align: center;
+          letter-spacing: 0.01em; } }
 
 @media screen and (max-width: 769px) {
   .courses-2 {
@@ -126,7 +144,6 @@
       .courses-2 .row .training .title-box::after {
         font-weight: bold;
         color: #22B6AF;
-        margin-right: 270px;
         font-family: 'Poppins';
         font-weight: 600;
         font-size: 20px;
@@ -136,7 +153,7 @@
         width: 349px;
         height: 700px;
         border-radius: 30px;
-        margin-right: 175px; }
+        margin-left: 20px; }
         .courses-2 .row .training .box .box2 {
           height: 511px; }
           .courses-2 .row .training .box .box2 .p1 {

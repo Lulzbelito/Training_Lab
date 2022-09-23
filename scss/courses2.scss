@@ -19,13 +19,12 @@
         }
 
         .training {
-            align-items: end;
+            align-items: center;
 
             .box {
                 background-color: white;
                 width: 349px;
                 height: 521px;
-                margin-right: 82px;
                 border-radius: 30px;
 
                 .front-page {
@@ -43,7 +42,7 @@
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    width: 300px;
+                    width: 100%;
 
                     .title {
                         font-family: 'Poppins';
@@ -111,6 +110,7 @@
                     font-weight: 400;
                     font-size: 18px;
                     line-height: 24px;
+                    margin-left: 0px !important;
                 }
             }
 
@@ -126,12 +126,39 @@
 
             .training {
 
-                .title-box::after {
-                    margin-right: 160px !important;
-                }
-
                 .box {
-                    margin-right: 50px !important;
+                    width: 269px !important;
+
+                    .box2 {
+                        min-width: 269px !important;
+                        margin-top: 25px;
+
+                        .title {
+                            font-size: 15px;
+                            line-height: 25px;
+                            width: 250px;
+                            margin-left: 10px;
+                        }
+
+                        .p1 {
+                            font-size: 13px;
+                            line-height: 24px;
+                            width: 250px;
+                            margin-left: 15px;
+                        }
+
+                        .p2 {
+                            width: 230px !important;
+                        }
+
+                        .btn2 {
+                            font-size: 15px;
+                            padding: 10px 50px;
+
+                            text-align: center;
+                            letter-spacing: 0.01em;
+                        }
+                    }
                 }
             }
         }
@@ -151,7 +178,6 @@
                 .title-box::after {
                     font-weight: bold;
                     color: $color-2;
-                    margin-right: 270px;
 
                     font-family: 'Poppins';
                     font-weight: 600;
@@ -165,7 +191,7 @@
                     width: 349px;
                     height: 700px;
                     border-radius: 30px;
-                    margin-right: 175px;
+                    margin-left: 20px;
 
                     .box2 {
                         height: 511px;
