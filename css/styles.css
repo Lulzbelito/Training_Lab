@@ -251,7 +251,7 @@
 }
 * body .section__nosotros .nosotros__acercaDe {
   position: relative;
-  margin: 40px 95px 20px 95px;
+  margin: 40px 7% 20px 7%;
   padding: 13px 25px 13px 25px;
   background-color: white;
   box-shadow: -1px 0px 50px 8px rgba(0, 0, 0, 0.2);
@@ -410,6 +410,7 @@
 }
 * body .nosotros__container .nosotros__card1 .card1__r > p {
   margin-bottom: 10px;
+  line-height: 1.1;
 }
 * body .nosotros__container .nosotros__card1 .card1__r .card1__number {
   display: flex;
@@ -461,7 +462,7 @@
   border-radius: 15px;
   align-items: center;
   padding: 8px 10px;
-  width: 70%;
+  width: 85%;
   left: 50%;
   transform: translate(-50%, 0);
   bottom: -50px;
@@ -1240,7 +1241,6 @@
   * body .nosotros__container .nosotros__card1 .card1__r {
     width: 50%;
     font-size: 25px;
-    padding: 50px 0 50px 70px;
   }
   * body .nosotros__container .nosotros__card1 .card1__r .card1__number {
     font-size: 25px;
