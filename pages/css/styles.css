@@ -31,6 +31,9 @@
   transform: translate(-150%, 0);
   z-index: 100;
 }
+.cursos__container .cursos__contacto .cursos__titles .cursos__atomo--desktop {
+  display: none;
+}
 .cursos__container .cursos__contacto .cursos__contacto--mobile {
   width: 30%;
   display: flex;
@@ -65,6 +68,7 @@
   border-radius: 40px;
   padding: 0 15px;
   margin: 10px 0;
+  box-shadow: 0px 0px 19px 10px rgba(0, 0, 0, 0.05);
 }
 .cursos__container .cursos__cards .cursos__card > p {
   margin: 0 0 0 15px;
@@ -83,6 +87,7 @@
   margin: 50px 0;
 }
 .cursos__container .cursos__detalles .cursos__detalle {
+  box-shadow: 0px 0px 19px 10px rgba(0, 0, 0, 0.03);
   display: flex;
   align-items: center;
   margin: 15px 15px;
@@ -125,6 +130,104 @@
 .cursos__container .cursos__potencia > img {
   margin-left: 15px;
   margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1023px) {
+  .cursos__container .cursos__contacto {
+    margin-top: 150px;
+    display: flex;
+  }
+  .cursos__container .cursos__contacto .cursos__titles {
+    margin: 0 150px;
+    width: 50%;
+  }
+  .cursos__container .cursos__contacto .cursos__titles .cursos__subtitle {
+    font-size: 21px;
+  }
+  .cursos__container .cursos__contacto .cursos__titles .cursos__title {
+    font-size: 40px;
+  }
+  .cursos__container .cursos__contacto .cursos__titles .cursos__atomo {
+    display: none;
+  }
+  .cursos__container .cursos__contacto .cursos__titles .cursos__atomo--desktop {
+    display: block;
+    position: absolute;
+    top: -72px;
+    width: 300px;
+    right: -120%;
+    transform: translate(120%);
+  }
+  .cursos__container .cursos__contacto .cursos__contacto--mobile {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+    position: relative;
+    bottom: -295px;
+  }
+  .cursos__container .cursos__contacto .cursos__contacto--mobile .contacto__button1, .cursos__container .cursos__contacto .cursos__contacto--mobile .contacto__button2 {
+    height: 45px;
+    width: 220px;
+    margin: 6px 5px;
+    font-size: 21px;
+  }
+  .cursos__container .cursos__contacto .cursos__contacto--mobile .contacto__button2 {
+    color: black;
+  }
+  .cursos__container .cursos__contacto .cursos__contacto--mobile .contacto__button2 > picture > img {
+    width: 22px;
+  }
+  .cursos__container .cursos__cards {
+    margin: 60px 0 0 145px;
+  }
+  .cursos__container .cursos__cards .cursos__card {
+    width: 320px;
+    height: 45px;
+    border-radius: 40px;
+    padding: 0 15px;
+    margin: 10px 0;
+    box-shadow: 0px 0px 19px 10px rgba(0, 0, 0, 0.05);
+  }
+  .cursos__container .cursos__cards .cursos__card > p {
+    margin: 0 0 0 15px;
+    font-size: 19px;
+    line-height: 1;
+  }
+  .cursos__container .cursos__cards .cursos__card > p > span {
+    font-size: 15px;
+  }
+  .cursos__container .cursos__cards .cursos__card > img {
+    width: 22px;
+  }
+  .cursos__container .cursos__detalles {
+    margin: 150px 0;
+  }
+  .cursos__container .cursos__detalles .cursos__detalle {
+    margin: 15px 12%;
+  }
+  .cursos__container .cursos__detalles .cursos__detalle > p {
+    font-size: 24px;
+    padding: 20px 0px 20px 0px;
+  }
+  .cursos__container .cursos__potencia {
+    background-image: url("../../img/cursos--imgbkg--desktop.png");
+    height: 600px;
+    padding: 160px 200px;
+  }
+  .cursos__container .cursos__potencia::before {
+    display: none;
+  }
+  .cursos__container .cursos__potencia > p {
+    font-size: 40px;
+    width: 45%;
+  }
+  .cursos__container .cursos__potencia > p > span {
+    color: #22B6AF;
+  }
+  .cursos__container .cursos__potencia > picture > img {
+    margin-left: 15px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
