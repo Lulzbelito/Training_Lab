@@ -207,15 +207,13 @@
                     justify-content: center;
                     flex-direction: column;
                     align-items: center;
-
-                    >picture {
+                    > picture {
                         display: flex;
                         justify-content: center;
-                    }
-
-                    .clases__img {
-                        min-width: 280px;
-
+                        .clases__img {
+                            width: 280px;
+    
+                        }
                     }
                 }
 

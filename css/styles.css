@@ -199,8 +199,8 @@
   display: flex;
   justify-content: center;
 }
-* body .section__presentacion .presentacion__clases .clases__container .clases__img {
-  min-width: 280px;
+* body .section__presentacion .presentacion__clases .clases__container > picture .clases__img {
+  width: 280px;
 }
 * body .section__presentacion .presentacion__clases .presentacion__clasesHibridas {
   margin: 30px 30%;
