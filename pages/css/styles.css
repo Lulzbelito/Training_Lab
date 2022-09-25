@@ -3,15 +3,16 @@
   background-image: url("../../img/cursos--bkg.png");
   width: 100%;
   background-size: cover;
-  height: 1000px;
+  height: 400px;
 }
 .cursos__container .cursos__contacto {
   margin-top: 150px;
   display: flex;
+  justify-content: space-around;
 }
 .cursos__container .cursos__contacto .cursos__titles {
   margin: 0 14px;
-  width: 60%;
+  width: 50%;
   position: relative;
 }
 .cursos__container .cursos__contacto .cursos__titles .cursos__subtitle {
@@ -27,8 +28,8 @@
   position: absolute;
   width: 30px;
   top: -30px;
-  left: 150%;
-  transform: translate(-150%, 0);
+  left: 180%;
+  transform: translate(-180%, 0);
   z-index: 100;
 }
 .cursos__container .cursos__contacto .cursos__titles .cursos__atomo--desktop {
@@ -40,8 +41,10 @@
   flex-direction: column;
   justify-content: center;
   margin: 5px;
+  align-items: flex-end;
 }
 .cursos__container .cursos__contacto .cursos__contacto--mobile .contacto__button1, .cursos__container .cursos__contacto .cursos__contacto--mobile .contacto__button2 {
+  width: 110px;
   padding: 4px 0;
   border: none;
   background-color: #22B6AF;
@@ -127,12 +130,19 @@
 .cursos__container .cursos__potencia > p > span {
   color: #22B6AF;
 }
-.cursos__container .cursos__potencia > img {
+.cursos__container .cursos__potencia > picture > img {
   margin-left: 15px;
   margin-bottom: 10px;
 }
+.cursos__container .footer__container {
+  height: 100px;
+}
 
 @media only screen and (min-width: 1023px) {
+  .cursos__container {
+    background-image: none;
+    height: 850px;
+  }
   .cursos__container .cursos__contacto {
     margin-top: 150px;
     display: flex;
@@ -227,6 +237,9 @@
   }
   .cursos__container .cursos__potencia > picture > img {
     margin-left: 15px;
+  }
+  .cursos__container .footer__container {
+    padding: 100px;
   }
 }
 
