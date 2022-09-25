@@ -1,10 +1,13 @@
 
 
 .cursos__container {
-    margin-top: 40px;
-    // background-color: rgb(222, 222, 222);
+    margin-top: 35px;
+    background-image: url('../../img/cursos--bkg.png');
+    width: 100%;
+    background-size: cover;
+    height: 1000px;
     .cursos__contacto {
-        margin-top: 130px;
+        margin-top: 150px;
         display: flex;
         .cursos__titles {
             margin: 0 14px;
@@ -12,7 +15,7 @@
             position: relative;
             .cursos__subtitle {
                 font-family: 'Pop-ligth';    
-             font-size: 15px;
+             font-size: 14px;
             }
             .cursos__title {
                 font-family: 'Pop-Bold';
@@ -23,25 +26,25 @@
                 position: absolute;
                 width: 30px;
                 top: -30px;
-                left: 170%;
-                transform: translate(-170%, 0);
+                left: 150%;
+                transform: translate(-150%, 0);
                 z-index: 100;
             }
         }
         .cursos__contacto--mobile {
-            width: 40%;
+            width: 30%;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            margin: 10px;
+            margin: 5px;
             .contacto__button1 {
-                padding: 5px;
+                padding: 4px 0;
                 border: none;
                 background-color: #22B6AF;
                 color: white;
-                margin: 5px 0;
+                margin: 6px 0;
                 border-radius: 20px;
-                font-size: 13px;
+                font-size: 12px;
                 font-family: 'Pop-mediun';
             }
             .contacto__button2 {
@@ -90,11 +93,8 @@
             > p {
                 font-family: 'Pop-SemiBold';
                 font-size: 12px;
-                padding: 10px 30px 10px 0px;
+                padding: 10px 0px 10px 0px;
                 margin: 0;
-            }
-            > img {
-                width: 16px;
             }
         }
     }
