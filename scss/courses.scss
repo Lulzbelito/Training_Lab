@@ -11,10 +11,8 @@
     }
 
     .our {
-
         .paragraph {
-            margin-top: 50px;
-            margin-left: 250px;
+            margin: 50px 13% 0 13%;
             width: 550px;
 
             h2 {
@@ -36,7 +34,6 @@
                 font-weight: 300;
                 font-size: 18px;
                 line-height: 24px;
-
                 text-align: justify;
                 margin: 0;
             }
@@ -45,15 +42,13 @@
 
         .box {
             display: flex;
-            justify-content: center;
-
+            justify-content: flex-start;
+            margin: 0 13%;
             .categories {
                 display: flex;
                 flex-direction: column;
-                max-width: 888px;
-
+                width: 100%;
                 margin-top: 50px;
-
                 .category-1,
                 .category-2,
                 .category-3,
