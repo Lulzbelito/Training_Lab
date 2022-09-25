@@ -546,7 +546,8 @@
   min-height: 570px;
 }
 * body .courses .courses-1 .our .paragraph {
-  margin: 50px 13% 0 13%;
+  margin-top: 50px;
+  margin-left: 250px;
   width: 550px;
 }
 * body .courses .courses-1 .our .paragraph h2 {
@@ -571,13 +572,12 @@
 }
 * body .courses .courses-1 .our .box {
   display: flex;
-  justify-content: flex-start;
-  margin: 0 13%;
+  justify-content: center;
 }
 * body .courses .courses-1 .our .box .categories {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  max-width: 888px;
   margin-top: 50px;
 }
 * body .courses .courses-1 .our .box .categories .category-1,
@@ -1063,7 +1063,7 @@
     display: flex;
     justify-content: center;
   }
-  * body .section__presentacion .presentacion__clases .clases__container .clases__img {
+  * body .section__presentacion .presentacion__clases .clases__container > picture .clases__img {
     width: 500px;
   }
   * body .section__presentacion .presentacion__clases .presentacion__clasesHibridas {

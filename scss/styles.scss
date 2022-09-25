@@ -212,7 +212,6 @@
                         justify-content: center;
                         .clases__img {
                             width: 280px;
-    
                         }
                     }
                 }
@@ -693,14 +692,12 @@
                         >picture {
                             display: flex;
                             justify-content: center;
-                        }
-
-                        .clases__img {
-                            width: 500px;
-    
+                            .clases__img {
+                                width: 500px;
+        
+                            }
                         }
                     }
-    
                     .presentacion__clasesHibridas {
                         margin: 0;
                         width: 27%;
