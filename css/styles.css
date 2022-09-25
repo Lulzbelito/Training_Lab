@@ -1240,6 +1240,8 @@
   }
   * body .nosotros__container .nosotros__card1 {
     margin: 0 15%;
+    height: 200px;
+    align-items: center;
   }
   * body .nosotros__container .nosotros__card1 .card1__r {
     width: 50%;
@@ -1255,7 +1257,7 @@
   }
   * body .nosotros__container .nosotros__card1 .card1__guy {
     width: 450px;
-    right: 20px;
+    right: -20px;
   }
   * body .nosotros__container .nosotros__labs > h6 {
     font-size: 26px;
