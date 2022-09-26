@@ -33,22 +33,23 @@
   height: 700px;
   background: url("../img/4.0.png");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  display: flex; }
   .courses-2 .row {
-    width: 100%;
-    display: flex; }
+    width: 100%; }
     .courses-2 .row .col {
       height: 700px;
       display: flex;
       flex-direction: column;
       justify-content: center; }
     .courses-2 .row .training {
-      align-items: center; }
+      align-items: flex-end; }
       .courses-2 .row .training .box {
         background-color: white;
         width: 349px;
         height: 521px;
-        border-radius: 30px; }
+        border-radius: 30px;
+        margin-right: 5%; }
         .courses-2 .row .training .box .front-page {
           width: 100%;
           height: 188px;
@@ -93,7 +94,8 @@
             box-shadow: none !important;
             background-color: #233545; }
     .courses-2 .row .featured-course .box {
-      width: 370px; }
+      width: 370px;
+      margin-left: 5%; }
       .courses-2 .row .featured-course .box .title {
         font-family: 'Poppins';
         font-weight: 600;
@@ -110,37 +112,38 @@
         margin-left: 0px !important; }
 
 @media screen and (max-width: 426px) {
-  .courses-2 .row {
-    width: 100% !important; }
-    .courses-2 .row .training .box {
-      width: 269px !important; }
-      .courses-2 .row .training .box .box2 {
-        min-width: 269px !important;
-        margin-top: 25px; }
-        .courses-2 .row .training .box .box2 .title {
-          font-size: 15px;
-          line-height: 25px;
-          width: 250px;
-          margin-left: 10px; }
-        .courses-2 .row .training .box .box2 .p1 {
-          font-size: 13px;
-          line-height: 24px;
-          width: 250px;
-          margin-left: 15px; }
-        .courses-2 .row .training .box .box2 .p2 {
-          width: 230px !important; }
-        .courses-2 .row .training .box .box2 .btn2 {
-          font-size: 15px;
-          padding: 10px 50px;
-          text-align: center;
-          letter-spacing: 0.01em; } }
+  .courses-2 .row .training .box {
+    width: 269px !important; }
+    .courses-2 .row .training .box .box2 {
+      min-width: 269px !important;
+      margin-top: 25px; }
+      .courses-2 .row .training .box .box2 .title {
+        font-size: 15px;
+        line-height: 25px;
+        width: 250px;
+        margin-left: 10px; }
+      .courses-2 .row .training .box .box2 .p1 {
+        font-size: 13px;
+        line-height: 24px;
+        width: 250px;
+        margin-left: 15px; }
+      .courses-2 .row .training .box .box2 .p2 {
+        width: 230px !important; }
+      .courses-2 .row .training .box .box2 .btn2 {
+        font-size: 15px;
+        padding: 10px 50px;
+        text-align: center;
+        letter-spacing: 0.01em; } }
 
 @media screen and (max-width: 769px) {
   .courses-2 {
     height: 800px; }
     .courses-2 .row .training {
       padding-top: 20px;
-      height: 800px; }
+      padding-right: 0px;
+      padding-left: 0px;
+      height: 800px;
+      align-items: center; }
       .courses-2 .row .training .title-box::after {
         font-weight: bold;
         color: #22B6AF;
@@ -153,10 +156,12 @@
         width: 349px;
         height: 700px;
         border-radius: 30px;
-        margin-left: 20px; }
+        margin-left: 20px;
+        margin-right: 0px; }
         .courses-2 .row .training .box .box2 {
           height: 511px; }
           .courses-2 .row .training .box .box2 .p1 {
+            font-weight: 600;
             font-size: 13px; }
           .courses-2 .row .training .box .box2 .p2 {
             width: 250px; }
