@@ -3,12 +3,13 @@
     background-image: url('../../img/cursos--bkg.png');
     width: 100%;
     background-size: cover;
-    height: 400px;
+    height: 600px;
 
     .cursos__contacto {
         margin-top: 150px;
         display: flex;
         justify-content: space-around;
+
         .cursos__titles {
             margin: 0 14px;
             width: 50%;
@@ -33,6 +34,7 @@
                 transform: translate(-180%, 0);
                 z-index: 100;
             }
+
             .cursos__atomo--desktop {
                 display: none;
             }
@@ -45,6 +47,7 @@
             justify-content: center;
             margin: 5px;
             align-items: flex-end;
+
             .contacto__button1 {
                 width: 110px;
                 padding: 4px 0;
@@ -69,6 +72,7 @@
 
     .cursos__cards {
         margin: 0 15px;
+
         .cursos__card {
             display: flex;
             align-items: center;
@@ -94,6 +98,26 @@
 
             >img {
                 width: 22px;
+            }
+        }
+        .cursos__contacto--desktop {
+            display: none;
+            .contacto__button1--d {
+                width: 110px;
+                padding: 4px 0;
+                border: none;
+                background-color: #22B6AF;
+                color: white;
+                margin: 6px 0;
+                border-radius: 20px;
+                font-size: 12px;
+                font-family: 'Pop-mediun';
+            }
+            .contacto__button2--d {
+                @extend .contacto__button1--d;
+                border: 2px solid black;
+                color: black;
+                background-color: rgba(255, 255, 255, 0);
             }
         }
     }
@@ -147,77 +171,63 @@
                 color: #22B6AF;
             }
         }
-        > picture {
+
+        >picture {
             >img {
                 margin-left: 15px;
                 margin-bottom: 10px;
             }
         }
     }
+
     .footer__container {
         height: 100px;
-        }
+    }
 }
 
 @media only screen and (min-width: 1023px) {
     .cursos__container {
-        background-image: none;
-        // margin-top: 35px;
-        // background-image: url('../../img/cursos--bkg.png');
-        // width: 100%;
-        // background-size: cover;
-        height: 850px;
+        background-image: url('../../img/cursos--bkg--desktop.png');
+        height: 1150px;
+
         .cursos__contacto {
             margin-top: 150px;
             display: flex;
+            
             .cursos__titles {
                 margin: 0 150px;
-                width: 50%;
+                width: 100%;
+
                 .cursos__subtitle {
                     font-size: 21px;
                 }
+
                 .cursos__title {
                     font-size: 40px;
                 }
+
                 .cursos__atomo {
                     display: none;
                 }
+
                 .cursos__atomo--desktop {
                     display: block;
                     position: absolute;
                     top: -72px;
                     width: 300px;
-                    right: -120%;
-                    transform: translate(120%);
+                    right: -5%;
+                    transform: translate(5%);
                 }
             }
             .cursos__contacto--mobile {
-                width: 100%;
-                flex-direction: row;
-                justify-content: center;
-                margin: 5px;
-                position: relative;
-                bottom: -295px;
-                .contacto__button1 {
-                    height: 45px;
-                    width: 220px;
-                    margin: 6px 5px;
-                    font-size: 21px;
-                }
-    
-                .contacto__button2 {
-                    @extend .contacto__button1;
-                    color: black;
-                    > picture {
-                        > img {
-                            width: 22px;
-                        }
-                    }
-                }
+                display: none;
             }
         }
+
         .cursos__cards {
             margin: 60px 0 0 145px;
+            display: flex;
+            align-items: flex-end;
             .cursos__card {
                 width: 320px;
                 height: 45px;
@@ -225,37 +235,68 @@
                 padding: 0 15px;
                 margin: 10px 0;
                 box-shadow: 0px 0px 19px 10px rgba(0, 0, 0, 0.050);
+
                 >p {
                     margin: 0 0 0 15px;
                     font-size: 19px;
                     line-height: 1;
+
                     >span {
                         font-size: 15px;
                     }
                 }
+
                 >img {
                     width: 22px;
                 }
             }
+            .cursos__contacto--desktop {
+                display: flex;
+                width: 100%;
+                flex-direction: row;
+                justify-content: flex-end;
+                margin: 0 15px;
+                .contacto__button1--d {
+                    height: 45px;
+                    width: 220px;
+                    margin: 6px 5px;
+                    font-size: 21px;
+                }
+
+                .contacto__button2--d {
+                   @extend .contacto__button1--d;
+                    color: black;
+
+                    >picture {
+                        >img {
+                            width: 22px;
+                        }
+                    }
+                }
+            }
         }
+
         .cursos__detalles {
             margin: 150px 0;
+
             .cursos__detalle {
                 margin: 15px 12%;
+
                 >p {
                     font-size: 24px;
                     padding: 20px 0px 20px 0px;
                 }
             }
         }
+
         .cursos__potencia {
             background-image: url('../../img/cursos--imgbkg--desktop.png');
             height: 600px;
             padding: 160px 200px;
+            position: relative;
             &::before {
-                display: none; 
+                display: none;
             }
-    
             >p {
                 font-size: 40px;
                 width: 45%;
@@ -263,15 +304,16 @@
                     color: #22B6AF;
                 }
             }
-            > picture {
+
+            >picture {
                 >img {
                     margin-left: 15px;
                 }
             }
         }
+
         .footer__container {
             padding: 100px;
-         }
+        }
     }
 }
-
