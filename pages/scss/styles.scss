@@ -1,0 +1,267 @@
+.cursos__container {
+    margin-top: 35px;
+    background-image: url('../../img/cursos--bkg.png');
+    width: 100%;
+    background-size: cover;
+    height: 1000px;
+
+    .cursos__contacto {
+        margin-top: 150px;
+        display: flex;
+
+        .cursos__titles {
+            margin: 0 14px;
+            width: 60%;
+            position: relative;
+
+            .cursos__subtitle {
+                font-family: 'Pop-ligth';
+                font-size: 14px;
+            }
+
+            .cursos__title {
+                font-family: 'Pop-Bold';
+                font-size: 21px;
+                color: #22B6AF;
+            }
+
+            .cursos__atomo {
+                position: absolute;
+                width: 30px;
+                top: -30px;
+                left: 150%;
+                transform: translate(-150%, 0);
+                z-index: 100;
+            }
+            .cursos__atomo--desktop {
+                display: none;
+            }
+        }
+
+        .cursos__contacto--mobile {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 5px;
+
+            .contacto__button1 {
+                padding: 4px 0;
+                border: none;
+                background-color: #22B6AF;
+                color: white;
+                margin: 6px 0;
+                border-radius: 20px;
+                font-size: 12px;
+                font-family: 'Pop-mediun';
+            }
+
+            .contacto__button2 {
+                @extend .contacto__button1;
+                border: 2px solid black;
+                color: black;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+
+    }
+
+    .cursos__cards {
+        margin: 0 15px;
+        .cursos__card {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            width: 250px;
+            height: 45px;
+            border-radius: 40px;
+            padding: 0 15px;
+            margin: 10px 0;
+            box-shadow: 0px 0px 19px 10px rgba(0, 0, 0, 0.050);
+
+            >p {
+                margin: 0 0 0 15px;
+                color: #22B6AF;
+                font-size: 14px;
+                font-family: 'Pop-Regular';
+                line-height: 1;
+
+                >span {
+                    font-size: 11px;
+                }
+            }
+
+            >img {
+                width: 22px;
+            }
+        }
+    }
+
+    .cursos__detalles {
+        margin: 50px 0;
+
+        .cursos__detalle {
+            box-shadow: 0px 0px 19px 10px rgba(0, 0, 0, 0.030);
+            display: flex;
+            align-items: center;
+            margin: 15px 15px;
+            background-color: white;
+            padding: 0 10px;
+
+            >p {
+                font-family: 'Pop-SemiBold';
+                font-size: 12px;
+                padding: 10px 0px 10px 0px;
+                margin: 0;
+            }
+        }
+    }
+
+    .cursos__potencia {
+        background-image: url('../../img/cursos--imgbkg.png');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        padding: 80px 0;
+        position: relative;
+
+        &::before {
+            content: '';
+            width: 100%;
+            height: 8px;
+            background: #22B6AF;
+            position: absolute;
+            bottom: 0;
+        }
+
+        >p {
+            margin-left: 15px;
+            font-family: 'Pop-Bold';
+            font-size: 21px;
+            width: 85%;
+            line-height: 1.1;
+
+            >span {
+                color: #22B6AF;
+            }
+        }
+
+        >img {
+            margin-left: 15px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1023px) {
+    .cursos__container {
+        // margin-top: 35px;
+        // background-image: url('../../img/cursos--bkg.png');
+        // width: 100%;
+        // background-size: cover;
+        // height: 1000px;
+        .cursos__contacto {
+            margin-top: 150px;
+            display: flex;
+            .cursos__titles {
+                margin: 0 150px;
+                width: 50%;
+                .cursos__subtitle {
+                    font-size: 21px;
+                }
+                .cursos__title {
+                    font-size: 40px;
+                }
+                .cursos__atomo {
+                    display: none;
+                }
+                .cursos__atomo--desktop {
+                    display: block;
+                    position: absolute;
+                    top: -72px;
+                    width: 300px;
+                    right: -120%;
+                    transform: translate(120%);
+                }
+            }
+            .cursos__contacto--mobile {
+                width: 100%;
+                flex-direction: row;
+                justify-content: center;
+                margin: 5px;
+                position: relative;
+                bottom: -295px;
+                .contacto__button1 {
+                    height: 45px;
+                    width: 220px;
+                    margin: 6px 5px;
+                    font-size: 21px;
+                }
+    
+                .contacto__button2 {
+                    @extend .contacto__button1;
+                    color: black;
+                    > picture {
+                        > img {
+                            width: 22px;
+                        }
+                    }
+                }
+            }
+        }
+        .cursos__cards {
+            margin: 60px 0 0 145px;
+            .cursos__card {
+                width: 320px;
+                height: 45px;
+                border-radius: 40px;
+                padding: 0 15px;
+                margin: 10px 0;
+                box-shadow: 0px 0px 19px 10px rgba(0, 0, 0, 0.050);
+                >p {
+                    margin: 0 0 0 15px;
+                    font-size: 19px;
+                    line-height: 1;
+                    >span {
+                        font-size: 15px;
+                    }
+                }
+                >img {
+                    width: 22px;
+                }
+            }
+        }
+        .cursos__detalles {
+            margin: 150px 0;
+            .cursos__detalle {
+                margin: 15px 12%;
+                >p {
+                    font-size: 24px;
+                    padding: 20px 0px 20px 0px;
+                }
+            }
+        }
+        .cursos__potencia {
+            background-image: url('../../img/cursos--imgbkg--desktop.png');
+            height: 600px;
+            padding: 160px 200px;
+            &::before {
+                display: none; 
+            }
+    
+            >p {
+                font-size: 40px;
+                width: 45%;
+                >span {
+                    color: #22B6AF;
+                }
+            }
+            > picture {
+                >img {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}

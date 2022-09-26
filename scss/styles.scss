@@ -1,10 +1,12 @@
 @import "./variables.scss";
-@import "./test.scss";
-
 
 * {
     margin: 0;
     padding: 0;
+
+    >a {
+        text-decoration: none;
+    }
 
     body {
         color: $color-1;
@@ -215,11 +217,10 @@
                     >picture {
                         display: flex;
                         justify-content: center;
-                    }
 
-                    .clases__img {
-                        min-width: 280px;
-
+                        .clases__img {
+                            width: 280px;
+                        }
                     }
                 }
 
@@ -285,7 +286,7 @@
 
             .nosotros__acercaDe {
                 position: relative;
-                margin: 40px 95px 20px 95px;
+                margin: 40px 7% 20px 7%;
                 padding: 13px 25px 13px 25px;
                 background-color: white;
                 box-shadow: $box-shadowContainers;
@@ -467,9 +468,11 @@
                     width: 60%;
                     font-size: 13px;
                     padding: 15px 0 15px 20px;
+                    z-index: 1;
 
                     >p {
                         margin-bottom: 10px;
+                        line-height: 1.1;
                     }
 
                     .card1__number {
@@ -533,7 +536,7 @@
                 border-radius: 15px;
                 align-items: center;
                 padding: 8px 10px;
-                width: 70%;
+                width: 85%;
                 left: 50%;
                 transform: translate(-50%, 0);
                 bottom: -50px;
@@ -707,11 +710,11 @@
                         >picture {
                             display: flex;
                             justify-content: center;
-                        }
 
-                        .clases__img {
-                            width: 500px;
+                            .clases__img {
+                                width: 500px;
 
+                            }
                         }
                     }
 
@@ -929,12 +932,12 @@
 
                 .nosotros__card1 {
                     margin: 0 15%;
+                    height: 200px;
+                    align-items: center;
 
                     .card1__r {
                         width: 50%;
                         font-size: 25px;
-                        padding: 50px 0 50px 70px;
-                        ;
 
                         .card1__number {
                             font-size: 25px;
@@ -949,7 +952,7 @@
 
                     .card1__guy {
                         width: 450px;
-                        right: 20px;
+                        right: -20px;
                     }
                 }
 
