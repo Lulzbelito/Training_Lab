@@ -18,7 +18,11 @@
     "build-css6": "node-sass --include-parh scss scss/courses.scss css/courses/courses.css",
     "watch-css6": "nodemon -e scss -x \"npm run build-css6\"",
     "build-css7": "node-sass --include-parh scss scss/courses2.scss css/courses2/courses2.css",
-    "watch-css7": "nodemon -e scss -x \"npm run build-css7\""
+    "watch-css7": "nodemon -e scss -x \"npm run build-css7\"",
+    "build-css8": "node-sass --include-parh scss scss/laboratories.scss css/laboratories/laboratories.css",
+    "watch-css8": "nodemon -e scss -x \"npm run build-css8\"",
+    "build-css9": "node-sass --include-parh scss scss/training.scss css/training/training.css",
+    "watch-css9": "nodemon -e scss -x \"npm run build-css9\""
   },
   "repository": {
     "type": "git",

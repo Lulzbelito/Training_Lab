@@ -179,11 +179,13 @@
 
                 .presentacion__certificate {
                     margin: 30px 30%;
-                    > picture {
-                        > img {
+
+                    >picture {
+                        >img {
                             width: 25px;
                         }
                     }
+
                     >p {
                         margin-top: 5px;
                         font-family: 'Pop-mediun';
@@ -200,7 +202,8 @@
 
             .presentacion__clases {
                 margin-top: 50px;
-                background: linear-gradient(0deg, rgba(0,0,0,0.008841036414565795) 0%, rgba(0,0,0,0.03405112044817926) 100%);
+                background: linear-gradient(0deg, rgba(0, 0, 0, 0.008841036414565795) 0%, rgba(0, 0, 0, 0.03405112044817926) 100%);
+
                 .clases__container {
                     position: relative;
                     top: -20px;
@@ -222,17 +225,20 @@
 
                 .presentacion__clasesHibridas {
                     margin: 30px 30%;
-                    > picture {
-                        > img {
+
+                    >picture {
+                        >img {
                             width: 25px;
                         }
                     }
+
                     >p {
                         margin-top: 5px;
                         font-family: 'Pop-Regular';
                         font-size: 13px;
                         line-height: 1.2;
                         margin-bottom: 0;
+
                         >span {
                             font-weight: bold;
                         }
@@ -670,12 +676,15 @@
                     .presentacion__certificate {
                         margin: 30px;
                         width: 25%;
-                        > picture {
+
+                        >picture {
                             margin: 5px;
-                            > img {
+
+                            >img {
                                 width: 40px;
                             }
                         }
+
                         >p {
                             margin-top: 5px;
                             font-family: 'Pop-mediun';
@@ -688,11 +697,13 @@
                         }
                     }
                 }
+
                 .presentacion__clases {
                     .clases__container {
                         top: -20px;
                         justify-content: space-evenly;
-                        flex-direction:row-reverse;
+                        flex-direction: row-reverse;
+
                         >picture {
                             display: flex;
                             justify-content: center;
@@ -700,25 +711,29 @@
 
                         .clases__img {
                             width: 500px;
-    
+
                         }
                     }
-    
+
                     .presentacion__clasesHibridas {
                         margin: 0;
                         width: 27%;
-                        > picture {
+
+                        >picture {
                             margin: 5px;
-                            > img {
+
+                            >img {
                                 width: 40px;
                             }
                         }
+
                         >p {
 
                             font-family: 'Pop-Regular';
                             font-size: 20px;
                             line-height: 1.2;
                             margin: 0;
+
                             >span {
                                 font-weight: bold;
                             }
@@ -729,6 +744,7 @@
 
             .section__nosotros {
                 position: relative;
+
                 .nosotros__bkg {
                     height: 600px;
                     position: relative;
