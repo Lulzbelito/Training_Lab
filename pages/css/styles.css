@@ -184,8 +184,8 @@
     position: absolute;
     top: -72px;
     width: 300px;
-    right: -5%;
-    transform: translate(5%);
+    right: 0%;
+    transform: translate(0%);
   }
   .cursos__container .cursos__contacto .cursos__contacto--mobile {
     display: none;
@@ -219,7 +219,7 @@
     width: 100%;
     flex-direction: row;
     justify-content: flex-end;
-    margin: 0 15px;
+    margin: 0 145px;
   }
   .cursos__container .cursos__cards .cursos__contacto--desktop .contacto__button1--d, .cursos__container .cursos__cards .cursos__contacto--desktop .contacto__button2--d {
     height: 45px;
