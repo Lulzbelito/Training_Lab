@@ -30,7 +30,7 @@
                 justify-content: space-evenly;
 
                 .box-title {
-                    margin-top: 20px;
+                    display: flex;
                 }
 
                 .header__title {
@@ -52,10 +52,6 @@
                     .canva-title {
                         font-family: 'Gentium Book Plus', serif;
                     }
-                }
-
-                li {
-                    text-align: start;
                 }
 
                 li .btn1 {
@@ -1059,9 +1055,22 @@
     }
 }
 
-
 @media only screen and (min-width: 1320px) {
     .nosotros__beneficios {
         max-height: 750px;
     }
+}
+
+@media screen and (max-width: 769px) {
+
+    header {
+
+        .box-nav {
+
+            .header__title {
+                font-size: 25px !important;
+            }
+        }
+    }
+
 }

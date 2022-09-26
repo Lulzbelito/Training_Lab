@@ -51,7 +51,7 @@
         display: flex;
         justify-content: space-evenly; }
         * body header .box-nav .box-title {
-          margin-top: 20px; }
+          display: flex; }
         * body header .box-nav .header__title {
           text-align: left;
           margin: 20px 0 20px 0;
@@ -65,8 +65,6 @@
             font-weight: 900; }
           * body header .box-nav .box-buttons .canva-title {
             font-family: 'Gentium Book Plus', serif; }
-        * body header .box-nav li {
-          text-align: start; }
         * body header .box-nav li .btn1 {
           color: black;
           border: none;
@@ -783,7 +781,7 @@
               * body .courses .courses-2 .row .training .box .box2 {
                 height: 511px; }
                 * body .courses .courses-2 .row .training .box .box2 .p1 {
-                  font-weight: 600;
+                  font-weight: 500;
                   font-size: 13px; }
                 * body .courses .courses-2 .row .training .box .box2 .p2 {
                   width: 250px; }
@@ -1067,3 +1065,7 @@
 @media only screen and (min-width: 1320px) {
   .nosotros__beneficios {
     max-height: 750px; } }
+
+@media screen and (max-width: 769px) {
+  header .box-nav .header__title {
+    font-size: 25px !important; } }
