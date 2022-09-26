@@ -6,10 +6,10 @@
     background: url("../img/4.0.png");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
 
     .row {
         width: 100%;
-        display: flex;
 
         .col {
             height: 700px;
@@ -19,13 +19,14 @@
         }
 
         .training {
-            align-items: center;
+            align-items: flex-end;
 
             .box {
                 background-color: white;
                 width: 349px;
                 height: 521px;
                 border-radius: 30px;
+                margin-right: 5%;
 
                 .front-page {
                     width: 100%;
@@ -92,6 +93,8 @@
         .featured-course {
             .box {
                 width: 370px;
+                margin-left: 5%;
+
                 .title {
                     font-family: 'Poppins';
                     font-weight: 600;
@@ -120,7 +123,6 @@
 
     .courses-2 {
         .row {
-            width: 100% !important;
 
             .training {
 
@@ -171,7 +173,10 @@
         .row {
             .training {
                 padding-top: 20px;
+                padding-right: 0px;
+                padding-left: 0px;
                 height: 800px;
+                align-items: center;
 
                 .title-box::after {
                     font-weight: bold;
@@ -190,11 +195,14 @@
                     height: 700px;
                     border-radius: 30px;
                     margin-left: 20px;
+                    margin-right: 0px;
+
 
                     .box2 {
                         height: 511px;
 
                         .p1 {
+                            font-weight: 500;
                             font-size: 13px;
                         }
 

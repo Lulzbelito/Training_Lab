@@ -3,9 +3,11 @@
 * {
     margin: 0;
     padding: 0;
-    > a {
+
+    >a {
         text-decoration: none;
     }
+
     body {
         color: $color-1;
         min-height: 100%;
@@ -28,12 +30,12 @@
                 justify-content: space-evenly;
 
                 .box-title {
-                    margin-top: 20px;
+                    display: flex;
                 }
 
                 .header__title {
                     text-align: left;
-                    margin: 20px 0 20px 23%;
+                    margin: 20px 0 20px 0;
                     font-size: 35px;
                     color: $color-1;
                     font-family: 'Gentium Book Plus', serif;
@@ -50,10 +52,6 @@
                     .canva-title {
                         font-family: 'Gentium Book Plus', serif;
                     }
-                }
-
-                li {
-                    text-align: start;
                 }
 
                 li .btn1 {
@@ -179,11 +177,13 @@
 
                 .presentacion__certificate {
                     margin: 30px 30%;
-                    > picture {
-                        > img {
+
+                    >picture {
+                        >img {
                             width: 25px;
                         }
                     }
+
                     >p {
                         margin-top: 5px;
                         font-family: 'Pop-mediun';
@@ -200,7 +200,8 @@
 
             .presentacion__clases {
                 margin-top: 50px;
-                background: linear-gradient(0deg, rgba(0,0,0,0.008841036414565795) 0%, rgba(0,0,0,0.03405112044817926) 100%);
+                background: linear-gradient(0deg, rgba(0, 0, 0, 0.008841036414565795) 0%, rgba(0, 0, 0, 0.03405112044817926) 100%);
+
                 .clases__container {
                     position: relative;
                     top: -20px;
@@ -208,9 +209,11 @@
                     justify-content: center;
                     flex-direction: column;
                     align-items: center;
-                    > picture {
+
+                    >picture {
                         display: flex;
                         justify-content: center;
+
                         .clases__img {
                             width: 280px;
                         }
@@ -219,17 +222,20 @@
 
                 .presentacion__clasesHibridas {
                     margin: 30px 30%;
-                    > picture {
-                        > img {
+
+                    >picture {
+                        >img {
                             width: 25px;
                         }
                     }
+
                     >p {
                         margin-top: 5px;
                         font-family: 'Pop-Regular';
                         font-size: 13px;
                         line-height: 1.2;
                         margin-bottom: 0;
+
                         >span {
                             font-weight: bold;
                         }
@@ -459,6 +465,7 @@
                     font-size: 13px;
                     padding: 15px 0 15px 20px;
                     z-index: 1;
+
                     >p {
                         margin-bottom: 10px;
                         line-height: 1.1;
@@ -622,6 +629,18 @@
     * {
         body {
 
+            header {
+
+                .box-nav {
+
+                    .header__title {
+                        margin-left: 23%;
+                    }
+
+                }
+
+            }
+
             .section__presentacion {
                 .presentacion__bkg {
                     height: 100vh;
@@ -668,12 +687,15 @@
                     .presentacion__certificate {
                         margin: 30px;
                         width: 25%;
-                        > picture {
+
+                        >picture {
                             margin: 5px;
-                            > img {
+
+                            >img {
                                 width: 40px;
                             }
                         }
+
                         >p {
                             margin-top: 5px;
                             font-family: 'Pop-mediun';
@@ -686,35 +708,43 @@
                         }
                     }
                 }
+
                 .presentacion__clases {
                     .clases__container {
                         top: -20px;
                         justify-content: space-evenly;
-                        flex-direction:row-reverse;
+                        flex-direction: row-reverse;
+
                         >picture {
                             display: flex;
                             justify-content: center;
+
                             .clases__img {
                                 width: 500px;
-        
+
                             }
                         }
                     }
+
                     .presentacion__clasesHibridas {
                         margin: 0;
                         width: 27%;
-                        > picture {
+
+                        >picture {
                             margin: 5px;
-                            > img {
+
+                            >img {
                                 width: 40px;
                             }
                         }
+
                         >p {
 
                             font-family: 'Pop-Regular';
                             font-size: 20px;
                             line-height: 1.2;
                             margin: 0;
+
                             >span {
                                 font-weight: bold;
                             }
@@ -725,6 +755,7 @@
 
             .section__nosotros {
                 position: relative;
+
                 .nosotros__bkg {
                     height: 600px;
                     position: relative;
@@ -911,12 +942,15 @@
                     margin: 0 15%;
                     height: 200px;
                     align-items: center;
+
                     .card1__r {
                         width: 50%;
                         font-size: 25px;
+
                         .card1__number {
                             font-size: 25px;
                             align-items: center;
+
                             >img {
                                 width: 25px;
                                 margin-right: 15px;
@@ -1021,9 +1055,22 @@
     }
 }
 
-
 @media only screen and (min-width: 1320px) {
     .nosotros__beneficios {
         max-height: 750px;
     }
+}
+
+@media screen and (max-width: 769px) {
+
+    header {
+
+        .box-nav {
+
+            .header__title {
+                font-size: 25px !important;
+            }
+        }
+    }
+
 }

@@ -1,0 +1,238 @@
+@import "./variables.scss";
+
+main {
+
+    .background {
+
+        background-image: url("../../img/laboratories/background.png");
+        width: 100%;
+        height: 700px;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        margin-top: 92px;
+
+        .row {
+            display: flex;
+            align-items: flex-end;
+
+            width: 100%;
+            height: 80%;
+
+            .col {
+                display: flex;
+                justify-content: center;
+            }
+
+            .paragraph {
+
+                .box {
+                    max-width: 350px;
+
+                    .p1 {
+                        font-family: 'Pop-Bold';
+                        font-size: 40px;
+                        line-height: 40px;
+                        letter-spacing: 0.015em;
+
+                        span {
+                            color: $color-2;
+                        }
+                    }
+
+                    .p2 {
+                        font-family: 'Pop-Regular';
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+
+                }
+
+            }
+
+            .buttons {
+
+                .box {
+
+                    .btn2 {
+                        color: white;
+                        background-color: $color-2;
+                        border: none;
+                        font-family: 'Pop-mediun';
+                        font-size: 21px;
+                        border-radius: 20px;
+                        padding: 17px 52px;
+                        margin-right: 10px;
+                        line-height: 26px;
+                        letter-spacing: 0.01em;
+                    }
+
+                    .btn2:hover {
+                        background-color: $color-1;
+                    }
+
+                    .btn2:focus {
+                        box-shadow: none !important;
+                        background-color: $color-1;
+                    }
+
+                    .btn3 {
+                        color: $color-1;
+                        background-color: transparent;
+                        font-family: 'Pop-mediun';
+                        font-size: 21px;
+                        border: 2px solid $color-1;
+                        border-radius: 20px;
+                        padding: 17px 20px;
+                        line-height: 26px;
+                        letter-spacing: 0.01em;
+
+                        img {
+                            margin-right: 8px;
+                        }
+                    }
+
+                }
+
+            }
+
+        }
+    }
+
+    .laboratories {
+        height: 180px;
+
+        p {
+            font-family: 'Pop-SemiBold';
+            font-size: 17px;
+            line-height: 26px;
+            text-align: center;
+
+            margin-top: 28px;
+            margin-bottom: 42px;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+    }
+
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   Celular                                  */
+/* -------------------------------------------------------------------------- */
+
+@media screen and (max-width: 472px) {
+
+    main {
+
+        .background {
+            background-size: center;
+            background-position-x: -180px;
+            height: 353px;
+
+            .row {
+                align-items: flex-start;
+                flex-direction: column;
+                height: 100%;
+                padding-left: 16px;
+
+                .paragraph {
+                    display: flex;
+                    align-items: center;
+                    max-width: 250px;
+
+
+                    .box {
+                        max-width: 350px;
+                        margin-top: 50px;
+
+                        .p1 {
+                            font-size: 21px;
+                            line-height: 20px;
+                        }
+
+                        .p2 {
+                            font-size: 14px;
+                        }
+
+                    }
+
+                }
+
+                .buttons {
+                    display: flex;
+                    justify-content: start;
+
+                    .box {
+                        display: flex;
+                        flex-direction: column;
+
+                        .btn2 {
+                            font-size: 13px;
+                            padding: 4px 29px;
+                        }
+
+                        .btn3 {
+                            font-size: 13px;
+                            padding: 4px 9px;
+                            margin-top: 13px;
+
+                            img {
+                                width: 15px;
+                                height: 13.26px;
+                                margin-right: 3px;
+                            }
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        .laboratories {
+            height: 360px;
+
+            p {
+                font-size: 14px;
+                margin-top: 40px;
+                margin-bottom: 30px;
+            }
+
+            .icons {
+                flex-direction: column;
+                height: 100%;
+
+                .img1 {
+                    width: 88px;
+                    height: 49px;
+                }
+
+                .img2 {
+                    width: 84px;
+                    height: 42px;
+                }
+
+                .img3 {
+                    width: 53px;
+                    height: 56px;
+                }
+
+                .img4 {
+                    max-width: 162px;
+                    max-height: 19px;
+                }
+            }
+
+        }
+
+    }
+
+}
