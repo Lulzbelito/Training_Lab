@@ -937,16 +937,17 @@
             .nosotros__container {
                 padding-top: 200px;
                 padding-bottom: 150px;
-
+                display: flex;
+                flex-direction: column;
                 .nosotros__card1 {
-                    margin: 0 15%;
+                    align-self: center;
+                    width: 800px;
                     height: 200px;
                     align-items: center;
-
                     .card1__r {
                         width: 50%;
                         font-size: 25px;
-
+                        padding-left: 40px;
                         .card1__number {
                             font-size: 25px;
                             align-items: center;

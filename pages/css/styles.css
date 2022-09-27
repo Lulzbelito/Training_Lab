@@ -198,7 +198,7 @@
   }
   .cursos__container .cursos__cards .cursos__card {
     width: 320px;
-    height: 45px;
+    height: 55px;
     border-radius: 40px;
     padding: 0 15px;
     margin: 10px 0;
@@ -241,7 +241,7 @@
     margin: 15px 12%;
   }
   .cursos__container .cursos__detalles .cursos__detalle > p {
-    font-size: 24px;
+    font-size: 20px;
     padding: 20px 0px 20px 0px;
   }
   .cursos__container .cursos__potencia {
