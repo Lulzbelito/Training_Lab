@@ -175,6 +175,7 @@
   }
   .cursos__container .cursos__contacto .cursos__titles .cursos__title {
     font-size: 40px;
+    padding-right: 500px;
   }
   .cursos__container .cursos__contacto .cursos__titles .cursos__atomo {
     display: none;
