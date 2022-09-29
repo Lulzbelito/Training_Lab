@@ -42,6 +42,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
   grid-template-areas: "header" "main" "footer";
+  position: relative;
 }
 * body header {
   width: 100%;
