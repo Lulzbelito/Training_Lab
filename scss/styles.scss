@@ -81,7 +81,6 @@
                     font-size: 17px;
                     border-radius: 50px;
                     padding: 10px 35px;
-                    margin-right: 40px;
                 }
 
                 li .btn2:hover {
@@ -257,6 +256,7 @@
                 height: 190px;
                 background-size: cover;
                 scroll-margin-top: 80px;
+
                 .nosotros__head {
                     margin-right: 40%;
                     margin-top: 10px;
@@ -629,18 +629,6 @@
     * {
         body {
 
-            header {
-
-                .box-nav {
-
-                    .header__title {
-                        margin-left: 23%;
-                    }
-
-                }
-
-            }
-
             .section__presentacion {
                 .presentacion__bkg {
                     height: 100vh;
@@ -755,11 +743,13 @@
 
             .section__nosotros {
                 position: relative;
+
                 .nosotros__bkg {
                     height: 600px;
                     position: relative;
                     background-repeat: no-repeat;
                     scroll-margin-top: 0;
+
                     .nosotros__head {
                         margin-right: 60%;
                         margin-top: 190px;
@@ -938,15 +928,18 @@
                 padding-bottom: 150px;
                 display: flex;
                 flex-direction: column;
+
                 .nosotros__card1 {
                     align-self: center;
                     width: 800px;
                     height: 200px;
                     align-items: center;
+
                     .card1__r {
                         width: 50%;
                         font-size: 25px;
                         padding-left: 40px;
+
                         .card1__number {
                             font-size: 25px;
                             align-items: center;

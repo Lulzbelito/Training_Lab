@@ -100,8 +100,10 @@
                 width: 22px;
             }
         }
+
         .cursos__contacto--desktop {
             display: none;
+
             .contacto__button1--d {
                 width: 110px;
                 padding: 4px 0;
@@ -113,6 +115,7 @@
                 font-size: 12px;
                 font-family: 'Pop-mediun';
             }
+
             .contacto__button2--d {
                 @extend .contacto__button1--d;
                 border: 2px solid black;
@@ -193,11 +196,11 @@
         .cursos__contacto {
             margin-top: 150px;
             display: flex;
-            
+
             .cursos__titles {
                 margin: 0 150px;
                 width: 100%;
-                
+
                 .cursos__subtitle {
                     font-size: 21px;
                 }
@@ -220,6 +223,7 @@
                     transform: translate(-0%);
                 }
             }
+
             .cursos__contacto--mobile {
                 display: none;
             }
@@ -229,6 +233,7 @@
             margin: 60px 0 0 145px;
             display: flex;
             align-items: flex-end;
+
             .cursos__card {
                 width: 320px;
                 height: 55px;
@@ -238,7 +243,7 @@
                 box-shadow: 0px 0px 19px 10px rgba(0, 0, 0, 0.050);
 
                 >p {
-                    
+
                     margin: 0 0 0 15px;
                     font-size: 19px;
                     line-height: 1;
@@ -252,12 +257,14 @@
                     width: 22px;
                 }
             }
+
             .cursos__contacto--desktop {
                 display: flex;
                 width: 100%;
                 flex-direction: row;
                 justify-content: flex-end;
                 margin: 0 145px;
+
                 .contacto__button1--d {
                     height: 45px;
                     width: 220px;
@@ -266,7 +273,7 @@
                 }
 
                 .contacto__button2--d {
-                   @extend .contacto__button1--d;
+                    @extend .contacto__button1--d;
                     color: black;
 
                     >picture {
@@ -296,12 +303,15 @@
             height: 600px;
             padding: 160px 200px;
             position: relative;
+
             &::before {
                 display: none;
             }
+
             >p {
                 font-size: 40px;
                 width: 45%;
+
                 >span {
                     color: #22B6AF;
                 }

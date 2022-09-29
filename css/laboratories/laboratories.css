@@ -27,35 +27,35 @@
   font-family: 'Roboto-bold';
   src: url(../roboto/Roboto-Bold.ttf); }
 
-main .background {
+body main .background {
   background-image: url("../../img/laboratories/background.png");
   width: 100%;
   height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 92px; }
-  main .background .row {
+  body main .background .row {
     display: flex;
     align-items: flex-end;
     width: 100%;
     height: 80%; }
-    main .background .row .col {
+    body main .background .row .col {
       display: flex;
       justify-content: center; }
-    main .background .row .paragraph .box {
+    body main .background .row .paragraph .box {
       max-width: 350px; }
-      main .background .row .paragraph .box .p1 {
+      body main .background .row .paragraph .box .p1 {
         font-family: 'Pop-Bold';
         font-size: 40px;
         line-height: 40px;
         letter-spacing: 0.015em; }
-        main .background .row .paragraph .box .p1 span {
+        body main .background .row .paragraph .box .p1 span {
           color: #22B6AF; }
-      main .background .row .paragraph .box .p2 {
+      body main .background .row .paragraph .box .p2 {
         font-family: 'Pop-Regular';
         font-size: 18px;
         line-height: 24px; }
-    main .background .row .buttons .box .btn2 {
+    body main .background .row .buttons .box .btn2 {
       color: white;
       background-color: #22B6AF;
       border: none;
@@ -66,12 +66,12 @@ main .background {
       margin-right: 10px;
       line-height: 26px;
       letter-spacing: 0.01em; }
-    main .background .row .buttons .box .btn2:hover {
+    body main .background .row .buttons .box .btn2:hover {
       background-color: #233545; }
-    main .background .row .buttons .box .btn2:focus {
+    body main .background .row .buttons .box .btn2:focus {
       box-shadow: none !important;
       background-color: #233545; }
-    main .background .row .buttons .box .btn3 {
+    body main .background .row .buttons .box .btn3 {
       color: #233545;
       background-color: transparent;
       font-family: 'Pop-mediun';
@@ -81,22 +81,25 @@ main .background {
       padding: 17px 20px;
       line-height: 26px;
       letter-spacing: 0.01em; }
-      main .background .row .buttons .box .btn3 img {
+      body main .background .row .buttons .box .btn3 img {
         margin-right: 8px; }
 
-main .laboratories {
+body main .laboratories {
   height: 180px; }
-  main .laboratories p {
+  body main .laboratories p {
     font-family: 'Pop-SemiBold';
     font-size: 17px;
     line-height: 26px;
     text-align: center;
     margin-top: 28px;
     margin-bottom: 42px; }
-  main .laboratories .icons {
+  body main .laboratories .icons {
     display: flex;
     justify-content: space-around;
     align-items: center; }
+
+body footer .footer__container {
+  padding: 100px; }
 
 /* -------------------------------------------------------------------------- */
 /*                                   Celular                                  */
