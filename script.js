@@ -13,17 +13,7 @@ const timeOut = () => {
 }
 
 const handleQuery = (e) => {
-    console.log(e)
-    if (e.matches) {
-        botones.forEach(e => {
-            e.addEventListener('click', timeOut)
-        });
-    }
-    else {
-        botones.forEach(e => {
-            e.removeEventListener('click', timeOut)
-        })
-    }
+    e.matches ? botones.forEach(e => { e.addEventListener('click', timeOut) }) : botones.forEach(e => { e.removeEventListener('click', timeOut) })
 }
 
 mediaQuery.addEventListener('change', handleQuery)
