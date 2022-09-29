@@ -1,14 +1,13 @@
 
 let botones = document.querySelectorAll('.btn1')
-let hB = document.querySelector('.offcanvas')
-
+let toggler = document.querySelector('.navbar-toggler')
 
 const fBotones = () => {
     botones.forEach(element => {
         element.addEventListener('click', () => {
-            let hBB = document.querySelector('.offcanvas-backdrop') 
-            hB.classList.remove(`show`)
-            hBB.classList.remove(`show`)
+            setTimeout(() => {
+                toggler.click()
+            }, 500);
         })
     });
 }
