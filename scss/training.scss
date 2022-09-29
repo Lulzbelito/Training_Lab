@@ -121,66 +121,70 @@ body {
 
 @media screen and (max-width: 472px) {
 
-    main {
+    body {
 
-        .background {
-            background-size: center;
-            background-position-x: -180px;
-            height: 353px;
+        main {
 
-            .row {
-                align-items: flex-start;
-                flex-direction: column;
-                height: 100%;
-                padding-left: 16px;
+            .background {
+                background-size: center;
+                background-position-x: -180px;
+                height: 353px;
 
-                .paragraph {
-                    display: flex;
-                    align-items: center;
-                    max-width: 250px;
+                .row {
+                    align-items: flex-start;
+                    flex-direction: column;
+                    height: 100%;
+                    padding-left: 16px;
+
+                    .paragraph {
+                        display: flex;
+                        align-items: center;
+                        max-width: 250px;
 
 
-                    .box {
-                        max-width: 350px;
-                        margin-top: 50px;
-                        margin-left: 0px;
+                        .box {
+                            max-width: 350px;
+                            margin-top: 50px;
+                            margin-left: 0px;
 
-                        .p1 {
-                            font-size: 21px;
-                            line-height: 20px;
-                        }
+                            .p1 {
+                                font-size: 21px;
+                                line-height: 20px;
+                            }
 
-                        .p2 {
-                            font-size: 14px;
+                            .p2 {
+                                font-size: 14px;
+                            }
+
                         }
 
                     }
 
-                }
-
-                .buttons {
-                    display: flex;
-                    justify-content: start;
-
-                    .box {
+                    .buttons {
                         display: flex;
-                        flex-direction: column;
+                        justify-content: start;
 
-                        .btn2 {
-                            font-size: 13px;
-                            padding: 4px 29px;
-                        }
+                        .box {
+                            display: flex;
+                            flex-direction: column;
 
-                        .btn3 {
-                            font-size: 13px;
-                            padding: 4px 9px;
-                            margin-top: 13px;
-
-                            img {
-                                width: 15px;
-                                height: 13.26px;
-                                margin-right: 3px;
+                            .btn2 {
+                                font-size: 13px;
+                                padding: 4px 29px;
                             }
+
+                            .btn3 {
+                                font-size: 13px;
+                                padding: 4px 9px;
+                                margin-top: 13px;
+
+                                img {
+                                    width: 15px;
+                                    height: 13.26px;
+                                    margin-right: 3px;
+                                }
+                            }
+
                         }
 
                     }

@@ -139,65 +139,69 @@ body {
 
 @media screen and (max-width: 472px) {
 
-    main {
+    body {
 
-        .background {
-            background-size: center;
-            background-position-x: -180px;
-            height: 353px;
+        main {
 
-            .row {
-                align-items: flex-start;
-                flex-direction: column;
-                height: 100%;
-                padding-left: 16px;
+            .background {
+                background-size: center;
+                background-position-x: -180px;
+                height: 353px;
 
-                .paragraph {
-                    display: flex;
-                    align-items: center;
-                    max-width: 250px;
+                .row {
+                    align-items: flex-start;
+                    flex-direction: column;
+                    height: 100%;
+                    padding-left: 16px;
 
-
-                    .box {
-                        max-width: 350px;
-                        margin-top: 50px;
-
-                        .p1 {
-                            font-size: 21px;
-                            line-height: 20px;
-                        }
-
-                        .p2 {
-                            font-size: 14px;
-                        }
-
-                    }
-
-                }
-
-                .buttons {
-                    display: flex;
-                    justify-content: start;
-
-                    .box {
+                    .paragraph {
                         display: flex;
-                        flex-direction: column;
+                        align-items: center;
+                        max-width: 250px;
 
-                        .btn2 {
-                            font-size: 13px;
-                            padding: 4px 29px;
+
+                        .box {
+                            max-width: 350px;
+                            margin-top: 50px;
+
+                            .p1 {
+                                font-size: 21px;
+                                line-height: 20px;
+                            }
+
+                            .p2 {
+                                font-size: 14px;
+                            }
+
                         }
 
-                        .btn3 {
-                            font-size: 13px;
-                            padding: 4px 9px;
-                            margin-top: 13px;
+                    }
 
-                            img {
-                                width: 15px;
-                                height: 13.26px;
-                                margin-right: 3px;
+                    .buttons {
+                        display: flex;
+                        justify-content: start;
+
+                        .box {
+                            display: flex;
+                            flex-direction: column;
+
+                            .btn2 {
+                                font-size: 13px;
+                                padding: 4px 29px;
                             }
+
+                            .btn3 {
+                                font-size: 13px;
+                                padding: 4px 9px;
+                                margin-top: 13px;
+
+                                img {
+                                    width: 15px;
+                                    height: 13.26px;
+                                    margin-right: 3px;
+                                }
+                            }
+
                         }
 
                     }
@@ -206,44 +210,46 @@ body {
 
             }
 
-        }
+            .laboratories {
+                height: 360px;
 
-        .laboratories {
-            height: 360px;
-
-            p {
-                font-size: 14px;
-                margin-top: 40px;
-                margin-bottom: 30px;
-            }
-
-            .icons {
-                flex-direction: column;
-                height: 100%;
-
-                .img1 {
-                    width: 88px;
-                    height: 49px;
+                p {
+                    font-size: 14px;
+                    margin-top: 40px;
+                    margin-bottom: 30px;
                 }
 
-                .img2 {
-                    width: 84px;
-                    height: 42px;
+                .icons {
+                    flex-direction: column;
+                    height: 100%;
+
+                    .img1 {
+                        width: 88px;
+                        height: 49px;
+                    }
+
+                    .img2 {
+                        width: 84px;
+                        height: 42px;
+                    }
+
+                    .img3 {
+                        width: 53px;
+                        height: 56px;
+                    }
+
+                    .img4 {
+                        max-width: 162px;
+                        max-height: 19px;
+                    }
                 }
 
-                .img3 {
-                    width: 53px;
-                    height: 56px;
-                }
-
-                .img4 {
-                    max-width: 162px;
-                    max-height: 19px;
-                }
             }
 
         }
 
     }
+
+
 
 }

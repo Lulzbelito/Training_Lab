@@ -105,62 +105,62 @@ body footer .footer__container {
 /*                                   Celular                                  */
 /* -------------------------------------------------------------------------- */
 @media screen and (max-width: 472px) {
-  main .background {
+  body main .background {
     background-size: center;
     background-position-x: -180px;
     height: 353px; }
-    main .background .row {
+    body main .background .row {
       align-items: flex-start;
       flex-direction: column;
       height: 100%;
       padding-left: 16px; }
-      main .background .row .paragraph {
+      body main .background .row .paragraph {
         display: flex;
         align-items: center;
         max-width: 250px; }
-        main .background .row .paragraph .box {
+        body main .background .row .paragraph .box {
           max-width: 350px;
           margin-top: 50px; }
-          main .background .row .paragraph .box .p1 {
+          body main .background .row .paragraph .box .p1 {
             font-size: 21px;
             line-height: 20px; }
-          main .background .row .paragraph .box .p2 {
+          body main .background .row .paragraph .box .p2 {
             font-size: 14px; }
-      main .background .row .buttons {
+      body main .background .row .buttons {
         display: flex;
         justify-content: start; }
-        main .background .row .buttons .box {
+        body main .background .row .buttons .box {
           display: flex;
           flex-direction: column; }
-          main .background .row .buttons .box .btn2 {
+          body main .background .row .buttons .box .btn2 {
             font-size: 13px;
             padding: 4px 29px; }
-          main .background .row .buttons .box .btn3 {
+          body main .background .row .buttons .box .btn3 {
             font-size: 13px;
             padding: 4px 9px;
             margin-top: 13px; }
-            main .background .row .buttons .box .btn3 img {
+            body main .background .row .buttons .box .btn3 img {
               width: 15px;
               height: 13.26px;
               margin-right: 3px; }
-  main .laboratories {
+  body main .laboratories {
     height: 360px; }
-    main .laboratories p {
+    body main .laboratories p {
       font-size: 14px;
       margin-top: 40px;
       margin-bottom: 30px; }
-    main .laboratories .icons {
+    body main .laboratories .icons {
       flex-direction: column;
       height: 100%; }
-      main .laboratories .icons .img1 {
+      body main .laboratories .icons .img1 {
         width: 88px;
         height: 49px; }
-      main .laboratories .icons .img2 {
+      body main .laboratories .icons .img2 {
         width: 84px;
         height: 42px; }
-      main .laboratories .icons .img3 {
+      body main .laboratories .icons .img3 {
         width: 53px;
         height: 56px; }
-      main .laboratories .icons .img4 {
+      body main .laboratories .icons .img4 {
         max-width: 162px;
         max-height: 19px; } }
