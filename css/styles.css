@@ -492,7 +492,55 @@
   font-size: 13px;
   margin: 0;
 }
-
+* body .courses {
+  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;400;500;600;700&family=Roboto:wght@300&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@100;400;500;600;700&family=Roboto:wght@300&display=swap");
+}
+@font-face {
+  * body .courses {
+    font-family: "Pop-SemiBold";
+    src: url(../poppins/Poppins-SemiBold.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Pop-Bold";
+    src: url(../poppins/Poppins-Bold.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Pop-Regular";
+    src: url(../poppins/Poppins-Regular.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Pop-ligth";
+    src: url(../poppins/Poppins-Light.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Pop-mediun";
+    src: url(../poppins/Poppins-Medium.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Roboto-regular";
+    src: url(../roboto/Roboto-Regular.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Roboto-bold";
+    src: url(../roboto/Roboto-Bold.ttf);
+  }
+}
+* body .courses .courses-1 {
+  height: 1400px;
+}
 * body .courses .courses-1 .bg {
   background-image: url("../img/courses1.png");
   background-repeat: no-repeat;
@@ -706,8 +754,48 @@
     min-width: 600px !important;
   }
 }
-
-
+@font-face {
+  * body .courses {
+    font-family: "Pop-SemiBold";
+    src: url(../poppins/Poppins-SemiBold.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Pop-Bold";
+    src: url(../poppins/Poppins-Bold.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Pop-Regular";
+    src: url(../poppins/Poppins-Regular.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Pop-ligth";
+    src: url(../poppins/Poppins-Light.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Pop-mediun";
+    src: url(../poppins/Poppins-Medium.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Roboto-regular";
+    src: url(../roboto/Roboto-Regular.ttf);
+  }
+}
+@font-face {
+  * body .courses {
+    font-family: "Roboto-bold";
+    src: url(../roboto/Roboto-Bold.ttf);
+  }
+}
 * body .courses .courses-2 {
   width: 100%;
   height: 700px;
